@@ -30,14 +30,14 @@
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 var(--font); }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 var(--font); }
 a { color: var(--accent); }
 h1, h2, h3 { line-height: 1.25; }
-h1 { font-size: 1.9rem; margin: 0.4em 0 0.4em; }
+h1 { font-size: 2.1rem; margin: 0.5em 0 0.4em; letter-spacing: -0.01em; }
 h2 { font-size: 1.3rem; margin-top: 2em; }
 h3 { font-size: 1.05rem; }
 code { font-size: 0.9em; }
-.container { max-width: 1100px; margin: 0 auto; padding: 0 20px 40px; }
+.container { max-width: 1060px; margin: 0 auto; padding: 0 20px 56px; }
 .muted { color: var(--muted); }
 .small { font-size: 0.875rem; }
 .lead { font-size: 1.15rem; }
@@ -241,3 +241,64 @@ table.cognates { border-collapse: collapse; width: 100%; min-width: 720px; }
 .region-list li { margin: 2px 0; }
 .region-button { text-align: left; padding: 4px 0; }
 .region-button:focus-visible, .link-button:focus-visible, .tl-bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+
+/* ---------- Readability (plain-language redesign) ---------- */
+
+/* Keep running text to a comfortable line length. */
+.lead, .intro p, .hero p, .question p, .statement-full, .claim-page-text,
+main > p, main > section > p, .doc p, .doc li, .glossary dd, .level-list dd { max-width: 70ch; }
+.lead { font-size: 1.2rem; color: var(--text); }
+
+/* Start here */
+.hero { padding: 28px 0 8px; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 0.3em; }
+.hero-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.button {
+  display: inline-block; padding: 10px 18px; border-radius: 999px; background: var(--accent);
+  color: var(--surface); text-decoration: none; font-weight: 600;
+}
+.button.secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+.button:focus-visible { outline: 3px solid var(--text); outline-offset: 2px; }
+.how-to-read { margin-top: 24px; }
+.key-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.key { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 18px; }
+.key p { margin: 0 0 6px; }
+.key-title { font-weight: 700; }
+.question-list { display: grid; gap: 16px; }
+.question {
+  background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--accent);
+  border-radius: var(--radius); padding: 18px 22px;
+}
+.question h3 { font-size: 1.3rem; margin: 0 0 8px; }
+.where-it-stands { font-size: 0.95rem; background: var(--bg); border-radius: 6px; padding: 8px 12px; }
+.where-label { font-weight: 700; }
+.question details summary, .more-filters summary {
+  cursor: pointer; color: var(--accent); font-weight: 600; padding: 4px 0;
+}
+.question-claims { padding-left: 20px; }
+.question-claims li { margin: 6px 0; }
+.get-involved { margin-top: 32px; }
+
+/* Calmer filter bar: search first, the rest under "More filters". */
+.filters { flex-direction: column; align-items: stretch; }
+.filters label.grow input { font-size: 1.05rem; padding: 10px 12px; }
+.more-filters .filter-row { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; margin-top: 8px; }
+
+/* Claim pages */
+h3.lead-in { font-size: 1.05rem; margin: 1.2em 0 0.2em; }
+.statement-full { font-size: 1.2rem; }
+
+/* Glossary */
+.glossary-index { font-size: 0.95rem; line-height: 2; margin: 12px 0 24px; }
+.glossary dt { font-weight: 700; font-size: 1.1rem; margin-top: 18px; }
+.glossary dd { margin: 4px 0 0; }
+.glossary dt:target { background: var(--warn-bg); }
+
+@media (max-width: 600px) {
+  body { font-size: 16px; }
+  .hero h1 { font-size: 1.9rem; }
+  h1 { font-size: 1.7rem; }
+}
+/* In the stacked filter bar, the search label must not stretch vertically. */
+.filters label.grow { flex: 0 0 auto; }

@@ -1,27 +1,72 @@
 {% extends "base.html" %}
-{% from "_macros.html" import claim_card %}
+{% from "_macros.html" import strength_badge %}
 {% block content %}
-<section class="intro">
-  <h1>{{ config.title }}</h1>
-  <p class="lead">{{ config.tagline }}.</p>
-  <p>
-    Each card below is one <strong>claim</strong>. Every claim shows the
-    <strong>kind of evidence</strong> behind it (coloured badges), how
-    <strong>strong</strong> that evidence is for the claim as worded, and links to
-    <strong>competing claims</strong>. See <a href="methodology.html">how this works</a>.
+<section class="hero">
+  <h1>Where do the Pashtuns come from?</h1>
+  <p class="lead">
+    People have offered many answers: ancient peoples named by Greek historians,
+    Scythian nomads, the lost tribes of Israel, Bronze Age migrants. This site
+    lays out the evidence for each, in plain language, and is honest about how
+    sure, or unsure, we can be.
+  </p>
+  <p class="hero-links">
+    <a class="button" href="#questions">Start with the big questions</a>
+    <a class="button secondary" href="claims.html">Browse all claims</a>
   </p>
 </section>
 
-{% include "_filters.html" %}
-
-<section class="claim-grid" id="claim-list" aria-label="Claims">
-  {% for c in m.claims.values() %}{{ claim_card(c, m, root) }}{% endfor %}
+<section class="how-to-read" aria-labelledby="how-to-read">
+  <h2 id="how-to-read">How to read this site</h2>
+  <div class="key-grid">
+    <div class="key">
+      <p class="key-title">1. What kind of evidence?</p>
+      <p>A coloured label says where an idea comes from: a <strong>DNA study</strong>,
+        an <strong>ancient text</strong>, <strong>archaeology</strong>, a
+        <strong>tradition or legend</strong>, and so on.</p>
+    </div>
+    <div class="key">
+      <p class="key-title">2. How sure can we be?</p>
+      <p>From <strong>well supported</strong> to <strong>disputed</strong> or
+        <strong>not yet assessed</strong>, always judged on the evidence, not on
+        how popular an idea is.</p>
+    </div>
+    <div class="key">
+      <p class="key-title">3. Has someone checked it?</p>
+      <p><strong>Unverified</strong> means a person hasn't yet confirmed the
+        sources say what we claim. Right now, everything is unverified. You can help.</p>
+    </div>
+  </div>
+  <p class="small">New to the subject? The <a href="glossary.html">glossary</a> explains every specialist word.</p>
 </section>
-<p class="empty" id="empty" hidden>No claims match these filters.</p>
 
-<script type="application/json" id="atlas-data">{{ data_json | safe }}</script>
-{% endblock %}
-{% block scripts %}
-<script src="static/js/filters.js"></script>
-<script src="static/js/explore.js"></script>
+<section id="questions" aria-labelledby="questions-heading">
+  <h2 id="questions-heading">The big questions</h2>
+  <div class="question-list">
+    {% for q in m.questions %}
+    <article class="question" id="q-{{ q.id }}">
+      <h3>{{ q.question }}</h3>
+      <p>{{ q.answer | trim }}</p>
+      <p class="where-it-stands"><span class="where-label">Where it stands:</span> {{ q.where_it_stands }}</p>
+      <details>
+        <summary>See the evidence ({{ q.claim_objs | length }} claims)</summary>
+        <ul class="question-claims">
+          {% for c in q.claim_objs %}
+          <li><a href="{{ c.url }}">{{ c.title }}</a> {{ strength_badge(c.strength, m) }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="get-involved">
+  <h2>Help build it</h2>
+  <p>
+    This is an open, community project. You don't need to be an expert: the most
+    useful thing right now is checking that our sources really say what we claim.
+    See <a href="{{ config.repo_url }}/blob/{{ config.branch }}/CONTRIBUTING.md">how to contribute</a>
+    or <a href="{{ config.repo_url }}/issues">pick a task</a>.
+  </p>
+</section>
 {% endblock %}

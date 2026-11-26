@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Glossary · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>Glossary</h1>
+<p class="lead">Short, plain explanations of the words used on this site.</p>
+<nav class="glossary-index" aria-label="Glossary terms">
+  {% for g in m.glossary %}<a href="#{{ g.id }}">{{ g.term }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+</nav>
+<dl class="glossary">
+  {% for g in m.glossary %}
+  <dt id="{{ g.id }}">{{ g.term }}</dt>
+  <dd>{{ g.definition | trim }}</dd>
+  {% endfor %}
+</dl>
+{% endblock %}

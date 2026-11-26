@@ -66,7 +66,7 @@
     const { start, end } = c.period;
     const a = Math.max(start, range[0]), b = Math.min(end, range[1]);
     const left = pct(a), width = Math.max(pct(b) - left, 0.8);
-    const tip = `${c.title} — ${c.period.label} · strength: ${c.strength}`;
+    const tip = `${c.title} — ${c.period.label} · ${data.strengths[c.strength] || c.strength}`;
     const bar = el("a", {
       class: `tl-bar strength-${c.strength}` + (start < range[0] ? " cut-left" : "") + (end > range[1] ? " cut-right" : ""),
       href: c.url,

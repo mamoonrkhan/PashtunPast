@@ -29,13 +29,15 @@ It is community-driven, non-nationalist, and open to correction.
 
 | Section | What you'll find |
 |---|---|
-| **Explore** | Every claim as a card, searchable and filterable by population, period, evidence type, strength and topic |
+| **Start here** | Six big questions (Pashto's origins, the Scythians, the Paktyes, DNA, the Lost Tribes, Bactria), each answered in plain language with where the evidence stands |
+| **All claims** | Every claim as a card, searchable and filterable by people, period, kind of evidence, how sure, and topic |
 | **Claim pages** | The statement, its citations grouped as supporting / contradicting / context, and competing claims shown side by side |
 | **Timeline** | Claims placed in time, from the Bronze Age to the present |
 | **Map** | Regions such as Bactria, Arachosia and Gandhara, shaded by how many claims concern them |
 | **Languages** | Pashto compared with Avestan, Old Persian, Khotanese Saka and Bactrian, with each word cited to a dictionary |
 | **Genetics** | Plain-language guides to the Allen Ancient DNA Resource, PCA and qpAdm, and the plan for Version 2 |
 | **Sources** | Every cited work, its verification status, and which claims use it |
+| **Glossary** | Plain explanations of every specialist word, from BCE to qpAdm |
 
 The seed data covers:
 - Pashto's place among the Eastern Iranian languages
@@ -45,6 +47,7 @@ The seed data covers:
 - Andronovo and steppe ancestry
 - the Kushan period
 - the Lost Tribes tradition
+- the Scythians and Sakas, and whether they helped form the Pashtuns
 
 ## Method
 
@@ -106,8 +109,8 @@ population in the atlas says which kind it is.
 Requirements: Python 3.11+ and git.
 
 ```bash
-git clone https://github.com/mamoonrkhan/PashtunPast.git
-cd PashtunPast
+git clone https://github.com/mamoonrkhan/pashtun-past.git
+cd pashtun-past
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt

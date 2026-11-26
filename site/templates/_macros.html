@@ -2,14 +2,14 @@
 
 {% macro evidence_badge(level) -%}
 <span class="badge evidence" style="--badge-bg: {{ level.color }}; --badge-fg: {{ level.text_color }}"
-      title="{{ level.description | trim }}">
-  <abbr>{{ level.short }}</abbr> {{ level.label }}
+      title="{{ level.label }}: {{ level.description | trim }}">
+  <abbr>{{ level.short }}</abbr> {{ level.get("plain", level.label) }}
 </span>
 {%- endmacro %}
 
 {% macro strength_badge(strength, m) -%}
-<span class="badge strength strength-{{ strength }}" title="{{ m.strengths[strength] }}">
-  {{ strength | capitalize }}
+<span class="badge strength strength-{{ strength }}" title="{{ m.strengths[strength].text }}">
+  {{ m.strengths[strength].label }}
 </span>
 {%- endmacro %}
 
@@ -17,7 +17,7 @@
 {% if status == "verified" %}
 <span class="badge status-verified" title="A person checked the cited sources.">✓ Verified</span>
 {% else %}
-<span class="badge status-unverified" title="Not yet checked against its sources by a person.">UNVERIFIED</span>
+<span class="badge status-unverified" title="Not yet checked against its sources by a person.">Unverified</span>
 {% endif %}
 {%- endmacro %}
 

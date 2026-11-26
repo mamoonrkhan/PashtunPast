@@ -85,8 +85,8 @@
       el("ul", { class: "panel-claims" }, claims.map((c) =>
         el("li", {},
           el("a", { href: c.url }, c.title), " ",
-          el("span", { class: `badge strength strength-${c.strength}` }, c.strength),
-          c.status !== "verified" ? el("span", { class: "badge status-unverified small-badge" }, "UNVERIFIED") : null))),
+          el("span", { class: `badge strength strength-${c.strength}` }, Atlas.data.strengths[c.strength] || c.strength),
+          c.status !== "verified" ? el("span", { class: "badge status-unverified small-badge" }, "Unverified") : null))),
       el("button", { type: "button", class: "link-button" }, "← All regions"));
     panel.querySelector("button").addEventListener("click", () => select(null));
   }

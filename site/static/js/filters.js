@@ -81,6 +81,9 @@
   // Fill the form from the address bar on first load.
   const initial = new URLSearchParams(location.search);
   for (const f of FIELDS) if (initial.has(f)) form.elements[f].value = initial.get(f);
+  // If a link already sets one of the filters hidden under "More filters", show them.
+  const more = document.getElementById("more-filters");
+  if (more && FIELDS.some((f) => f !== "q" && initial.get(f))) more.open = true;
 
   let timer;
   form.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(update, 120); });

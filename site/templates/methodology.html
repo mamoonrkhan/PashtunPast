@@ -1,8 +1,13 @@
 {% extends "base.html" %}
 {% from "_macros.html" import evidence_badge, strength_badge %}
-{% block title %}Method · {{ config.title }}{% endblock %}
+{% block title %}How it works · {{ config.title }}{% endblock %}
 {% block content %}
-<h1>How this atlas works</h1>
+<h1>How it works</h1>
+<p class="lead">
+  The rules this atlas follows, so you can judge it for yourself. For plain
+  explanations of specialist words, see the <a href="glossary.html">glossary</a>;
+  every source is listed on the <a href="sources.html">sources page</a>.
+</p>
 
 <section>
   <h2>Claims, not conclusions</h2>
@@ -17,7 +22,7 @@
 </section>
 
 <section>
-  <h2>Evidence types</h2>
+  <h2>What kind of evidence?</h2>
   <p>
     Every citation is labelled with the <em>kind</em> of evidence it provides.
     These are types, not a ranking: genetics tells us about ancestry but not
@@ -26,7 +31,7 @@
   <dl class="level-list">
     {% for l in m.levels %}
     <dt>{{ evidence_badge(l) }}</dt>
-    <dd>{{ l.description | trim }}
+    <dd><strong>{{ l.label }}.</strong> {{ l.description | trim }}
       {% if l.max_strength != "strong" %}<br><span class="small">Alone, this can support a claim rated at most <strong>{{ l.max_strength }}</strong>.</span>{% endif %}
     </dd>
     {% endfor %}
@@ -34,10 +39,10 @@
 </section>
 
 <section>
-  <h2>Strength</h2>
+  <h2>How sure can we be?</h2>
   <dl class="level-list">
-    {% for s, text in m.strengths.items() %}
-    <dt>{{ strength_badge(s, m) }}</dt><dd>{{ text }}</dd>
+    {% for s, v in m.strengths.items() %}
+    <dt>{{ strength_badge(s, m) }}</dt><dd>{{ v.text }} <span class="muted small">(in the data files: <code>{{ s }}</code>)</span></dd>
     {% endfor %}
   </dl>
 </section>

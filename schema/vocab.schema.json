@@ -12,6 +12,7 @@
         "properties": {
           "id": { "$ref": "#/$defs/id" },
           "label": { "type": "string" },
+          "plain": { "type": "string", "maxLength": 30 },
           "short": { "type": "string", "maxLength": 6 },
           "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
           "max_strength": { "enum": ["strong", "moderate", "weak"] },

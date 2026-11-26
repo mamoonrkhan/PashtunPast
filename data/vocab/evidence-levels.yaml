@@ -9,12 +9,16 @@
 # ONLY by these kinds of evidence cannot be rated stronger than this.
 # (Strength order: weak < moderate < strong.)
 #
+# `plain` is the everyday wording shown on the website; `label` is the precise
+# term, shown on hover and on the How it works page.
+#
 # Colours are from the Okabe–Ito palette, which stays distinguishable for
 # people with colour-blindness. The site also always shows the `short` code
 # and label, so colour is never the only signal.
 
 - id: peer-reviewed-genetics
   label: Peer-reviewed genetics
+  plain: DNA study
   short: GEN
   color: "#0072B2"
   max_strength: strong
@@ -26,6 +30,7 @@
 
 - id: linguistic-consensus
   label: Linguistic consensus
+  plain: Language comparison
   short: LING
   color: "#009E73"
   max_strength: strong
@@ -36,6 +41,7 @@
 
 - id: archaeology
   label: Archaeology
+  plain: Archaeology
   short: ARCH
   color: "#E69F00"
   max_strength: strong
@@ -46,6 +52,7 @@
 
 - id: primary-historical-text
   label: Primary historical text
+  plain: Ancient text
   short: TEXT
   color: "#56B4E9"
   max_strength: strong
@@ -56,6 +63,7 @@
 
 - id: secondary-scholarship
   label: Secondary scholarship
+  plain: Expert analysis
   short: SCHOL
   color: "#CC79A7"
   max_strength: strong
@@ -65,6 +73,7 @@
 
 - id: oral-tradition
   label: Oral tradition / legend
+  plain: Tradition or legend
   short: ORAL
   color: "#F0E442"
   max_strength: moderate
@@ -75,6 +84,7 @@
 
 - id: speculative
   label: Speculative / disputed
+  plain: Speculation
   short: SPEC
   color: "#D55E00"
   max_strength: weak

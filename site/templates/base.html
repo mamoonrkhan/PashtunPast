@@ -13,10 +13,11 @@
   <header class="site-header">
     <a class="brand" href="{{ root }}index.html">{{ config.title }}</a>
     <nav aria-label="Main">
-      {% set nav = [("index.html", "Explore"), ("timeline.html", "Timeline"), ("map.html", "Map"),
-                    ("linguistics.html", "Languages"), ("genetics/index.html", "Genetics"), ("sources.html", "Sources"), ("methodology.html", "Method")] %}
+      {% set nav = [("index.html", "Start here"), ("claims.html", "All claims"), ("timeline.html", "Timeline"),
+                    ("map.html", "Map"), ("linguistics.html", "Languages"), ("genetics/index.html", "DNA"),
+                    ("glossary.html", "Glossary"), ("methodology.html", "How it works")] %}
       {% for href, label in nav %}
-      <a href="{{ root }}{{ href }}" class="{{ 'keep-filters' if href in ('index.html', 'timeline.html', 'map.html') }}"
+      <a href="{{ root }}{{ href }}" class="{{ 'keep-filters' if href in ('claims.html', 'timeline.html', 'map.html') }}"
          {% if page == href or (href.startswith("genetics/") and page.startswith("genetics/")) %}aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
@@ -28,9 +29,10 @@
 
   <footer class="site-footer">
     <p>
-      Every claim is labelled by evidence type and strength. Entries marked
-      <strong>UNVERIFIED</strong> have not yet been checked against their sources by a person.
+      Every claim shows what kind of evidence supports it and how sure we can be.
+      <strong>Unverified</strong> means a person hasn't yet checked it against its sources.
     </p>
+    <p><a href="{{ root }}sources.html">All sources</a> · <a href="{{ root }}glossary.html">Glossary</a> · <a href="{{ root }}methodology.html">How it works</a></p>
     <p>Code: MIT licence · Content: CC BY-SA 4.0 · Built {{ built }}
       {% if config.repo_url %} · <a href="{{ config.repo_url }}">Source on GitHub</a>{% endif %}</p>
   </footer>

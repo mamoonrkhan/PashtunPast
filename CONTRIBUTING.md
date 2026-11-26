@@ -129,7 +129,7 @@ A claim can only be verified once every source it cites is verified (rule R6).
 
 ```bash
 git clone <your fork's URL>
-cd PashtunPast
+cd pashtun-past
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 

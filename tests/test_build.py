@@ -16,7 +16,8 @@ def test_real_site_builds(tmp_path):
     assert build(out=out) == 0
     claims = list((ROOT / "data" / "claims").glob("*.yaml"))
     assert len(list((out / "claims").glob("*.html"))) == len(claims)
-    for page in ("index.html", "timeline.html", "map.html", "sources.html", "methodology.html"):
+    for page in ("index.html", "claims.html", "glossary.html", "timeline.html", "map.html",
+                 "sources.html", "methodology.html", "linguistics.html"):
         assert (out / page).is_file()
     assert (out / "static" / "vendor" / "leaflet" / "leaflet.js").is_file()
 
@@ -46,7 +47,7 @@ def test_contributor_text_cannot_inject_html(tmp_path):
     (data / "claims" / "evil.yaml").write_text(yaml.safe_dump(claim))
     out = tmp_path / "site"
     assert build(data_dir=data, out=out) == 0
-    for page in (out / "claims" / "evil.html", out / "index.html", out / "timeline.html"):
+    for page in (out / "claims" / "evil.html", out / "claims.html", out / "timeline.html"):
         assert evil not in page.read_text(), page
 
 
@@ -149,3 +150,14 @@ def test_markdown_links_resolve():
             if not (md.parent / href.split("#")[0]).exists():
                 broken.append(f"{md.relative_to(ROOT)} -> {href}")
     assert broken == [], "\n".join(broken)
+
+
+def test_start_page_shows_questions_and_plain_labels(tmp_path):
+    out = tmp_path / "site"
+    build(out=out)
+    start = (out / "index.html").read_text()
+    assert "Where does the Pashto language come from?" in start
+    assert "Disputed" in start                     # plain wording for "contested"
+    claim = (out / "claims" / "scythian-role-in-pashtun-origins.html").read_text()
+    assert '<h3 class="lead-in">What would test it</h3>' in claim
+    assert "DNA study" in claim                    # plain wording for peer-reviewed genetics
