@@ -67,7 +67,9 @@ review comments, and any chat or event run under the project's name.
 If you experience or witness unacceptable behaviour, contact the maintainers
 privately:
 
-- **Email:** `[MAINTAINER CONTACT — to be added before the project goes public]`
+- **Contact the maintainer privately** through their GitHub profile,
+  [mamoonrkhan](https://github.com/mamoonrkhan), using the contact details listed
+  there. Please don't report in a public issue.
 - **Or** use GitHub's built-in **Report content** option on the comment or
   issue concerned.
 

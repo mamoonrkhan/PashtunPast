@@ -3,9 +3,15 @@
 #  check:  validate the data, run the tests, build the site.
 #          A pull request that breaks a data rule shows a red X and can't be merged
 #          (once branch protection is turned on in the repo settings).
-#  deploy: only on main: publish the built site to GitHub Pages.
+#  deploy: only on main, and only when switched on: publish the built site to
+#          GitHub Pages.
 #
-# One-time setup on GitHub: Settings -> Pages -> Source: "GitHub Actions".
+# Turning deployment on (one time, once GitHub Pages is available to the repo,
+# i.e. the repo is public or on a paid plan):
+#   1. Settings -> Pages -> Source: "GitHub Actions"
+#   2. Settings -> Secrets and variables -> Actions -> Variables ->
+#      New repository variable: DEPLOY_PAGES = true
+# Until then the deploy job is skipped (not failed), so runs stay green.
 name: Validate, test and deploy
 
 on:
@@ -38,13 +44,13 @@ jobs:
       - name: Build site
         run: python scripts/build_site.py
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.DEPLOY_PAGES == 'true'
         with:
           path: _site
 
   deploy:
     needs: check
-    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && vars.DEPLOY_PAGES == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write

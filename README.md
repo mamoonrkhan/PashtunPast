@@ -106,8 +106,8 @@ population in the atlas says which kind it is.
 Requirements: Python 3.11+ and git.
 
 ```bash
-git clone <repository URL>
-cd pashtun-origins
+git clone https://github.com/mamoonrkhan/PashtunPast.git
+cd PashtunPast
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -171,7 +171,14 @@ In short:
 
 The site is static and deploys free to GitHub Pages. On every push to `main`, a
 GitHub Actions workflow validates the data, runs the tests, builds the site
-and publishes it. One-time setup: **Settings → Pages → Source: GitHub Actions**.
+and, once switched on, publishes it.
+
+To switch publishing on (GitHub Pages needs a public repository on a free plan):
+1. **Settings → Pages → Source: GitHub Actions**
+2. **Settings → Secrets and variables → Actions → Variables:** add `DEPLOY_PAGES` = `true`
+
+Until then, the deploy step is skipped and only the checks run.
+
 To require review and passing checks before merging, add a branch protection
 rule for `main`.
 
