@@ -24,9 +24,9 @@ populations: [pashtuns, israelites]
 regions: [levant, sulaiman-mountains]
 period:
   start: -722
-  end: 1620
+  end: 1611
   approximate: true
-  label: Assyrian exile (722 BCE) to the written tradition (1610s)
+  label: Assyrian exile (722 BCE) to the written tradition (c. 1609–1611)
   periods: [iron-age, medieval-early-modern]
 citations:
   - source: dorn-1829

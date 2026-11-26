@@ -225,3 +225,19 @@ table.cognates { border-collapse: collapse; width: 100%; min-width: 720px; }
 .doc-cite { font-size: 0.9em; }
 @media (max-width: 800px) { .doc-layout { grid-template-columns: 1fr; } .doc-nav { position: static; } }
 .citation .locator + .badge, .citation cite + .badge, .citation a + .badge { margin-left: 6px; }
+
+/* Timeline on narrow screens: put each claim's title above its bar so the bar
+   gets the full width, instead of squeezing both into one row. */
+@media (max-width: 600px) {
+  .timeline { overflow-x: visible; }
+  .tl-row { grid-template-columns: 1fr; min-width: 0; }
+  .tl-row .tl-label { padding-top: 4px; white-space: normal; }
+  .tl-axis .tl-label, .tl-periods .tl-label:empty { display: none; }
+  .tl-track { margin: 0 12px; }
+}
+
+/* Map: region list in the side panel */
+.region-list { list-style: none; padding: 0; margin: 0; }
+.region-list li { margin: 2px 0; }
+.region-button { text-align: left; padding: 4px 0; }
+.region-button:focus-visible, .link-button:focus-visible, .tl-bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }

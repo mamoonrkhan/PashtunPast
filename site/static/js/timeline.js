@@ -12,22 +12,30 @@
 
   const pct = (year) => ((year - range[0]) / (range[1] - range[0])) * 100;
 
-  function tickStep(span) {
-    if (span > 3000) return 500;
-    if (span > 1500) return 250;
-    return 100;
+  // Pick the smallest year step that keeps labels at least ~70px apart,
+  // so the axis stays readable on a phone as well as a wide screen.
+  function tickStep(span, trackPx) {
+    for (const step of [50, 100, 250, 500, 1000, 2000]) {
+      if ((trackPx * step) / span >= 70) return step;
+    }
+    return 2000;
   }
 
   function axis() {
     const row = el("div", { class: "tl-row tl-axis", "aria-hidden": "true" }, el("div", { class: "tl-label" }));
-    const track = el("div", { class: "tl-track" });
-    const step = tickStep(range[1] - range[0]);
+    row.append(el("div", { class: "tl-track" }));
+    return row;
+  }
+
+  // Ticks are added after the axis is on the page, because their spacing
+  // depends on how wide the track actually is.
+  function fillTicks(row) {
+    const track = row.querySelector(".tl-track");
+    const step = tickStep(range[1] - range[0], track.clientWidth || 600);
     for (let y = Math.ceil(range[0] / step) * step; y <= range[1]; y += step) {
       const label = y === 0 ? "BCE | CE" : formatYear(y);
       track.append(el("span", { class: "tl-tick", style: { left: pct(y) + "%" } }, label));
     }
-    row.append(track);
-    return row;
   }
 
   // Periods can overlap, so put them in as few lanes as possible without collisions.
@@ -83,9 +91,18 @@
     const dated = matched
       .filter((c) => c.period && c.period.end >= range[0] && c.period.start <= range[1])
       .sort((x, y) => x.period.start - y.period.start || x.period.end - y.period.end);
-    root.replaceChildren(axis(), ...periodLanes(), ...dated.map(claimRow));
+    const axisRow = axis();
+    root.replaceChildren(axisRow, ...periodLanes(), ...dated.map(claimRow));
+    fillTicks(axisRow);
     empty.hidden = dated.length > 0;
   }
+
+  // Re-draw when the window size changes (e.g. a phone is rotated).
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => render(Atlas.matched), 150);
+  });
 
   document.querySelectorAll(".timeline-controls button").forEach((btn) => {
     btn.addEventListener("click", () => {
