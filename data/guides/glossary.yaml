@@ -212,3 +212,10 @@
     A family of closely related Y-chromosome or mitochondrial DNA types that share
     a common ancestor, such as R1a. A haplogroup can be common across many
     different peoples.
+
+- term: Khazars
+  id: khazars
+  match: ["Khazars"]
+  definition: >
+    A Turkic people who ruled a large state north of the Caucasus from about the
+    7th to the 10th century CE. Some of their rulers converted to Judaism.

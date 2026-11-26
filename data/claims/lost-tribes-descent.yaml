@@ -37,6 +37,15 @@ citations:
     evidence_level: oral-tradition
     relation: supports
     note: The genealogy itself, as written down in the 17th century.
+  - source: lacau-2012
+    evidence_level: speculative
+    relation: context
+    locator: Abstract
+    note: >
+      Suggests that R1a1a-M198 and G2c-M377 in Pathans "might represent phylogenetic
+      signals from Khazars, a common link between Pathans and Ashkenazi groups". This
+      is a passing suggestion, not a test of Israelite descent (the Khazars were a
+      Turkic people whose rulers adopted Judaism).
 related_claims:
   - claim: lost-tribes-tradition-makhzan
     relation: depends-on
