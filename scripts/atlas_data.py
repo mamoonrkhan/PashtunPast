@@ -16,6 +16,7 @@ DATA_DIR = ROOT / "data"
 SCHEMA_DIR = ROOT / "schema"
 
 VOCAB_NAMES = ("evidence-levels", "populations", "regions", "periods", "languages")
+GUIDE_NAMES = ("questions", "glossary")   # data/guides/: plain-language content for the site
 
 
 def _stringify_dates(value):
@@ -67,6 +68,7 @@ class Dataset:
     claims: list[Record] = field(default_factory=list)
     sources: list[Record] = field(default_factory=list)
     cognates: list[Record] = field(default_factory=list)                # data/linguistics/cognates/
+    guides: dict[str, list[dict]] = field(default_factory=dict)        # data/guides/*.yaml
     docs: list[Doc] = field(default_factory=list)                 # docs/**/*.md
     load_errors: list[str] = field(default_factory=list)          # files that aren't valid YAML
 
@@ -107,4 +109,11 @@ def load_dataset(data_dir: Path = DATA_DIR, docs_dir: Path | None = None) -> Dat
     ds.claims = _load_dir(data_dir / "claims", ds)
     ds.sources = _load_dir(data_dir / "sources", ds)
     ds.cognates = _load_dir(data_dir / "linguistics" / "cognates", ds)
+    for name in GUIDE_NAMES:
+        path = data_dir / "guides" / f"{name}.yaml"
+        try:
+            ds.guides[name] = (load_yaml(path) or []) if path.exists() else []
+        except yaml.YAMLError as e:
+            ds.load_errors.append(f"{path}: {e}")
+            ds.guides[name] = []
     return ds

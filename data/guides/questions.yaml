@@ -1,0 +1,79 @@
+# The "big questions" on the Start here page, in plain language.
+#
+# Rules for this file:
+#   - Each answer only summarises what the linked claims (and their sources) say.
+#     No new facts here: if something needs saying, add or change a claim first.
+#   - Write for someone with no background in history or linguistics.
+#   - `where_it_stands` is one short line on how certain the answer is.
+#   - The validator checks that every claim listed exists (rule G1).
+
+- id: pashto-language
+  question: Where does the Pashto language come from?
+  answer: >
+    Pashto belongs to the Iranian family of languages, the same family as
+    Persian, but on a different branch. Linguists place it in the Eastern
+    Iranian branch, alongside ancient languages such as Bactrian and the Saka
+    languages, and with smaller languages still spoken in the Pamir mountains.
+    Exactly which ancient language Pashto grew out of is still an open question.
+  where_it_stands: "Its language family: well supported. Its exact ancestor: still open."
+  claims: [pashto-eastern-iranian, saka-languages-eastern-iranian, pashto-from-saka-dialect, kushan-bactrian-language]
+
+- id: scythians
+  question: Did the Scythians (Sakas) help form the Pashtuns?
+  answer: >
+    "Saka" was the Persian name for the nomads the Greeks called Scythians. They
+    spoke Iranian languages, close relatives of Pashto. Sakas lived right next to
+    the Pashtun homeland (the region of Sistan was once "Sakastan", the land of
+    the Sakas), and Saka kings ruled Gandhara and Arachosia about 2,000 years ago.
+    That makes a Saka contribution to the Pashtuns quite possible. But it hasn't
+    yet been tested directly, either by comparing languages in detail or by DNA
+    studies. The claim page explains what evidence would settle it.
+  where_it_stands: "Plausible, with circumstantial support, but not yet tested directly."
+  claims: [scythian-role-in-pashtun-origins, sakastan-land-of-the-sakas, indo-scythians-ruled-northwest, scythian-language-north-iranian, persians-called-scythians-saka]
+
+- id: paktyes
+  question: Who were the Paktyes, and were they Pashtuns?
+  answer: >
+    About 2,500 years ago, the Greek historian Herodotus wrote about a people
+    called the Paktyes, living on the eastern edge of the Persian Empire. The name
+    sounds like "Pakhtun", and many people think they were early Pashtuns. That's
+    possible, but it isn't proven: the link rests mostly on the similar name and
+    the location, and Herodotus also uses a similar name for a place near Armenia.
+  where_it_stands: "Herodotus's mention: well supported. That they were Pashtuns: disputed."
+  claims: [herodotus-names-paktyes, paktyes-ancestors-of-pashtuns, herodotus-western-paktyike]
+
+- id: dna
+  question: What does ancient DNA tell us?
+  answer: >
+    DNA studies show that people in this region descend from several ancient
+    groups, mainly early farmers of the Iranian plateau and Bronze Age herders
+    from the steppe, whose ancestry reached the region about 3,500 to 4,000 years
+    ago. Iron Age Scythian groups were themselves a mix of western and eastern
+    ancestry. DNA tells us about ancestry, not about language or identity, and
+    very few studies include Pashtuns specifically.
+  where_it_stands: "The broad picture: well supported. Pashtun-specific results: thin so far."
+  claims: [steppe-ancestry-into-south-asia, pashtuns-steppe-ancestry, iron-age-nomads-mixed-ancestry, bmac-little-steppe-ancestry]
+
+- id: lost-tribes
+  question: What about the Lost Tribes of Israel story?
+  answer: >
+    A Persian history written around 1610, the Makhzan-i Afghani, traces the
+    Afghans back to King Talut (Saul) of the ancient Israelites. This tradition
+    matters to many Pashtuns. Whether it is historically true is disputed. It was
+    written down more than 2,000 years after the events it describes, Pashto is an
+    Iranian language rather than a Semitic one, and the DNA studies so far explain
+    Pashtun ancestry with regional and steppe sources. No study has yet tested the
+    idea directly.
+  where_it_stands: "That the tradition exists: well supported. That it is historically true: disputed."
+  claims: [lost-tribes-tradition-makhzan, lost-tribes-descent]
+
+- id: bactria
+  question: What were Bactria and the BMAC?
+  answer: >
+    Bactria was the land around the Amu Darya river, in today's northern
+    Afghanistan and its neighbours. About 4,000 years ago it had towns and crafts
+    that archaeologists call the BMAC (Bactria–Margiana Archaeological Complex).
+    DNA shows these townspeople had little steppe ancestry. Much later, Bactrian
+    became the official language of the Kushan Empire, written in Greek letters.
+  where_it_stands: "Well supported, though nobody knows what language BMAC people spoke."
+  claims: [bmac-little-steppe-ancestry, kushan-bactrian-language, andronovo-indo-iranians]

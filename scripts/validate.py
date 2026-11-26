@@ -260,6 +260,21 @@ def validate(ds: Dataset) -> tuple[list[str], list[str]]:
             else:
                 cited_sources.add(ref)
 
+    # Plain-language guides (data/guides/)
+    #   G1 schema; every claim a big question links to exists; glossary ids unique
+    for name, entries in ds.guides.items():
+        errors += _schema_errors(_schema_validator("guide.schema.json", name), entries, f"data/guides/{name}.yaml")
+    for q in ds.guides.get("questions", []):
+        for cid in (q.get("claims") or []) if isinstance(q, dict) else []:
+            if cid not in claims:
+                errors.append(f"data/guides/questions.yaml: [G1 links] question '{q.get('id')}' links unknown claim '{cid}'")
+    seen_terms = set()
+    for g in ds.guides.get("glossary", []):
+        if isinstance(g, dict) and g.get("id") in seen_terms:
+            errors.append(f"data/guides/glossary.yaml: [G1 ids] duplicate glossary id '{g.get('id')}'")
+        if isinstance(g, dict):
+            seen_terms.add(g.get("id"))
+
     # Warning: the same pair linked from both sides with different relations
     for cid, r in claims.items():
         for rel in r.data.get("related_claims", []) or []:

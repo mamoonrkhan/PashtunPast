@@ -45,17 +45,54 @@ RELATION_LABELS = {
 }
 COMPETING = {"competes-with", "contradicts"}
 
+# How sure the evidence lets us be. `label` is the everyday wording shown on the
+# site; the key is the precise term used in the data files.
 STRENGTHS = {
-    "strong":    "Strong: well supported by the cited evidence, for the statement as worded.",
-    "moderate":  "Moderate: supported, but with real gaps or caveats.",
-    "weak":      "Weak: thin support; treat as a possibility.",
-    "contested": "Contested: serious evidence or arguments on more than one side.",
-    "unknown":   "Unknown: not yet assessed, usually because no source has been added.",
+    "strong":    {"label": "Well supported",
+                  "text": "The cited evidence clearly supports the statement as worded."},
+    "moderate":  {"label": "Fairly well supported",
+                  "text": "Supported, but with real gaps or caveats."},
+    "weak":      {"label": "Weakly supported",
+                  "text": "Only thin support so far. Treat it as a possibility."},
+    "contested": {"label": "Disputed",
+                  "text": "Serious evidence or arguments on more than one side, or not yet tested."},
+    "unknown":   {"label": "Not yet assessed",
+                  "text": "No source has been added yet, so we can't say how strong it is."},
 }
 CATEGORIES = {
-    "linguistics": "Linguistics", "genetics": "Genetics", "archaeology": "Archaeology",
+    "linguistics": "Language", "genetics": "DNA", "archaeology": "Archaeology",
     "history": "History", "origin-theory": "Origin theory",
 }
+
+# Everyday wording for the kinds of group in data/vocab/populations.yaml.
+KIND_LABELS = {
+    "ethnonym": "name of a people", "archaeological-culture": "archaeological culture",
+    "genetic-cluster": "DNA grouping", "linguistic-group": "language group",
+    "polity": "state or empire", "religious-community": "religious community",
+}
+
+# A discussion paragraph that starts with an ALL-CAPS lead-in ("WHAT POINTS TOWARDS IT.")
+# is shown with that lead-in as a small heading.
+LEAD_IN = re.compile(r"^([A-Z][A-Z' ,\-]{3,}[A-Z])\.\s+(.*)$", re.S)
+
+
+def paragraphs(text: str) -> list[dict]:
+    """Split a discussion into paragraphs; pull out ALL-CAPS lead-ins.
+
+    In YAML's folded style (`discussion: >`) a blank line between paragraphs
+    becomes a single newline, so any line break marks a new paragraph.
+    """
+    out = []
+    for block in re.split(r"\n+", (text or "").strip()):
+        block = " ".join(block.split())
+        if not block:
+            continue
+        m = LEAD_IN.match(block)
+        if m:
+            out.append({"heading": m.group(1).capitalize(), "text": m.group(2)})
+        else:
+            out.append({"heading": "", "text": block})
+    return out
 # Category colours reuse the evidence palette so a colour means the same discipline everywhere.
 CATEGORY_COLORS = {
     "genetics": "#0072B2", "linguistics": "#009E73", "archaeology": "#E69F00",
@@ -102,6 +139,7 @@ def build_model(ds) -> dict:
 
     for c in claims.values():
         c.setdefault("discussion", "")
+        c["discussion_paragraphs"] = paragraphs(c["discussion"])
         c.setdefault("tags", [])
         c["related"] = []
         c["url"] = f"claims/{c['id']}.html"
@@ -163,7 +201,10 @@ def build_model(ds) -> dict:
         "periods": periods,
         "strengths": STRENGTHS,
         "categories": CATEGORIES,
+        "kind_labels": KIND_LABELS,
         "category_colors": CATEGORY_COLORS,
+        "questions": [dict(q, claim_objs=[claims[cid] for cid in q["claims"]]) for q in ds.guides.get("questions", [])],
+        "glossary": sorted(ds.guides.get("glossary", []), key=lambda g: g["term"].lower()),
         "languages": languages,
         "languages_by_id": {l["id"]: l for l in languages},
         "cognates": cognates,
@@ -224,7 +265,7 @@ def browser_data(model: dict) -> dict:
         "populations": list(model["populations"].values()),
         "regions": list(model["regions"].values()),
         "periods": list(model["periods"].values()),
-        "strengths": list(model["strengths"]),
+        "strengths": {k: v["label"] for k, v in model["strengths"].items()},
         "categories": model["categories"],
         "category_colors": model["category_colors"],
     }
@@ -278,7 +319,9 @@ def build(data_dir: Path = DATA_DIR, out: Path = DEFAULT_OUT) -> int:
         html = env.get_template(template).render(**common, root=root, page=path, **ctx)
         (out / path).write_text(html, encoding="utf-8")
 
-    render("index.html", "index.html", data_json=data_json)
+    render("index.html", "index.html")
+    render("claims_list.html", "claims.html", data_json=data_json)
+    render("glossary.html", "glossary.html")
     render("timeline.html", "timeline.html", data_json=data_json)
     render("map.html", "map.html", data_json=data_json,
            geo_json=json_for_html(load_geo(data_dir, model["regions"])))
@@ -294,7 +337,7 @@ def build(data_dir: Path = DATA_DIR, out: Path = DEFAULT_OUT) -> int:
     shutil.copytree(SITE_SRC / "static", out / "static")
     (out / ".nojekyll").write_text("")  # tell GitHub Pages to serve files as-is
 
-    print(f"Built {len(model['claims'])} claim pages, {len(docs)} doc pages + 6 other pages into {out}"
+    print(f"Built {len(model['claims'])} claim pages, {len(docs)} doc pages + 8 other pages into {out}"
           f" ({len(warnings)} validation warning(s)).")
     return 0
 

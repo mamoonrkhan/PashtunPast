@@ -2,7 +2,7 @@
 {% from "_macros.html" import evidence_badge, strength_badge, status_badge %}
 {% block title %}{{ c.title }} · {{ config.title }}{% endblock %}
 {% block content %}
-<p class="breadcrumb"><a href="{{ root }}index.html">Claims</a> › {{ m.categories[c.category] }}</p>
+<p class="breadcrumb"><a href="{{ root }}claims.html">All claims</a> › {{ m.categories[c.category] }}</p>
 
 <h1>{{ c.title }}</h1>
 
@@ -18,7 +18,8 @@
   {{ strength_badge(c.strength, m) }}
   <span class="badge category" style="--badge-bg: {{ m.category_colors[c.category] }}">{{ m.categories[c.category] }}</span>
 </div>
-<p class="muted small">{{ m.strengths[c.strength] }}</p>
+<p class="muted small">{{ m.strengths[c.strength].label }}: {{ m.strengths[c.strength].text }}
+  <a href="{{ root }}methodology.html">What do these labels mean?</a></p>
 
 <blockquote class="statement-full">{{ c.statement | trim }}</blockquote>
 
@@ -27,22 +28,25 @@
   <dt>When</dt>
   <dd>{{ c.period.label }}{% if c.period.get("approximate", true) %} <span class="muted">(approximate)</span>{% endif %}</dd>
   {% endif %}
-  <dt>Populations</dt>
+  <dt>Peoples and groups</dt>
   <dd>
     {% for pid in c.populations %}{% set p = m.populations[pid] %}
-    <span class="chip" title="{{ p.description }}">{{ p.name }} <small>{{ p.kind | replace("-", " ") }}</small></span>
+    <span class="chip" title="{{ p.description }}">{{ p.name }} <small>{{ m.kind_labels.get(p.kind, p.kind) }}</small></span>
     {% endfor %}
   </dd>
   {% if c.regions %}
-  <dt>Regions</dt>
+  <dt>Places</dt>
   <dd>{% for rid in c.regions %}<a class="chip" href="{{ root }}map.html?region={{ rid }}">{{ m.regions[rid].name }}</a> {% endfor %}</dd>
   {% endif %}
 </dl>
 
 {% if c.discussion %}
 <section>
-  <h2>Discussion</h2>
-  <p>{{ c.discussion | trim }}</p>
+  <h2>In more detail</h2>
+  {% for para in c.discussion_paragraphs %}
+  {% if para.heading %}<h3 class="lead-in">{{ para.heading }}</h3>{% endif %}
+  <p>{{ para.text }}</p>
+  {% endfor %}
 </section>
 {% endif %}
 

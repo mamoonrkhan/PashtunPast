@@ -227,3 +227,13 @@ def test_form_without_source_fails_schema(make_cognates):
     del c["forms"][0]["source"]
     errors, _ = make_cognates([c])
     assert rules(errors) == {"R1"}
+
+
+def test_g1_question_must_link_existing_claims(make, tmp_path):
+    (tmp_path / "guides").mkdir()
+    (tmp_path / "guides" / "questions.yaml").write_text(yaml.safe_dump([{
+        "id": "q", "question": "A test question?", "where_it_stands": "x",
+        "answer": "A plain answer that is long enough to pass the schema check.",
+        "claims": ["no-such-claim"]}]))
+    errors, _ = make([], [])
+    assert rules(errors) == {"G1"}
