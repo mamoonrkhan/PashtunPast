@@ -1,0 +1,20 @@
+# Dependabot opens a pull request when a GitHub Action or Python package used by
+# this project has a new version. Each pull request runs the normal checks, so an
+# update that breaks the validator, tests or build is caught before merging.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      python:
+        patterns: ["*"]

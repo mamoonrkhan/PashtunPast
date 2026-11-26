@@ -224,3 +224,4 @@ table.cognates { border-collapse: collapse; width: 100%; min-width: 720px; }
 .doc li { margin: 4px 0; }
 .doc-cite { font-size: 0.9em; }
 @media (max-width: 800px) { .doc-layout { grid-template-columns: 1fr; } .doc-nav { position: static; } }
+.citation .locator + .badge, .citation cite + .badge, .citation a + .badge { margin-left: 6px; }
