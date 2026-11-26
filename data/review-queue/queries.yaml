@@ -62,3 +62,31 @@ queries:
   - text: Pashto corpus
     require: [pashto, pashtu, pakhto]
     apis: [github]
+
+  # Added 2026-11-26: Scythians, Sakas and genetics of Afghanistan and Pakistan
+  - text: Scythian ancient genomes Central Asia Saka
+    require: [scythian, saka, sakas]
+
+  - text: Iron Age southern Central Asia genetic continuity Indo-Iranian
+    require: [iron age, indo-iranian, central asia]
+
+  - text: Afghanistan ethnic groups Y-chromosome Pashtun
+    require: [afghan, pashtun, pathan, hindu kush]
+
+  - text: Pakistan population genetics Pathan
+    require: [pathan, pashtun, pakhtun, pakistan]
+
+  - text: Indo-Scythian coinage Gandhara
+    require: [indo-scythian, saka, scythian, gandhara]
+
+  - text: Ossetic Scythian Sarmatian language
+    require: [ossetic, ossetian, scythian, sarmatian, alanic]
+
+  - text: Hephthalites Afghanistan history
+    require: [hephthalite, hephtalite, hun, kidarite]
+
+  - text: Pashto literature history earliest
+    require: [pashto, pashtu, pakhto, pushto]
+
+  - text: Swat Valley ancient DNA
+    require: [swat, gandhara, ancient dna, genom]

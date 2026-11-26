@@ -55,3 +55,13 @@
   name: Sistan (Sakastan, ancient Drangiana)
   modern: [south-western Afghanistan (Nimruz), eastern Iran]
   geo: sistan.geojson
+
+- id: hindu-kush
+  name: Hindu Kush
+  modern: [central and north-eastern Afghanistan, northern Pakistan]
+  geo: hindu-kush.geojson
+
+- id: tian-shan
+  name: Tian Shan
+  modern: [Kyrgyzstan, south-eastern Kazakhstan, western Xinjiang]
+  geo: tian-shan.geojson

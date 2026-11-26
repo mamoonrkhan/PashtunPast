@@ -18,6 +18,10 @@
       "type": "string",
       "minLength": 20
     },
+    "plain": {
+      "description": "One or two sentences in everyday language, for readers with no background. Shown first, before the precise statement. No new facts.",
+      "type": "string", "minLength": 20, "maxLength": 400
+    },
     "discussion": {
       "description": "Optional longer explanation: context, caveats, how scholars interpret it.",
       "type": "string"

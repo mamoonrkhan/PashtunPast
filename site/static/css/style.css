@@ -302,3 +302,14 @@ h3.lead-in { font-size: 1.05rem; margin: 1.2em 0 0.2em; }
 }
 /* In the stacked filter bar, the search label must not stretch vertically. */
 .filters label.grow { flex: 0 0 auto; }
+
+/* "In plain words" box and glossary hover terms on claim pages */
+.in-plain-words {
+  background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--ok);
+  border-radius: var(--radius); padding: 6px 20px 10px; margin: 16px 0;
+}
+.in-plain-words h2 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 10px 0 4px; }
+.in-plain-words p { font-size: 1.15rem; margin: 0 0 6px; }
+.precise-heading { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 24px 0 0; }
+a.term { color: inherit; text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+a.term:hover, a.term:focus-visible { color: var(--accent); }

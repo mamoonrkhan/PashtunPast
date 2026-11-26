@@ -29,7 +29,7 @@
     {{ strength_badge(c.strength, m) }}
     <span class="badge category" style="--badge-bg: {{ m.category_colors[c.category] }}">{{ m.categories[c.category] }}</span>
   </div>
-  <p class="statement">{{ c.statement | trim }}</p>
+  <p class="statement">{{ (c.plain or c.statement) | trim }}</p>
   <div class="badges evidence-row">
     {% for lid in c.evidence_levels %}{{ evidence_badge(m.levels_by_id[lid]) }} {% endfor %}
     {% if not c.evidence_levels %}<span class="muted">No sources yet</span>{% endif %}

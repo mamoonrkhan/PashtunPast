@@ -8,6 +8,9 @@ statement: >
   The claim itself, worded as precisely as the evidence allows.
   "Herodotus names a people called the Paktyes" is checkable;
   "The Paktyes were the Pashtuns" is a much bigger claim.
+plain: >
+  The same idea in one or two everyday sentences, for someone with no background
+  in history or genetics. No new facts here, just a simpler way of saying it.
 discussion: >
   Optional. Context, caveats, and how different scholars read the evidence.
 

@@ -1,0 +1,38 @@
+id: central-asian-iranian-speakers-continuity
+title: Iranian-speaking Tajiks and Yaghnobis largely descend from Iron Age people of the same region
+plain: >
+  DNA shows that today's Tajiks and Yaghnobis in Central Asia mostly descend from
+  people who lived in the same area about 2,500 to 3,000 years ago. Yaghnobi is an
+  Eastern Iranian language like Pashto. No similar test has yet been published for
+  Pashtuns.
+statement: >
+  Present-day Yaghnobis and Tajiks, who speak Iranian languages, show strong genetic
+  continuity with Iron Age people of Turkmenistan and Tajikistan. Yaghnobis are
+  modelled as about 93% Iron Age Turkmenistan-related and 7% Baikal-related (East
+  Asian) ancestry; Tajiks show more Baikal-related ancestry and an extra South Asian
+  contribution.
+discussion: >
+  Yaghnobi is a living Eastern Iranian language, related to ancient Sogdian. The
+  study shows one way to test where an Eastern Iranian-speaking people came from.
+  Pashtuns were not included.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the open-access abstract. Confirm the
+  proportions in the results section and record which Iron Age samples were used.
+strength: strong
+category: genetics
+populations: [yaghnobis, tajiks, eastern-iranian-speakers]
+regions: [sogdiana, margiana]
+period:
+  start: -1000
+  end: 2022
+  approximate: true
+  label: Iron Age to present
+  periods: [iron-age, modern]
+citations:
+  - source: guarino-vignon-2022
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: Yaghnobis modelled as 93% Iron Age Turkmenistan + 7% Baikal; Tajiks with more Baikal and a South Asian admixture.
+tags: [ancient-dna, modern-dna, eastern-iranian]

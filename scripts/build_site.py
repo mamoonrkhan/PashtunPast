@@ -27,6 +27,7 @@ from pathlib import Path
 import markdown
 import yaml
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
+from markupsafe import Markup, escape
 
 from atlas_data import DATA_DIR, ROOT, load_dataset
 from validate import DOC_CITATION, validate
@@ -126,6 +127,32 @@ def short_cite(source: dict) -> str:
     return f"{who} ({format_year(year) if year < 0 else year})"
 
 
+def make_term_linker(glossary: list[dict], prefix: str):
+    """Return link(text, seen) -> HTML in which glossary words get a hover explanation.
+
+    The text is escaped first, so contributor text can never inject HTML. Only the
+    first appearance of each glossary entry on a page is marked (`seen` tracks that).
+    """
+    entries = sorted(((w, g) for g in glossary for w in g.get("match", [])), key=lambda e: -len(e[0]))
+    lookup = {w.lower(): g for w, g in entries}
+    pattern = re.compile(r"\b(" + "|".join(re.escape(w) for w, _ in entries) + r")\b", re.I) if entries else None
+
+    def link(text: str, seen: set) -> Markup:
+        html = str(escape(text or ""))
+        if pattern is None:
+            return Markup(html)
+
+        def rep(m):
+            g = lookup[m.group(1).lower()]
+            if g["id"] in seen:
+                return m.group(0)
+            seen.add(g["id"])
+            tip = escape(" ".join(g["definition"].split()))
+            return f'<a class="term" href="{prefix}glossary.html#{g["id"]}" title="{tip}">{m.group(0)}</a>'
+        return Markup(pattern.sub(rep, html))
+    return link
+
+
 def build_model(ds) -> dict:
     """Turn the loaded files into one dictionary that templates and JavaScript use."""
     levels = [dict(l, text_color=text_color_for(l["color"])) for l in ds.vocab["evidence-levels"]]
@@ -137,9 +164,15 @@ def build_model(ds) -> dict:
     sources = {r.data["id"]: dict(r.data, cited_by=[], short_cite=short_cite(r.data)) for r in ds.sources}
     claims = {r.data["id"]: dict(r.data) for r in ds.claims}
 
+    link_terms = make_term_linker(ds.guides.get("glossary", []), "../")   # used on claims/*.html
     for c in claims.values():
         c.setdefault("discussion", "")
+        c.setdefault("plain", "")
         c["discussion_paragraphs"] = paragraphs(c["discussion"])
+        seen: set = set()
+        c["statement_html"] = link_terms(" ".join(c["statement"].split()), seen)
+        for para in c["discussion_paragraphs"]:
+            para["html"] = link_terms(para["text"], seen)
         c.setdefault("tags", [])
         c["related"] = []
         c["url"] = f"claims/{c['id']}.html"

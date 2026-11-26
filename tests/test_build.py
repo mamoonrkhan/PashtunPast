@@ -161,3 +161,12 @@ def test_start_page_shows_questions_and_plain_labels(tmp_path):
     claim = (out / "claims" / "scythian-role-in-pashtun-origins.html").read_text()
     assert '<h3 class="lead-in">What would test it</h3>' in claim
     assert "DNA study" in claim                    # plain wording for peer-reviewed genetics
+
+
+def test_glossary_terms_marked_once_and_escaped():
+    from build_site import make_term_linker
+    link = make_term_linker([{"id": "saka", "definition": "Persian name <for> nomads.", "match": ["Saka", "Sakas"]}], "../")
+    html = str(link("The Sakas & the Saka <b>kings</b>.", set()))
+    assert html.count('class="term"') == 1                  # first appearance only
+    assert "&lt;b&gt;" in html and "<b>" not in html        # contributor text stays escaped
+    assert 'title="Persian name &lt;for&gt; nomads."' in html

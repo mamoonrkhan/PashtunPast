@@ -173,6 +173,10 @@ def validate(ds: Dataset) -> tuple[list[str], list[str]]:
             if cit.get("relation") == "contradicts":
                 has_contradicting = True
 
+        # Warning: every claim should have an "In plain words" summary for general readers
+        if not (c.get("plain") or "").strip():
+            warnings.append(f"{where}: no 'plain' summary; add one or two sentences in everyday language")
+
         # R5 / R6 verification
         status = c.get("status")
         if status == "unverified" and not (c.get("verification_note") or "").strip():

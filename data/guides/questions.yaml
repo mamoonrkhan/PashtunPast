@@ -26,10 +26,11 @@
     the Pashtun homeland (the region of Sistan was once "Sakastan", the land of
     the Sakas), and Saka kings ruled Gandhara and Arachosia about 2,000 years ago.
     That makes a Saka contribution to the Pashtuns quite possible. But it hasn't
-    yet been tested directly, either by comparing languages in detail or by DNA
-    studies. The claim page explains what evidence would settle it.
+    yet been tested directly. DNA shows the Sakas were themselves a mix that
+    already included ancestry common in Afghanistan, which makes their trace
+    harder to spot. The claim page explains what evidence would settle it.
   where_it_stands: "Plausible, with circumstantial support, but not yet tested directly."
-  claims: [scythian-role-in-pashtun-origins, sakastan-land-of-the-sakas, indo-scythians-ruled-northwest, scythian-language-north-iranian, persians-called-scythians-saka]
+  claims: [scythian-role-in-pashtun-origins, sakastan-land-of-the-sakas, indo-scythians-ruled-northwest, scythian-language-north-iranian, persians-called-scythians-saka, scythian-gene-pools-formed, pashtun-y-r1a-frequency]
 
 - id: paktyes
   question: Who were the Paktyes, and were they Pashtuns?
@@ -48,11 +49,13 @@
     DNA studies show that people in this region descend from several ancient
     groups, mainly early farmers of the Iranian plateau and Bronze Age herders
     from the steppe, whose ancestry reached the region about 3,500 to 4,000 years
-    ago. Iron Age Scythian groups were themselves a mix of western and eastern
-    ancestry. DNA tells us about ancestry, not about language or identity, and
-    very few studies include Pashtuns specifically.
+    ago. Afghanistan's peoples, Pashtuns included, share deep common roots, with
+    later migrations adding different layers to each group. About half of Pashtun
+    men in one study carry the father's-line lineage R1a. DNA tells us about
+    ancestry, not about language or identity, and only a few studies include
+    Pashtuns.
   where_it_stands: "The broad picture: well supported. Pashtun-specific results: thin so far."
-  claims: [steppe-ancestry-into-south-asia, pashtuns-steppe-ancestry, iron-age-nomads-mixed-ancestry, bmac-little-steppe-ancestry]
+  claims: [afghan-groups-shared-roots, steppe-ancestry-into-south-asia, pashtuns-steppe-ancestry, pashtun-y-r1a-frequency, central-asian-iranian-speakers-continuity, iron-age-nomads-mixed-ancestry, bmac-little-steppe-ancestry]
 
 - id: lost-tribes
   question: What about the Lost Tribes of Israel story?

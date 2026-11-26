@@ -38,6 +38,7 @@ def good_claim(**over):
         "id": "test-claim",
         "title": "A test claim",
         "statement": "This is a test claim used only by the test suite.",
+        "plain": "A plain-language summary used only by the test suite.",
         "status": "verified",
         "strength": "strong",
         "category": "history",
@@ -237,3 +238,9 @@ def test_g1_question_must_link_existing_claims(make, tmp_path):
         "claims": ["no-such-claim"]}]))
     errors, _ = make([], [])
     assert rules(errors) == {"G1"}
+
+
+def test_missing_plain_summary_warns(make):
+    c = good_claim(); del c["plain"]
+    errors, warnings = make([c], [good_source()])
+    assert errors == [] and any("plain" in w for w in warnings)
