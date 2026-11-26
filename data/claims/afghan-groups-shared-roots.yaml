@@ -1,0 +1,44 @@
+id: afghan-groups-shared-roots
+title: Afghanistan's peoples, including Pashtuns, share deep common roots with later layers on top
+plain: >
+  DNA studies suggest that Pashtuns, Tajiks, Hazaras and Uzbeks largely share the
+  same very old ancestors. Later migrations then added different amounts of new
+  ancestry to each group, which is why they differ today.
+statement: >
+  Genetic studies of Afghanistan's main ethnic groups (Pashtun, Tajik, Hazara, Uzbek
+  and others) find that they largely share an ancestral heritage, possibly dating
+  back to the first farming communities, with differences beginning in the Bronze
+  Age and later migrations absorbed differently by each group. The region is best
+  described as a meeting point of many gene flows rather than the source of one
+  distinct population.
+discussion: >
+  These studies rely mostly on the Y-chromosome (father's line) and mitochondrial
+  DNA (mother's line), with only limited genome-wide data, and on modern samples
+  only. Newer genome-wide and ancient-DNA studies would give a more detailed picture.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: both abstracts were read in the open-access texts.
+  A person should confirm the conclusions in the results sections and note the sample
+  sizes for Pashtuns in each study.
+strength: moderate
+category: genetics
+populations: [pashtuns, tajiks, hazaras, uzbeks]
+regions: [hindu-kush, arachosia, bactria]
+period:
+  start: 1990
+  end: 2013
+  approximate: true
+  label: Present-day samples (studies published 2012–2013)
+  periods: [modern]
+citations:
+  - source: haber-2012
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: All current Afghans largely share a heritage from a common ancestral population; differentiation from the Bronze Age.
+  - source: di-cristofaro-2013
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: Afghans are "a mosaic of components"; the Hindu Kush is "a confluence of gene flows".
+tags: [modern-dna, afghanistan]

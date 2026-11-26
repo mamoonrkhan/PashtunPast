@@ -26,7 +26,8 @@
         "properties": {
           "term": { "type": "string" },
           "id": { "$ref": "#/$defs/id" },
-          "definition": { "type": "string", "maxLength": 400 }
+          "definition": { "type": "string", "maxLength": 400 },
+          "match": { "type": "array", "items": { "type": "string", "minLength": 2 } }
         }
       }
     }

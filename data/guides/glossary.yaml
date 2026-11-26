@@ -1,9 +1,12 @@
 # Plain-language glossary, shown on the Glossary page.
 # Keep each definition short and free of other jargon. If a definition needs
 # another term from this list, that's fine: the page links them all.
+# `match`: words in claim text that get a hover explanation linking here
+# (longest first; only the first appearance on each page is marked).
 
 - term: BCE and CE
   id: bce-ce
+  match: ["BCE"]
   definition: >
     "Before the Common Era" and "Common Era", the same years as BC and AD.
     500 BCE is 500 years before year 1 CE. In the data files, BCE years are
@@ -11,6 +14,7 @@
 
 - term: Ancient DNA
   id: ancient-dna
+  match: ["ancient DNA", "ancient genomes"]
   definition: >
     Genetic material recovered from old bones and teeth. Comparing it with DNA
     from people living today shows how populations moved and mixed.
@@ -23,6 +27,7 @@
 
 - term: Steppe ancestry (Steppe_MLBA)
   id: steppe-ancestry
+  match: ["Steppe_MLBA", "steppe ancestry", "steppe-related ancestry"]
   definition: >
     A genetic signature carried by Bronze Age herders of the Eurasian grasslands
     (the steppe). "MLBA" means Middle to Late Bronze Age. It reached South Asia
@@ -30,12 +35,14 @@
 
 - term: Indo-European languages
   id: indo-european
+  match: ["Indo-European"]
   definition: >
     A huge language family that includes English, Greek, Russian, Hindi, Persian
     and Pashto. They all descend from one prehistoric language.
 
 - term: Iranian languages
   id: iranian-languages
+  match: ["Iranian languages"]
   definition: >
     The branch of Indo-European that includes Persian, Kurdish, Balochi, Ossetian
     and Pashto, and ancient languages such as Avestan, Old Persian, Bactrian and
@@ -43,18 +50,21 @@
 
 - term: Eastern Iranian
   id: eastern-iranian
+  match: ["Eastern Iranian"]
   definition: >
     The sub-group of Iranian languages that Pashto belongs to, along with Bactrian,
     Sogdian, the Saka languages and the Pamir languages. Persian is Western Iranian.
 
 - term: Cognates
   id: cognates
+  match: ["cognates", "cognate"]
   definition: >
     Words in different languages that come from the same ancestral word, like
     English "father" and Pashto "plār".
 
 - term: Sound change
   id: sound-change
+  match: ["sound changes", "sound change"]
   definition: >
     A regular shift in pronunciation over centuries, such as older "d" becoming
     "l" in Pashto ("las" for "ten"). Shared sound changes are the best evidence
@@ -62,48 +72,56 @@
 
 - term: Scythians
   id: scythians
+  match: ["Scythians", "Scythian"]
   definition: >
     The Greek name for Iranian-speaking nomads of the Eurasian steppe in the
     1st millennium BCE. It covered many different groups.
 
 - term: Saka
   id: saka
+  match: ["Sakas", "Saka"]
   definition: >
     The Persian name for those same steppe nomads. Saka groups also lived in
     Central Asia, Sistan and, later, north-western South Asia.
 
 - term: Indo-Scythians
   id: indo-scythians
+  match: ["Indo-Scythians", "Indo-Scythian"]
   definition: >
     Saka rulers who set up kingdoms in what is now Afghanistan, Pakistan and India,
     around the 1st century BCE.
 
 - term: Ossetian
   id: ossetian
+  match: ["Ossetian", "Ossetic"]
   definition: >
     A language of the Caucasus, the only living descendant of the Scythian and
     Sarmatian languages.
 
 - term: Paktyes
   id: paktyes
+  match: ["Paktyes"]
   definition: >
     A people named by the Greek historian Herodotus, around 430 BCE, on the eastern
     side of the Persian Empire. Their name is often compared with "Pakhtun".
 
 - term: Achaemenid Empire
   id: achaemenid
+  match: ["Achaemenid"]
   definition: >
     The first Persian Empire (about 550–330 BCE), which included much of today's
     Afghanistan and Pakistan.
 
 - term: Bactria
   id: bactria
+  match: ["Bactria"]
   definition: >
     The region around the Amu Darya river in northern Afghanistan and its
     neighbours, and the name of the language later spoken there.
 
 - term: BMAC (Bactria–Margiana Archaeological Complex)
   id: bmac
+  match: ["BMAC"]
   definition: >
     The name archaeologists give to Bronze Age towns and crafts in Bactria and
     Margiana (about 2300–1600 BCE). We don't know what their people called
@@ -111,54 +129,86 @@
 
 - term: Andronovo culture
   id: andronovo
+  match: ["Andronovo"]
   definition: >
     Bronze Age communities across the Central Asian steppe (about 2000–1200 BCE),
     often linked to early speakers of Indo-Iranian languages.
 
 - term: Kushan Empire
   id: kushan
+  match: ["Kushan"]
   definition: >
     An empire of Central and South Asia in the first centuries CE, whose rulers
     wrote official inscriptions in Bactrian.
 
 - term: Sakastan (Sistan)
   id: sakastan
+  match: ["Sakastan", "Sakastana"]
   definition: >
     "Land of the Sakas", the old name of Sistan in south-western Afghanistan and
     eastern Iran, next to the Kandahar region.
 
 - term: Makhzan-i Afghani
   id: makhzan
+  match: ["Makhzan-i Afghani"]
   definition: >
     A Persian history of the Afghans written around 1610 at the Mughal court. It
     records the tradition that the Afghans descend from the ancient Israelites.
 
 - term: Archaeological culture
   id: archaeological-culture
+  match: ["archaeological culture"]
   definition: >
     A group of sites that share styles of pottery, tools, houses or burials. It's
     a label made by archaeologists, not necessarily a people or a language.
 
 - term: Ethnonym
   id: ethnonym
+  match: ["ethnonym"]
   definition: >
     The name of a people, used either by themselves or by others.
 
 - term: Primary source
   id: primary-source
+  match: ["primary source"]
   definition: >
     Evidence from the time being studied, such as an ancient book or inscription.
     A secondary source is a modern scholar's analysis of such evidence.
 
 - term: Peer review
   id: peer-review
+  match: ["peer-reviewed", "peer review"]
   definition: >
     Checking of a study by other experts before a journal publishes it. It catches
     many errors, but not all.
 
 - term: PCA and qpAdm
   id: pca-qpadm
+  match: ["qpAdm", "PCA"]
   definition: >
     Statistical methods used in DNA studies. PCA draws people as dots, where nearby
     dots have similar ancestry; qpAdm tests whether a group can be described as a
     mix of other groups. See the Genetics pages for details.
+
+- term: Y chromosome
+  id: y-chromosome
+  match: ["Y-chromosome", "Y chromosome"]
+  definition: >
+    DNA passed only from father to son. It traces a single line of ancestry:
+    father's father's father, and so on. It says nothing about all the other
+    ancestors.
+
+- term: Mitochondrial DNA (mtDNA)
+  id: mtdna
+  match: ["mitochondrial DNA", "mtDNA"]
+  definition: >
+    DNA passed from a mother to all her children. It traces a single line of
+    ancestry: mother's mother's mother, and so on.
+
+- term: Haplogroup
+  id: haplogroup
+  match: ["haplogroup", "lineage R1a", "R1a"]
+  definition: >
+    A family of closely related Y-chromosome or mitochondrial DNA types that share
+    a common ancestor, such as R1a. A haplogroup can be common across many
+    different peoples.

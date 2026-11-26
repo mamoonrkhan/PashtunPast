@@ -21,7 +21,16 @@
 <p class="muted small">{{ m.strengths[c.strength].label }}: {{ m.strengths[c.strength].text }}
   <a href="{{ root }}methodology.html">What do these labels mean?</a></p>
 
-<blockquote class="statement-full">{{ c.statement | trim }}</blockquote>
+{% if c.plain %}
+<section class="in-plain-words" aria-labelledby="plain-heading">
+  <h2 id="plain-heading">In plain words</h2>
+  <p>{{ c.plain | trim }}</p>
+</section>
+{% endif %}
+
+<h2 class="precise-heading">The precise claim</h2>
+<blockquote class="statement-full">{{ c.statement_html }}</blockquote>
+<p class="small muted">Words with a dotted underline are explained in the <a href="{{ root }}glossary.html">glossary</a>; hover or tap to see a short definition.</p>
 
 <dl class="facts">
   {% if c.get("period") %}
@@ -45,7 +54,7 @@
   <h2>In more detail</h2>
   {% for para in c.discussion_paragraphs %}
   {% if para.heading %}<h3 class="lead-in">{{ para.heading }}</h3>{% endif %}
-  <p>{{ para.text }}</p>
+  <p>{{ para.html }}</p>
   {% endfor %}
 </section>
 {% endif %}

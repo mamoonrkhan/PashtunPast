@@ -1,0 +1,45 @@
+id: pashtun-y-r1a-frequency
+title: About half of Pashtun men in one study carried the Y-chromosome lineage R1a
+plain: >
+  The Y chromosome is passed from father to son. In one study, about half of the
+  Pashtun men tested carried a family of Y lineages called R1a. It's common across a
+  huge area, from Eastern Europe to India, so on its own it can't tell us which
+  ancient people Pashtuns descend from.
+statement: >
+  In a Y-chromosome study of Afghanistan's ethnic groups, the lineage R1a1a-M17 was
+  found in 51% of Pashtun men tested, compared with 30% of Tajiks, 18% of Uzbeks and
+  7% of Hazaras. The East Asian-related lineage C3 was found in only 2% of Pashtuns.
+discussion: >
+  A Y-chromosome traces only one line of ancestry: father's father's father. R1a is
+  found from Eastern Europe through Central Asia to India, so it doesn't point to any
+  single ancient people. Iron Age Saka men buried at Boz-Barmak in Kyrgyzstan also
+  carried an R1a sub-branch, but the Pashtun data were not tested at that level of
+  detail, so the two can't be matched. Higher-resolution Pashtun Y data would show
+  whether Pashtun and Saka R1a lineages are closely related.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: percentages read in the Results section of the
+  open-access text. Add the number of Pashtun men tested (from the supplementary
+  tables) and where they were sampled.
+strength: moderate
+category: genetics
+populations: [pashtuns, tajiks, uzbeks, hazaras]
+regions: [hindu-kush, arachosia]
+period:
+  start: 1990
+  end: 2012
+  approximate: true
+  label: Present-day samples (study published 2012)
+  periods: [modern]
+citations:
+  - source: haber-2012
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Results (haplogroup frequencies); Table S4
+    note: R1a1a-M17 in 51.02% of Pashtuns, 30.36% of Tajiks, 17.65% of Uzbeks, 6.67% of Hazaras; C3-M217 in 2.04% of Pashtuns.
+  - source: rymbekova-2026
+    evidence_level: peer-reviewed-genetics
+    relation: context
+    locator: Results (Y haplogroups)
+    note: Saka men at Boz-Barmak all carried R-S23592 (R1a1a1b2a2a3), a sub-branch of R1a.
+tags: [modern-dna, y-chromosome]

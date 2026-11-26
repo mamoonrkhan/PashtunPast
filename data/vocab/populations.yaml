@@ -96,3 +96,27 @@
   kind: ethnonym
   aliases: [Ossetes]
   description: People of the central Caucasus whose language, Ossetian (Ossetic), descends from the Scytho-Sarmatian (Alanic) branch of Iranian.
+
+- id: tajiks
+  name: Tajiks
+  kind: ethnonym
+  aliases: []
+  description: Persian-speaking people of Afghanistan, Tajikistan and Uzbekistan.
+
+- id: hazaras
+  name: Hazaras
+  kind: ethnonym
+  aliases: []
+  description: Persian-speaking people of central Afghanistan.
+
+- id: uzbeks
+  name: Uzbeks
+  kind: ethnonym
+  aliases: []
+  description: Turkic-speaking people of Central Asia and northern Afghanistan.
+
+- id: yaghnobis
+  name: Yaghnobis
+  kind: ethnonym
+  aliases: []
+  description: Small community of Tajikistan speaking Yaghnobi, an Eastern Iranian language descended from a dialect related to Sogdian.

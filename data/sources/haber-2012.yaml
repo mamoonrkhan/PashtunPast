@@ -1,0 +1,23 @@
+id: haber-2012
+title: "Afghanistan's Ethnic Groups Share a Y-Chromosomal Heritage Structured by Historical Events"
+authors: ["Haber, Marc", "et al."]
+year: 2012
+source_type: journal-article
+peer_reviewed: true
+venue: PLoS ONE
+volume: "7"
+issue: "3"
+pages: e34288
+doi: 10.1371/journal.pone.0034288
+open_access: true
+summary: >
+  Y-chromosome study of 204 men from Afghanistan's main ethnic groups (Pashtun,
+  Tajik, Hazara, Uzbek and others), compared with over 8,500 men from neighbouring
+  regions. Finds a largely shared ancient heritage with later, group-specific layers.
+verification:
+  status: unverified
+  notes: >
+    Read 2026-11-26 in the open-access full text (Europe PMC). Abstract (shared heritage from a common ancestral population, possibly Neolithic;
+    differentiation from the Bronze Age); Results (R1a1a-M17 in 51.02% of Pashtuns, 30.36%
+    Tajiks, 17.65% Uzbeks, 6.67% Hazaras; C3-M217 in 2.04% of Pashtuns). The Pashtun sample
+    size should be taken from Table S2/S4.

@@ -1,5 +1,9 @@
 id: scythian-role-in-pashtun-origins
 title: Saka (Scythian) peoples were a major contributor to Pashtun origins
+plain: >
+  Did the Scythians (Sakas) help form the Pashtuns? There are good reasons to think it
+  possible, but it hasn't been directly tested yet. This page sets out the evidence on
+  both sides and how it could be tested.
 statement: >
   Saka, or Scythian, peoples were a major contributor to the formation of the
   Pashtuns: to the Pashto language, to Pashtun ancestry, or to both.
@@ -9,7 +13,10 @@ discussion: >
   dialect, or was in close contact with one. Saka groups lived right next to the
   Pashtun homeland, in Sakastan beside Arachosia, and Saka kings ruled Gandhara
   and Arachosia in the 1st century BCE. More broadly, Scythians strongly
-  influenced the Iranian world in the 1st millennium BCE.
+  influenced the Iranian world in the 1st millennium BCE. About half of Pashtun
+  men in one study carry the Y-chromosome lineage R1a, and Saka men buried in
+  Kyrgyzstan also carried an R1a sub-branch, although R1a is far too widespread
+  for this to prove a link on its own.
 
   WHAT COMPLICATES IT. "Saka" and "Scythian" were names for many different
   groups, and we don't know that they spoke one language. Language and ancestry
@@ -19,7 +26,10 @@ discussion: >
   specifically. Most steppe-related ancestry in South Asia arrived in the 2nd
   millennium BCE, more than a thousand years before the Saka period, so
   steppe ancestry in Pashtuns today can't simply be credited to the Sakas.
-  Pashto's closest relatives within Eastern Iranian are also still debated.
+  Sakas themselves carried a large share of southern Central Asian ancestry, much
+  like the people already living in Afghanistan, so a Saka contribution would be
+  hard to detect. Pashto's closest relatives within Eastern Iranian are also still
+  debated.
 
   WHAT WOULD TEST IT. Genetics: published ancient genomes of Iron Age Saka
   groups could be used as a source in admixture models of Pashtun samples, and
@@ -52,6 +62,16 @@ citations:
     relation: context
     locator: p. 189
     note: Scythians dominated Media and parts of the Near East in the 7th century BCE; whether all Saka/Scythian peoples spoke one language is unknown.
+  - source: gnecchi-ruscone-2021
+    evidence_level: peer-reviewed-genetics
+    relation: context
+    locator: Fig. 3 caption; section "Dating ancient admixture"
+    note: Saka and Scythian gene pools mixed steppe, southern Central Asian (BMAC-related) and eastern ancestry; Tian Shan Sakas gained more BMAC-related ancestry over time.
+  - source: haber-2012
+    evidence_level: peer-reviewed-genetics
+    relation: context
+    locator: Results (haplogroup frequencies)
+    note: R1a1a-M17 in about half of Pashtun men tested.
   - source: unterlander-2017
     evidence_level: peer-reviewed-genetics
     relation: context
@@ -70,6 +90,11 @@ related_claims:
   - claim: steppe-ancestry-into-south-asia
     relation: depends-on
     note: Earlier steppe ancestry has to be separated from any later Saka contribution.
+  - claim: scythian-gene-pools-formed
+    relation: depends-on
+    note: What Saka ancestry looked like, which a genetic test would need to detect.
+  - claim: pashtun-y-r1a-frequency
+    relation: depends-on
   - claim: lost-tribes-descent
     relation: competes-with
     note: A different account of where the Pashtuns came from.

@@ -1,0 +1,45 @@
+id: scythian-gene-pools-formed
+title: Scythian and Saka groups had a three-way mixed ancestry formed in the Late Bronze Age
+plain: >
+  DNA from ancient Scythian and Saka graves shows they were not one "pure" people.
+  They descended from a mix of earlier steppe herders, the townspeople of southern
+  Central Asia, and groups from further east, and the mix took shape well before the
+  Scythian era.
+statement: >
+  Iron Age Scythian and Saka groups of the Central Asian steppe are modelled as a
+  mixture of three ancestries: Bronze Age steppe herders (Steppe_MLBA), southern
+  Central Asian (BMAC-related) people, and an eastern Eurasian component. Their main
+  gene pools formed around 1500–1000 BCE, and the Sakas of the Tian Shan received a
+  BMAC-related contribution that increased over time.
+discussion: >
+  This matters for the question of Saka ancestry in the Pashtuns. Because Sakas
+  themselves carried a good deal of southern Central Asian ancestry, a Saka
+  contribution would be hard to tell apart from ancestry that was already present
+  in Afghanistan. The eastern Eurasian component is the more distinctive marker a
+  future study could look for.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the open-access text (abstract, section
+  "Dating ancient admixture", Fig. 3 caption). A person should confirm the dates and
+  the three sources, and look up the exact proportions in the supplementary data.
+strength: strong
+category: genetics
+populations: [scythians, saka, steppe-mlba, bmac]
+regions: [central-steppe, tian-shan]
+period:
+  start: -1500
+  end: 300
+  approximate: true
+  label: Gene pools formed c. 1500–1000 BCE; Iron Age to early centuries CE
+  periods: [bronze-age, iron-age, achaemenid, hellenistic, saka-parthian]
+citations:
+  - source: gnecchi-ruscone-2021
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract; section "Dating ancient admixture"; Fig. 3 caption
+    note: 111 ancient individuals from 39 sites; main Scythian gene pools formed 1000–1500 BCE from steppe_MLBA, BMAC-related and eastern (Khovsgol) sources.
+related_claims:
+  - claim: iron-age-nomads-mixed-ancestry
+    relation: refines
+    note: A larger study with more detailed models.
+tags: [ancient-dna, steppe, saka]

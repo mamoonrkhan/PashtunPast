@@ -1,0 +1,49 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "hindu-kush",
+    "name": "Hindu Kush",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The Hindu Kush mountain range from central Afghanistan to northern Pakistan."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       67.0,
+       34.4
+      ],
+      [
+       69.5,
+       34.6
+      ],
+      [
+       71.8,
+       35.6
+      ],
+      [
+       71.6,
+       36.9
+      ],
+      [
+       70.0,
+       36.6
+      ],
+      [
+       67.8,
+       35.6
+      ],
+      [
+       67.0,
+       34.4
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

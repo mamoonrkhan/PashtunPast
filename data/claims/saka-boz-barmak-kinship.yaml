@@ -1,0 +1,41 @@
+id: saka-boz-barmak-kinship
+title: At a Saka cemetery in Kyrgyzstan, all the men shared one father's line
+plain: >
+  At one Saka burial ground, all the men turned out to share the same father's-line
+  DNA, while the women came from varied backgrounds. This suggests that men stayed in
+  their home community and wives joined from elsewhere.
+statement: >
+  Genomes from people buried at the Saka cemetery of Boz-Barmak in Kyrgyzstan
+  (4th–2nd centuries BCE) show that all the men carried the same Y-chromosome
+  lineage, a branch of R1a, while their mitochondrial (mother's line) lineages were
+  diverse, consistent with men staying in their home group and women moving between
+  groups.
+discussion: >
+  This is a small study: 12 individuals, of whom 9 gave low-coverage genomes. It
+  shows that at least some Saka communities passed down male lines very
+  consistently. Some later steppe societies did the same, and Pashtun tribes trace
+  descent through the male line, but that parallel is social, not genetic evidence.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the open-access text (abstract and
+  results). Confirm the dating and the Y haplogroup in the published tables.
+strength: moderate
+category: genetics
+populations: [saka]
+regions: [tian-shan]
+period:
+  start: -400
+  end: -100
+  approximate: true
+  label: 4th–2nd centuries BCE
+  periods: [hellenistic]
+citations:
+  - source: rymbekova-2026
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract; Results (Y and mtDNA haplogroups)
+    note: 12 individuals; all males share R-S23592 (R1a1a1b2a2a3); diverse mtDNA; patrilocality.
+related_claims:
+  - claim: scythian-gene-pools-formed
+    relation: refines
+tags: [ancient-dna, saka, kinship]

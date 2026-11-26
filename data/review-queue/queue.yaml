@@ -113,6 +113,27 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/ej.9789004160545.i-763.5
+- suggested_id: lecturer-2022
+  status: pending
+  title: Commitment in Pashto Short Stories
+  authors:
+  - Lecturer, Pashto literature Department, Ghazni University, Afghanistan
+  - Asadi, Nematullah
+  - Khankhel, Naqibullah
+  - Lecturer, Pashto literature Department, Ghazni University, Afghanistan
+  year: 2022
+  venue: Academic Journal of Research and Scientific Publishing
+  doi: 10.52132/ajrsp.e.2022.40.2
+  url: https://doi.org/10.52132/ajrsp.e.2022.40.2
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pashto literature history earliest'
+  - 'openalex: Pashto literature history earliest'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.52132/ajrsp.e.2022.40.2
 - suggested_id: khaklay-2026
   status: pending
   title: Comparison of the Adpositions of Pashto and Persian Based on Etymology
@@ -132,6 +153,50 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.65150/ep-jsshrs/v2e6/2026-17
+- suggested_id: guarino-vignon-2021
+  status: pending
+  title: Genetic Continuity of Indo-Iranian Speakers Since the Iron Age in Southern Central Asia
+  authors:
+  - Guarino-Vignon, Perle
+  - Marchi, Nina
+  - Bendezu-Sarmiento, Julio
+  - Heyer, Evelyne
+  - Bon, Céline
+  year: 2021
+  venue: ''
+  doi: 10.1101/2021.11.04.466891
+  url: https://doi.org/10.1101/2021.11.04.466891
+  source_type: preprint
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  - 'europepmc: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1101/2021.11.04.466891
+- suggested_id: guarino-vignon-2022
+  status: pending
+  title: Genetic continuity of Indo-Iranian speakers since the Iron Age in southern Central Asia
+  authors:
+  - Guarino-Vignon, Perle
+  - Marchi, Nina
+  - Bendezu-Sarmiento, Julio
+  - Heyer, Evelyne
+  - Bon, Céline
+  year: 2022
+  venue: Scientific Reports
+  doi: 10.1038/s41598-021-04144-4
+  url: https://doi.org/10.1038/s41598-021-04144-4
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1038/s41598-021-04144-4
 - suggested_id: a-2025
   status: pending
   title: 'Genetic insights into Iron Age Saka culture: Ancient DNA analysis of the Boz-Barmak burial ground,
@@ -157,6 +222,24 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1101/2025.11.03.686206
+- suggested_id: frumkin-1970
+  status: pending
+  title: 'Historical Excursus: The Kushan Empire'
+  authors:
+  - Frumkin, Grégoire
+  year: 1970
+  venue: Archaeology in Soviet Central Asia
+  doi: 10.1163/9789004489936_009
+  url: https://doi.org/10.1163/9789004489936_009
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Kushan empire'
+  - 'openalex: Kushan empire'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004489936_009
 - suggested_id: bailey-1983
   status: pending
   title: KHOTANESE SAKA LITERATURE
@@ -210,6 +293,24 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.5040/9798216980636.0060
+- suggested_id: sadia-tabassum-2016
+  status: pending
+  title: Mitochondrial DNA analysis of five Pathan tribes from Pakistan
+  authors:
+  - Sadia Tabassum, Habib Ahmad, Muhammad Ilyas
+  year: 2016
+  venue: International Journal of Biosciences (IJB)
+  doi: 10.12692/ijb/8.5.262-273
+  url: https://doi.org/10.12692/ijb/8.5.262-273
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.12692/ijb/8.5.262-273
 - suggested_id: cheung-2011
   status: pending
   title: 'Selected Pashto Problems II. Historical Phonology 1: On Vocalism and Etyma'
@@ -228,6 +329,29 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/157338411x12870596615557
+- suggested_id: department-2023
+  status: pending
+  title: Structural Elements of Pashto Radio Drama
+  authors:
+  - Department, Education Faculty Ghor Institute of Higher Education
+  - Pashto, Obaidullah Agheez
+  - Pashto, Fariduallah Andial
+  - Language and Literature Department, Ghor University, Afghanistan
+  - Shaad, Noorullah
+  - et al.
+  year: 2023
+  venue: International Journal of Current Science Research and Review
+  doi: 10.47191/ijcsrr/v6-i6-50
+  url: https://doi.org/10.47191/ijcsrr/v6-i6-50
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pashto literature history earliest'
+  - 'openalex: Pashto literature history earliest'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.47191/ijcsrr/v6-i6-50
 - suggested_id: avanesova-2020
   status: pending
   title: The Zeravshan regional variant of the Bactria-Margiana Archaeological Complex
@@ -264,6 +388,148 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/9789004438200_003
+- suggested_id: firasat-2006
+  status: pending
+  title: Y-chromosomal evidence for a limited Greek contribution to the Pathan population of Pakistan
+  authors:
+  - Firasat, Sadaf
+  - Khaliq, Shagufta
+  - Mohyuddin, Aisha
+  - Papaioannou, Myrto
+  - Tyler-Smith, Chris
+  - et al.
+  year: 2006
+  venue: European Journal of Human Genetics
+  doi: 10.1038/sj.ejhg.5201726
+  url: https://doi.org/10.1038/sj.ejhg.5201726
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1038/sj.ejhg.5201726
+- suggested_id: karrer-2012
+  status: pending
+  title: 1. The Pashtun Element in Afghan Society
+  authors:
+  - Karrer, Leo
+  year: 2012
+  venue: Pashtun Traditions versus Western Perceptions
+  doi: 10.4000/books.iheid.546
+  url: https://doi.org/10.4000/books.iheid.546
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Pashtun population genetics'
+  - 'crossref: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 3
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4000/books.iheid.546
+- suggested_id: ghosh-2016
+  status: pending
+  title: Indo‐Scythian (Saka) Kingdom
+  authors:
+  - Ghosh, Suchandra
+  year: 2016
+  venue: The Encyclopedia of Empire
+  doi: 10.1002/9781118455074.wbeoe067
+  url: https://doi.org/10.1002/9781118455074.wbeoe067
+  source_type: journal-article
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 3
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1002/9781118455074.wbeoe067
+- suggested_id: asia-2022
+  status: pending
+  title: 2 The Scythians in Media and Central Asia
+  authors: []
+  year: 2022
+  venue: The Scythian Empire
+  doi: 10.1515/9780691240541-012
+  url: https://doi.org/10.1515/9780691240541-012
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9780691240541-012
+- suggested_id: steppe-2026
+  status: pending
+  title: '4 Scythian Slaving: A View from the Steppe'
+  authors: []
+  year: 2026
+  venue: Slaving States
+  doi: 10.1515/9780691288055-007
+  url: https://doi.org/10.1515/9780691288055-007
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9780691288055-007
+- suggested_id: hiebert-nd
+  status: pending
+  title: 8. South Asia from a Central Asian perspective
+  authors:
+  - Hiebert, Fredrik T.
+  year: null
+  venue: The Indo-Aryans of Ancient South Asia
+  doi: 10.1515/9783110816433.192
+  url: https://doi.org/10.1515/9783110816433.192
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9783110816433.192
+- suggested_id: hiebert-2020
+  status: pending
+  title: 8. South Asia from a Central Asian perspective
+  authors:
+  - Hiebert, Fredrik T.
+  year: 2020
+  venue: The Indo-Aryans of Ancient South Asia
+  doi: 10.1515/9783110816433-013
+  url: https://doi.org/10.1515/9783110816433-013
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9783110816433-013
+- suggested_id: fairservis-nd
+  status: pending
+  title: '9. Central Asia and the Rgveda: The archaeological evidence'
+  authors:
+  - Fairservis, Walter A.
+  year: null
+  venue: The Indo-Aryans of Ancient South Asia
+  doi: 10.1515/9783110816433.206
+  url: https://doi.org/10.1515/9783110816433.206
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9783110816433.206
 - suggested_id: henning-1977-2
   status: pending
   title: A Bactrian Seal-Inscription
@@ -281,6 +547,138 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/9789004671386_048
+- suggested_id: zurlo-2019
+  status: pending
+  title: A Demographic Profile of Christianity in South and Central Asia
+  authors:
+  - Zurlo, Gina A.
+  year: 2019
+  venue: Christianity in South and Central Asia
+  doi: 10.3366/edinburgh/9781474439824.003.0001
+  url: https://doi.org/10.3366/edinburgh/9781474439824.003.0001
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.3366/edinburgh/9781474439824.003.0001
+- suggested_id: cristofaro-2013
+  status: pending
+  title: 'Afghan Hindu Kush: Where Eurasian Sub-Continent Gene Flows Converge'
+  authors:
+  - Julie Di Cristofaro
+  - Erwan Pennarun
+  - Stéphane Mazières
+  - Natalie M. Myres
+  - Alice A. Lin
+  - et al.
+  year: 2013
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0076748
+  url: https://doi.org/10.1371/journal.pone.0076748
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1371/journal.pone.0076748
+- suggested_id: group-2003
+  status: pending
+  title: 'Afghanistan : the problem of Pashtun alienation / International Crisis Group.'
+  authors: []
+  year: 2003
+  venue: ''
+  doi: 10.2458/azu_acku_pamphlet_ds371_4_a34_2003
+  url: https://doi.org/10.2458/azu_acku_pamphlet_ds371_4_a34_2003
+  source_type: book
+  found_via:
+  - 'crossref: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2458/azu_acku_pamphlet_ds371_4_a34_2003
+- suggested_id: saikal-2010
+  status: pending
+  title: 'Afghanistan and Pakistan : the question of Pashtun nationalism? / Amin Saikal.'
+  authors: []
+  year: 2010
+  venue: ''
+  doi: 10.29171/azu_acku_pamphlet_ds357_6_p32_s355_2010
+  url: https://doi.org/10.29171/azu_acku_pamphlet_ds357_6_p32_s355_2010
+  source_type: book
+  found_via:
+  - 'crossref: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.29171/azu_acku_pamphlet_ds357_6_p32_s355_2010
+- suggested_id: lacau-2012
+  status: pending
+  title: Afghanistan from a Y-chromosome perspective
+  authors:
+  - Harlette Lacau
+  - Tenzin Gayden
+  - María Regueiro
+  - Shilpa Chennakrishnaiah
+  - Areej Bukhari
+  - et al.
+  year: 2012
+  venue: European Journal of Human Genetics
+  doi: 10.1038/ejhg.2012.59
+  url: https://doi.org/10.1038/ejhg.2012.59
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1038/ejhg.2012.59
+- suggested_id: haber-2012
+  status: pending
+  title: Afghanistan's Ethnic Groups Share a Y-Chromosomal Heritage Structured by Historical Events
+  authors:
+  - Marc Haber
+  - Daniel E. Platt
+  - Maziar Ashrafian Bonab
+  - Sonia C. Youhanna
+  - David F. Soria‐Hernanz
+  - et al.
+  year: 2012
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0034288
+  url: https://doi.org/10.1371/journal.pone.0034288
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1371/journal.pone.0034288
+- suggested_id: omarkhel-2025
+  status: pending
+  title: An Analytical Study of the Structure and Manner of Blank Verse in Pashto Literature
+  authors:
+  - Hameedullah Omarkhel
+  year: 2025
+  venue: Balkh International Journal of Social Science
+  doi: 10.68837/bjss.v1i1.17
+  url: https://doi.org/10.68837/bjss.v1i1.17
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.68837/bjss.v1i1.17
 - suggested_id: hui-qi-2009
   status: pending
   title: An analysis of the Related Remains of Andronovo Culture in Xinjiang
@@ -298,6 +696,23 @@
   summary: ''
   reviewer_note: ''
   key: title:an analysis of the related remains of andronovo culture in xinjiang
+- suggested_id: ergasheva-2026
+  status: pending
+  title: Analysis of research by foreign scholars on the origins of the Hephthalites
+  authors:
+  - Diloromkhon ERGASHEVA
+  year: 2026
+  venue: Research Focus International Scientific Journal
+  doi: 10.66073/refocus.v5i9.0920
+  url: https://doi.org/10.66073/refocus.v5i9.0920
+  source_type: journal-article
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.66073/refocus.v5i9.0920
 - suggested_id: simswilliams-2003
   status: pending
   title: 'Ancient Afghanistan and its invaders: Linguistic evidence from the Bactrian documents and inscriptions'
@@ -315,6 +730,47 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.5871/bacad/9780197262856.003.0011
+- suggested_id: tyagi-2026
+  status: pending
+  title: 'Ancient DNA: revisiting past through population genomics'
+  authors:
+  - Shivani Tyagi
+  - Niraj Rai
+  year: 2026
+  venue: Proceedings of the Indian National Science Academy
+  doi: 10.1007/s43538-026-00689-y
+  url: https://doi.org/10.1007/s43538-026-00689-y
+  source_type: journal-article
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/s43538-026-00689-y
+- suggested_id: ning-2019
+  status: pending
+  title: Ancient Genomes Reveal Yamnaya-Related Ancestry and a Potential Source of Indo-European Speakers
+    in Iron Age Tianshan
+  authors:
+  - Chao Ning
+  - Chuan‐Chao Wang
+  - Shizhu Gao
+  - Yang Yang
+  - Xue Zhang
+  - et al.
+  year: 2019
+  venue: Current Biology
+  doi: 10.1016/j.cub.2019.06.044
+  url: https://doi.org/10.1016/j.cub.2019.06.044
+  source_type: journal-article
+  found_via:
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1016/j.cub.2019.06.044
 - suggested_id: newton-2011
   status: pending
   title: 'Ancient Mitochondrial DNA From Pre-historic Southeastern Europe: The Presence of East Eurasian
@@ -336,6 +792,28 @@
   key: title:ancient mitochondrial dna from pre historic southeastern europe the presence of east eurasian
     haplogroups provides evidence of interactions with south siberians across the central asian steppe
     belt
+- suggested_id: krzewinska-2018
+  status: pending
+  title: Ancient genomes suggest the eastern Pontic-Caspian steppe as the source of western Iron Age nomads
+  authors:
+  - Maja Krzewińska
+  - Gülşah Merve Kılınç
+  - Anna Juras
+  - Dilek Koptekin
+  - Maciej Chyleński
+  - et al.
+  year: 2018
+  venue: Science Advances
+  doi: 10.1126/sciadv.aat4457
+  url: https://doi.org/10.1126/sciadv.aat4457
+  source_type: journal-article
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1126/sciadv.aat4457
 - suggested_id: gnecchiruscone-2021
   status: pending
   title: Ancient genomic time transect from the Central Asian Steppe unravels the history of the Scythians
@@ -358,6 +836,46 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1126/sciadv.abe4414
+- suggested_id: dwivedi-2025
+  status: pending
+  title: Ancient mitogenomes from Neolithic, megalithic and medieval burials suggest complex genetic history
+    of Kashmir valley, India
+  authors:
+  - Aparna Dwivedi
+  - Lomous Kumar
+  - Snigdha Konar
+  - Nagarjuna Pasupuleti
+  - Sanjay Kumar Singh Gahlaud
+  - et al.
+  year: 2025
+  venue: Scientific Reports
+  doi: 10.1038/s41598-025-00568-4
+  url: https://doi.org/10.1038/s41598-025-00568-4
+  source_type: journal-article
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1038/s41598-025-00568-4
+- suggested_id: kuzmina-2001
+  status: pending
+  title: Andronovo
+  authors:
+  - Kuzmina, Elena
+  year: 2001
+  venue: Encyclopedia of Prehistory
+  doi: 10.1007/978-1-4615-1187-8_1
+  url: https://doi.org/10.1007/978-1-4615-1187-8_1
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Andronovo culture'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/978-1-4615-1187-8_1
 - suggested_id: culture-2021
   status: pending
   title: Andronovo Culture
@@ -392,6 +910,192 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/ej.9789004160545.i-763.119
+- suggested_id: mahsud-2023
+  status: pending
+  title: Archaeological Importance of Swabi as Integral part of the Gandhara Civilization
+  authors:
+  - Noor Hamid Khan Mahsud
+  - Kashef Khan
+  - Husnul Amin
+  year: 2023
+  venue: Shnakhat
+  doi: null
+  url: https://shnakhat.com/index.php/shnakhat/article/view/209
+  source_type: journal-article
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:archaeological importance of swabi as integral part of the gandhara civilization
+- suggested_id: stanizai-2020
+  status: pending
+  title: Are Pashtuns the Lost Tribe of Israel?
+  authors:
+  - Zaman Stanizai
+  year: 2020
+  venue: ''
+  doi: 10.33774/coe-2020-vntk7-v9
+  url: http://dx.doi.org/10.33774/coe-2020-vntk7-v9
+  source_type: preprint
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.33774/coe-2020-vntk7-v9
+- suggested_id: smith-1903
+  status: pending
+  title: Art. I.—The Kushān, or Indo-Scythian, Period of Indian History, b.c. 165 to a.d. 320
+  authors:
+  - Vincent A. Smith
+  year: 1903
+  venue: Journal of the Royal Asiatic Society of Great Britain & Ireland
+  doi: 10.1017/s0035869x0002997x
+  url: https://doi.org/10.1017/s0035869x0002997x
+  source_type: journal-article
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1017/s0035869x0002997x
+- suggested_id: dowson-1863
+  status: pending
+  title: Art. IX.—On a newly discovered Bactrian Pali Inscription; and on other Inscriptions in the Bactrian
+    Pali Character
+  authors:
+  - John Dowson
+  year: 1863
+  venue: Journal of the Royal Asiatic Society
+  doi: 10.1017/s0035869x00165281
+  url: https://doi.org/10.1017/s0035869x00165281
+  source_type: journal-article
+  found_via:
+  - 'openalex: Bactrian language documents inscription'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1017/s0035869x00165281
+- suggested_id: bakhodir-2026
+  status: pending
+  title: 'Aryan Migration to Central Asia: Archaeological AND Historiographical Perspectives From the
+    Sintashta Arkaim Complex AND the Bactria Margiana Archaeological Complex (BMAC)'
+  authors:
+  - ogli S. S. (Sattorov) Bakhodir
+  year: 2026
+  venue: American Journal of Religious, Culture and Archeological Studies
+  doi: null
+  url: https://semantjournals.org/index.php/AJRCAS/article/view/3559
+  source_type: journal-article
+  found_via:
+  - 'openalex: Bactria Margiana Archaeological Complex'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:aryan migration to central asia archaeological and historiographical perspectives from the
+    sintashta arkaim complex and the bactria margiana archaeological complex bmac
+- suggested_id: lazard-2019
+  status: pending
+  title: 'Aspect in Iranian two systems: Persian and Pashto'
+  authors:
+  - Lazard, Gilbert
+  year: 2019
+  venue: Essays on Typology of Iranian Languages
+  doi: 10.1515/9783110604443-003
+  url: https://doi.org/10.1515/9783110604443-003
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Pashto etymology Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9783110604443-003
+- suggested_id: rahman-2023
+  status: pending
+  title: Association of APOE (rs429358 and rs7412) and PON1 (Q192R and L55M) Variants with Myocardial
+    Infarction in the Pashtun Ethnic Population of Khyber Pakhtunkhwa, Pakistan
+  authors:
+  - Naveed Rahman
+  - Naveed Ullah
+  - Asif Jan
+  - Muhammad Saeed
+  - Muhammad Asghar Khan
+  - et al.
+  year: 2023
+  venue: Genes
+  doi: 10.3390/genes14030687
+  url: https://doi.org/10.3390/genes14030687
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashtun population genetics'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.3390/genes14030687
+- suggested_id: khawaja-2007
+  status: pending
+  title: Association study of two interleukin-1 gene loci with essential hypertension in a Pakistani Pathan
+    population
+  authors:
+  - Muhammad Rizwan Khawaja
+  - Fawad Taj
+  - Danish Saleheen
+  - U Ahmad
+  - Muhammad Omar Chohan
+  - et al.
+  year: 2007
+  venue: Journal of Human Hypertension
+  doi: 10.1038/sj.jhh.1002257
+  url: https://doi.org/10.1038/sj.jhh.1002257
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1038/sj.jhh.1002257
+- suggested_id: shinwari-2025-2
+  status: pending
+  title: Authority, Tradition, and Governance in Tribal Pashtun Society
+  authors:
+  - Shinwari, Naveed Ahmad
+  year: 2025
+  venue: Political and Social Change in Pakistan’s Tribal Areas
+  doi: 10.4324/9781003585725-3
+  url: https://doi.org/10.4324/9781003585725-3
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Pashtun population genetics'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4324/9781003585725-3
+- suggested_id: language-nd
+  status: pending
+  title: BACTRIAN LANGUAGE
+  authors: []
+  year: null
+  venue: Encyclopaedia Iranica Online
+  doi: 10.1163/2330-4804_eiro_com_6284
+  url: https://doi.org/10.1163/2330-4804_eiro_com_6284
+  source_type: dataset
+  found_via:
+  - 'crossref: Bactrian language documents inscription'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2330-4804_eiro_com_6284
 - suggested_id: simswilliams-2010
   status: pending
   title: Bactrian Personal Names
@@ -409,6 +1113,22 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1553/0x002392f6
+- suggested_id: buddhism-in-bactria-nd
+  status: pending
+  title: Buddhism in Bactria, Margiana, and Sogdiana
+  authors: []
+  year: null
+  venue: Brill's Encyclopedia of Buddhism Online
+  doi: 10.1163/2467-9666_enbo_com_4120
+  url: https://doi.org/10.1163/2467-9666_enbo_com_4120
+  source_type: dataset
+  found_via:
+  - 'crossref: Bactria Margiana Archaeological Complex'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2467-9666_enbo_com_4120
 - suggested_id: iravani-ghadim-2018
   status: pending
   title: 'CENOTAPHS IN THE BACTRIA MARGIANA ARCHAEOLOGICAL COMPLEX DOMAIN: A CASE STUDY OF NORTHEAST IRAN'
@@ -448,6 +1168,59 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1017/rdc.2015.15
+- suggested_id: hiebert-1992
+  status: pending
+  title: Central Asia and the Indo-Iranian Borderlands
+  authors:
+  - Hiebert, Fredrik T.
+  - Lamberg-Karlovsky, C. C.
+  year: 1992
+  venue: Iran
+  doi: 10.2307/4299865
+  url: https://doi.org/10.2307/4299865
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/4299865
+- suggested_id: kageyama-2016
+  status: pending
+  title: 'Change of suspension systems of daggers and swords in eastern Eurasia: Its relation to the Hephthalite
+    occupation of Central Asia'
+  authors:
+  - Ètsuko Kageyama
+  year: 2016
+  venue: ZINBUN
+  doi: 10.14989/209942
+  url: https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/209942/1/zinbun_46_199.pdf
+  source_type: journal-article
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.14989/209942
+- suggested_id: dowall-2007
+  status: pending
+  title: Chapter Nine. Coinage from Iran to Gandhara – With special reference to divinities as coin types
+  authors:
+  - David W. Mac Dowall
+  year: 2007
+  venue: BRILL eBooks
+  doi: 10.1163/ej.9789004154513.i-548.74
+  url: https://doi.org/10.1163/ej.9789004154513.i-548.74
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/ej.9789004154513.i-548.74
 - suggested_id: kuzmina-2007-4
   status: pending
   title: Chapter Ten. The ethnogenesis of the indo-iranians and the ethnic attribution of the Andronovo
@@ -467,6 +1240,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/ej.9789004160545.i-763.43
+- suggested_id: jeyaraj-2019
+  status: pending
+  title: Christianity in South and Central Asia
+  authors:
+  - Jeyaraj, Daniel
+  year: 2019
+  venue: Christianity in South and Central Asia
+  doi: 10.3366/edinburgh/9781474439824.003.0002
+  url: https://doi.org/10.3366/edinburgh/9781474439824.003.0002
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.3366/edinburgh/9781474439824.003.0002
 - suggested_id: hussain-2026
   status: pending
   title: 'Comparative Linguistic Analysis of German and Pashto: Exploring Structural, Phonological, and
@@ -503,6 +1293,59 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.29091/kratylos/2004/1/38
+- suggested_id: aspect-2019
+  status: pending
+  title: 'Cremation rite among Andronovo (Fedorovo) population: semantic aspect'
+  authors: []
+  year: 2019
+  venue: Rossiiskaia arkheologiia
+  doi: 10.31857/s086960630007215-5
+  url: https://doi.org/10.31857/s086960630007215-5
+  source_type: journal-article
+  found_via:
+  - 'crossref: Andronovo culture'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.31857/s086960630007215-5
+- suggested_id: sayyed-2010
+  status: pending
+  title: Cross-resistance, genetics and stability of resistance to deltamethrin in a population of Chrysoperla
+    carnea from Multan, Pakistan
+  authors:
+  - Sayyed, Ali H.
+  - Pathan, Attaullah Khan
+  - Faheem, Umair
+  year: 2010
+  venue: Pesticide Biochemistry and Physiology
+  doi: 10.1016/j.pestbp.2010.07.004
+  url: https://doi.org/10.1016/j.pestbp.2010.07.004
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1016/j.pestbp.2010.07.004
+- suggested_id: dinakhel-2021
+  status: pending
+  title: Development of Pashto Literature in Swatپه سوات کښې د پښتو ادب ارتقا
+  authors:
+  - Muhammad Ali Dinakhel
+  year: 2021
+  venue: Pashto
+  doi: null
+  url: https://pashto.org.pk/index.php/path/article/view/183
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:development of pashto literature in swat
 - suggested_id: juras-2017
   status: pending
   title: Diverse origin of mitochondrial lineages in Iron Age Black Sea Scythians
@@ -525,6 +1368,60 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1038/srep43950
+- suggested_id: khan-2024
+  status: pending
+  title: Drivers of Extremism in Swat Valley
+  authors:
+  - Khan, Ilam
+  year: 2024
+  venue: Rehabilitation, Deradicalization, and Reintegration of Militants
+  doi: 10.1007/978-981-99-9514-1_4
+  url: https://doi.org/10.1007/978-981-99-9514-1_4
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/978-981-99-9514-1_4
+- suggested_id: emadi-2002
+  status: pending
+  title: Ethnic groups and national unity in Afghanistan / Hafizullah Emadi.
+  authors: []
+  year: 2002
+  venue: ''
+  doi: 10.29171/azu_acku_pamphlet_ds354_5_e643_2002
+  url: https://doi.org/10.29171/azu_acku_pamphlet_ds354_5_e643_2002
+  source_type: book
+  found_via:
+  - 'crossref: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.29171/azu_acku_pamphlet_ds354_5_e643_2002
+- suggested_id: source-2018-2
+  status: pending
+  title: 'Evidence of Funeral Rituals from the Bactria–Margiana Archaeological Complex in Turkmenistan:
+    The Case of Gonur Depe'
+  authors:
+  - Надежда Анатольевна Дубова
+  - С.П. Грушин
+  - Роберт Мидхатович Сатаев
+  - Alexey V. Fribus
+  year: 2018
+  venue: Harrassowitz Verlag eBooks
+  doi: 10.2307/j.ctvcm4f86.23
+  url: https://doi.org/10.2307/j.ctvcm4f86.23
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Bactria Margiana Archaeological Complex'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/j.ctvcm4f86.23
 - suggested_id: a-2022
   status: pending
   title: First ancient DNA analysis of mummies from the post-Scythian Oglakhty cemetery in South Siberia
@@ -547,6 +1444,111 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.21203/rs.3.rs-1993191/v1
+- suggested_id: khan-1972
+  status: pending
+  title: From Pathan Colony to a Workers' State
+  authors:
+  - Khan, Iqbal
+  year: 1972
+  venue: Pakistan Forum
+  doi: 10.2307/2568979
+  url: https://doi.org/10.2307/2568979
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/2568979
+- suggested_id: fedoruk-2019
+  status: pending
+  title: 'Funerary costume of the population of the altai andronovo culture: a general characterization'
+  authors:
+  - O. A. Fedoruk
+  - Russia Barnaul
+  - Dmitri V. Papin
+  year: 2019
+  venue: Connections, contacts and interactions between ancient cultures of Northern Eurasia and civilizations
+    of the East during the Palaeometal period (IV–I mil. BC)
+  doi: 10.31600/978-5-907053-35-9-86-87
+  url: https://doi.org/10.31600/978-5-907053-35-9-86-87
+  source_type: journal-article
+  found_via:
+  - 'openalex: Andronovo culture'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.31600/978-5-907053-35-9-86-87
+- suggested_id: kumar-2021
+  status: pending
+  title: Genetic Continuity of Bronze Age Ancestry with Increased Steppe-Related Ancestry in Late Iron
+    Age Uzbekistan
+  authors:
+  - Vikas Kumar
+  - E. Andrew Bennett
+  - Dongyue Zhao
+  - Yun Liang
+  - Yunpeng Tang
+  - et al.
+  year: 2021
+  venue: Molecular Biology and Evolution
+  doi: 10.1093/molbev/msab216
+  url: https://doi.org/10.1093/molbev/msab216
+  source_type: journal-article
+  found_via:
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1093/molbev/msab216
+- suggested_id: ullah-2016
+  status: pending
+  title: Genetic Diversity of Endangered Sheep Breed of Valley Swat, Pakistan, Based on Microsatellite
+    Analysis
+  authors:
+  - Naveed Ullah
+  - Muhammad Tariq Zeb
+  - Mirza Ali Khan
+  - Muhammad Tahir Khan
+  - Sibghat Ullah
+  - et al.
+  year: 2016
+  venue: American Scientific Research Journal for Engineering, Technology, and Sciences
+  doi: 10.13140/rg.2.2.19208.62729
+  url: https://asrjetsjournal.org/American_Scientific_Journal/article/view/1995
+  source_type: journal-article
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.13140/rg.2.2.19208.62729
+- suggested_id: batool-2018
+  status: pending
+  title: Genetic analysis of 15 autosomal STRs in Yousafzai population of Pakistan
+  authors:
+  - Zunaira Batool
+  - Rukhsana Perveen
+  - Nadeem Sheikh
+  - Aleena Ahmad Khan
+  - Muhammad Ilyas
+  - et al.
+  year: 2018
+  venue: International Journal of Legal Medicine
+  doi: 10.1007/s00414-018-1917-2
+  url: https://doi.org/10.1007/s00414-018-1917-2
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/s00414-018-1917-2
 - suggested_id: morgenstierne-2005
   status: pending
   title: 'Georg Morgenstierne : the father of modern iranian language studies and his heritage (notes
@@ -566,6 +1568,22 @@
   reviewer_note: ''
   key: title:georg morgenstierne the father of modern iranian language studies and his heritage notes
     on a new etymological dictionary of pashto
+- suggested_id: hephthalites-nd
+  status: pending
+  title: HEPHTHALITES
+  authors: []
+  year: null
+  venue: Encyclopaedia Iranica Online
+  doi: 10.1163/2330-4804_eiro_com_3008
+  url: https://doi.org/10.1163/2330-4804_eiro_com_3008
+  source_type: dataset
+  found_via:
+  - 'crossref: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2330-4804_eiro_com_3008
 - suggested_id: mirdehghan-2007
   status: pending
   title: 'HISTORICAL DERIVATION: PHONOLOGICAL AND ORTHOGRAPHIC SIMILARITIES BETWEEN PASHTO AND URDU'
@@ -583,6 +1601,178 @@
   summary: ''
   reviewer_note: ''
   key: title:historical derivation phonological and orthographic similarities between pashto and urdu
+- suggested_id: mohyuddin-2004
+  status: pending
+  title: HLA-A, -B, -Cw, -DQB1 and -DRB1 allele frequencies in a Pathan population from Pakistan
+  authors:
+  - Mohyuddin, A.
+  - Khaliq, S.
+  - Ayub, Q.
+  - Mehdi, S.Q.
+  year: 2004
+  venue: Human Immunology
+  doi: 10.1016/j.humimm.2004.08.097
+  url: https://doi.org/10.1016/j.humimm.2004.08.097
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1016/j.humimm.2004.08.097
+- suggested_id: bilal-2026
+  status: pending
+  title: 'Haplogroup Dynamics in Afghanistan: A Genetic History from the Neolithic to the Steppe Migrations'
+  authors:
+  - Bilal
+  year: 2026
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  doi: 10.5281/zenodo.21421127
+  url: https://doi.org/10.5281/zenodo.21421127
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5281/zenodo.21421127
+- suggested_id: source-2021
+  status: pending
+  title: Hephthalite Coin from an Early Medieval Burial at Gorny-10, Northern Altai
+  authors:
+  - Николай Николаевич Серегин
+  - Владимир Владимирович Тишин
+  - Надежда Фёдоровна Степанова
+  year: 2021
+  venue: Archaeology Ethnology and Anthropology of Eurasia
+  doi: 10.17746/1563-0110.2021.49.4.100-108
+  url: https://doi.org/10.17746/1563-0110.2021.49.4.100-108
+  source_type: journal-article
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.17746/1563-0110.2021.49.4.100-108
+- suggested_id: hephthalites-nd-2
+  status: pending
+  title: Hephthalites
+  authors: []
+  year: null
+  venue: Encyclopaedia of Islam, Second Edition
+  doi: 10.1163/1573-3912_islam_dum_1640
+  url: https://doi.org/10.1163/1573-3912_islam_dum_1640
+  source_type: dataset
+  found_via:
+  - 'crossref: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/1573-3912_islam_dum_1640
+- suggested_id: hephthalites-b71-nd
+  status: pending
+  title: Hephthalites+B71
+  authors: []
+  year: null
+  venue: Brill’s New Pauly
+  doi: 10.1163/1574-9347_bnp_e508010
+  url: https://doi.org/10.1163/1574-9347_bnp_e508010
+  source_type: dataset
+  found_via:
+  - 'crossref: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/1574-9347_bnp_e508010
+- suggested_id: hamp-1983-2
+  status: pending
+  title: Hu ? in scythian
+  authors:
+  - Hamp, Eric P.
+  year: 1983
+  venue: Indo-Iranian Journal
+  doi: 10.1007/bf00207432
+  url: https://doi.org/10.1007/bf00207432
+  source_type: journal-article
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/bf00207432
+- suggested_id: hamp-1983
+  status: pending
+  title: Hu – in Scythian
+  authors:
+  - Hamp, Eric P.
+  year: 1983
+  venue: Indo-Iranian Journal
+  doi: 10.1163/000000083790081491
+  url: https://doi.org/10.1163/000000083790081491
+  source_type: journal-article
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/000000083790081491
+- suggested_id: dynasty-nd
+  status: pending
+  title: INDO-SCYTHIAN DYNASTY
+  authors: []
+  year: null
+  venue: Encyclopaedia Iranica Online
+  doi: 10.1163/2330-4804_eiro_com_1394
+  url: https://doi.org/10.1163/2330-4804_eiro_com_1394
+  source_type: dataset
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2330-4804_eiro_com_1394
+- suggested_id: asmussen-1962
+  status: pending
+  title: Indo-Scythian Studies being Khotanese Texts, Volume IV. Translated and edited by H. W. Bailey.
+    Saka texts from Khotan in the Hedin Collection, pp.192. Cambridge University Press, 1961.
+  authors:
+  - Asmussen, Jes P.
+  year: 1962
+  venue: Journal of the Royal Asiatic Society
+  doi: 10.1017/s0035869x0012074x
+  url: https://doi.org/10.1017/s0035869x0012074x
+  source_type: journal-article
+  found_via:
+  - 'crossref: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1017/s0035869x0012074x
+- suggested_id: indo-scythian-2024
+  status: pending
+  title: Indo-Scythian, n. & adj.
+  authors: []
+  year: 2024
+  venue: Oxford English Dictionary
+  doi: 10.1093/oed/4173694113
+  url: https://doi.org/10.1093/oed/4173694113
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1093/oed/4173694113
 - suggested_id: tur-2024
   status: pending
   title: Infant and Child Mortality in the Andronovo Culture of the Forest-Steppe Altai
@@ -619,6 +1809,25 @@
   summary: ''
   reviewer_note: ''
   key: title:integrating ancient and modern dna to study human history in south asia and the americas
+- suggested_id: hossam-2025
+  status: pending
+  title: Introduction to Pashto Word’s Characteristics
+  authors:
+  - Alauddin Hossam
+  - Waliullah Fazil
+  - Saeedulhaq Saeed
+  year: 2025
+  venue: Nangarhar University Social Science Journal
+  doi: 10.70436/nussj.v2i03.59
+  url: https://doi.org/10.70436/nussj.v2i03.59
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto historical phonology'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.70436/nussj.v2i03.59
 - suggested_id: lakshminarayanan-2026
   status: pending
   title: 'Introduction: Contextualising Multireligious Interactions in Ancient Central and South Asia'
@@ -637,6 +1846,41 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1007/978-3-032-08209-1_1
+- suggested_id: duan-2026
+  status: pending
+  title: 'Introduction: The Last Scythians: Inter-civilization Exchange on the Silk Road from an Ancient
+    Khotanese Perspective'
+  authors:
+  - Qing Duan
+  year: 2026
+  venue: Springer eBooks
+  doi: 10.1007/978-981-92-1419-8_1
+  url: https://doi.org/10.1007/978-981-92-1419-8_1
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/978-981-92-1419-8_1
+- suggested_id: kumamoto-1982
+  status: pending
+  title: KHOTANESE OFFICIAL DOCUMENTS IN THE TENTH CENTURY A.D. (MIDDLE IRANIAN; CHINESE TURKESTAN)
+  authors:
+  - Hiroshi Kumamoto
+  year: 1982
+  venue: Scholarly Commons (University of Pennsylvania)
+  doi: null
+  url: https://repository.upenn.edu/dissertations/AAI8307332
+  source_type: thesis
+  found_via:
+  - 'openalex: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:khotanese official documents in the tenth century a d middle iranian chinese turkestan
 - suggested_id: skjrv-2006
   status: pending
   title: Khotanese
@@ -723,6 +1967,62 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1002/9781444338386.wbeah25038
+- suggested_id: khotanese-nd
+  status: pending
+  title: 'Local Literatures: Khotanese'
+  authors: []
+  year: null
+  venue: Brill's Encyclopedia of Buddhism Online
+  doi: 10.1163/2467-9666_enbo_com_0078
+  url: https://doi.org/10.1163/2467-9666_enbo_com_0078
+  source_type: dataset
+  found_via:
+  - 'crossref: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2467-9666_enbo_com_0078
+- suggested_id: ghosh-2024
+  status: pending
+  title: Locating Indo-Iranian borderlands between Central Asia and South Asia
+  authors:
+  - Ghosh, Suchandra
+  year: 2024
+  venue: The Routledge Handbook of Classics, Colonialism, and Postcolonial Theory
+  doi: 10.4324/9781003096016-23
+  url: https://doi.org/10.4324/9781003096016-23
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4324/9781003096016-23
+- suggested_id: source-2018-3
+  status: pending
+  title: Maternal genetic features of the Iron Age Tagar population from Southern Siberia (1st millennium
+    BC)
+  authors:
+  - Пилипенко Александр Сергеевич
+  - Rostislav O. Trapezov
+  - Stepan V. Cherdantsev
+  - Vladimir N. Babenko
+  - Нестерова Марина Сергеевна
+  - et al.
+  year: 2018
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0204062
+  url: https://doi.org/10.1371/journal.pone.0204062
+  source_type: journal-article
+  found_via:
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1371/journal.pone.0204062
 - suggested_id: papachristou-2024
   status: pending
   title: Metalworkers’ Workshops at Gonur and the Bactria-Margiana Archaeological Complex (BMAC) Sites
@@ -779,6 +2079,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.17863/cam.127790
+- suggested_id: my-khan-2026
+  status: pending
+  title: My-Khan/Pashto-NER
+  authors:
+  - My-Khan
+  year: 2026
+  venue: GitHub repository (MIT)
+  doi: null
+  url: https://github.com/My-Khan/Pashto-NER
+  source_type: dataset
+  found_via:
+  - 'github: Pashto corpus'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:my khan pashto ner
 - suggested_id: simswilliams-2002
   status: pending
   title: New Documents in Ancient Bactrian Reveal Afghanistan's Past
@@ -797,6 +2114,92 @@
   summary: ''
   reviewer_note: ''
   key: title:new documents in ancient bactrian reveal afghanistan s past
+- suggested_id: rapin-2007
+  status: pending
+  title: 'Nomads and the Shaping of Central Asia: from the Early Iron Age to the Kushan period'
+  authors:
+  - RAPIN, CLAUDE
+  year: 2007
+  venue: 'After Alexander: Central Asia before Islam'
+  doi: 10.5871/bacad/9780197263846.003.0003
+  url: https://doi.org/10.5871/bacad/9780197263846.003.0003
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5871/bacad/9780197263846.003.0003
+- suggested_id: professor-2024
+  status: pending
+  title: Non-rhymed Sonnet in Pashto Poetry and Literature
+  authors:
+  - Professor, Kabul University, Languages and Literature Faculty, Pashto Department
+  - Yazal, Dr. Yar Muhammad
+  - Gurbaz, Muhammad Qasim
+  - Assistant Professor, Shaikh Zayed University, Faculty of Languages and Literature, Pashto Department
+  year: 2024
+  venue: International Journal of Multidisciplinary Research Configuration
+  doi: 10.52984/ijomrc4402
+  url: https://doi.org/10.52984/ijomrc4402
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.52984/ijomrc4402
+- suggested_id: arts-2022
+  status: pending
+  title: 'Northern Cultures of Eurasia: Scythian/saka arts'
+  authors: []
+  year: 2022
+  venue: Artistic Traditions of Inner Eurasian Cultures
+  doi: 10.5040/9781666984316.ch-5
+  url: https://doi.org/10.5040/9781666984316.ch-5
+  source_type: journal-article
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5040/9781666984316.ch-5
+- suggested_id: language-nd-2
+  status: pending
+  title: OSSETIC LANGUAGE
+  authors: []
+  year: null
+  venue: Encyclopaedia Iranica Online
+  doi: 10.1163/2330-4804_eiro_com_947
+  url: https://doi.org/10.1163/2330-4804_eiro_com_947
+  source_type: dataset
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/2330-4804_eiro_com_947
+- suggested_id: levitskaya-2026
+  status: pending
+  title: 'On the “age” of the grammatical category of aspect in modern Ossetic: History and realia'
+  authors:
+  - Alina Afakoevna Levitskaya
+  year: 2026
+  venue: Indo-Iranian Languages
+  doi: 10.30842/30346800.2026.2.2.2
+  url: https://doi.org/10.30842/30346800.2026.2.2.2
+  source_type: journal-article
+  found_via:
+  - 'openalex: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.30842/30346800.2026.2.2.2
 - suggested_id: hussain-2026-3
   status: pending
   title: 'Origins of the Yusufzai Tribe (A Pashtun Tribe): A Genetic Perspective'
@@ -849,6 +2252,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.20874/2071-0437-2018-41-2-097-108
+- suggested_id: yousaf-2020
+  status: pending
+  title: Pakistan’s Pashtun ‘tribal’ areas (formerly known as FATA)
+  authors:
+  - Yousaf, Farooq
+  year: 2020
+  venue: Pakistan, Regional Security and Conflict Resolution
+  doi: 10.4324/9781003031130-4
+  url: https://doi.org/10.4324/9781003031130-4
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Pashtun population genetics'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4324/9781003031130-4
 - suggested_id: west-2012
   status: pending
   title: Paktyes mountain
@@ -882,6 +2302,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.4324/9780203641736-20
+- suggested_id: caron-2018
+  status: pending
+  title: Pashto Border Literature as Geopolitical Knowledge
+  authors:
+  - James Caron
+  year: 2018
+  venue: Geopolitics
+  doi: 10.1080/14650045.2018.1549035
+  url: https://doi.org/10.1080/14650045.2018.1549035
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1080/14650045.2018.1549035
 - suggested_id: andreyev-2010
   status: pending
   title: 'Pashto Literature: The Classical Period'
@@ -933,6 +2370,57 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.46698/vnc.2022.98.88.001
+- suggested_id: cheung-2013
+  status: pending
+  title: Pashto Problems III
+  authors:
+  - Johnny Cheung
+  year: 2013
+  venue: ''
+  doi: null
+  url: https://hal.archives-ouvertes.fr/hal-01245962
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto historical phonology'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:pashto problems iii
+- suggested_id: chiara-2026
+  status: pending
+  title: 'Pashto demonstrative and deictoid pronouns: Anaphora, deixis and pleonasm'
+  authors:
+  - Matteo de Chiara
+  year: 2026
+  venue: Indo-Iranian Languages
+  doi: 10.30842/30346800.2026.2.2.1
+  url: https://doi.org/10.30842/30346800.2026.2.2.1
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto etymology Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.30842/30346800.2026.2.2.1
+- suggested_id: hallberg-1992
+  status: pending
+  title: Pashto, Waneci, Ormuri
+  authors:
+  - Daniel G. Hallberg
+  year: 1992
+  venue: Americanae (AECID Library)
+  doi: null
+  url: http://americanae.aecid.es/americanae/es/registros/registro.do?tipoRegistro=MTD&idBib=3261058
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:pashto waneci ormuri
 - suggested_id: shinwari-2025
   status: pending
   title: Pashtun Tahafuz Movement
@@ -950,6 +2438,109 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.4324/9781003585725-7
+- suggested_id: tapper-1986
+  status: pending
+  title: Pashtun nomad women in Afghanistan [photocopy] / Nancy Tapper.
+  authors: []
+  year: 1986
+  venue: ''
+  doi: 10.2458/azu_acku_pamphlet_hq1735_6_t37_1986
+  url: https://doi.org/10.2458/azu_acku_pamphlet_hq1735_6_t37_1986
+  source_type: book
+  found_via:
+  - 'crossref: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2458/azu_acku_pamphlet_hq1735_6_t37_1986
+- suggested_id: abdunabiyevich-2023
+  status: pending
+  title: Politics of the Kushan Empire in North India
+  authors:
+  - Biykuziev Asxat Abdunabiyevich
+  year: 2023
+  venue: 'Web of Synergy: International Interdisciplinary Research Journal'
+  doi: null
+  url: https://journal.univerpublishing.org/index.php/synergy/article/view/2231
+  source_type: journal-article
+  found_via:
+  - 'openalex: Kushan empire'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:politics of the kushan empire in north india
+- suggested_id: uddin-2019
+  status: pending
+  title: Prevalence of Diarrhea in Summer Season in the Coldest Valley of Kalam Swat
+  authors:
+  - Uddin, Imran
+  year: 2019
+  venue: Nursing &amp; Healthcare International Journal
+  doi: 10.23880/nhij-16000195
+  url: https://doi.org/10.23880/nhij-16000195
+  source_type: journal-article
+  found_via:
+  - 'crossref: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.23880/nhij-16000195
+- suggested_id: prologue-scythian-philosophy-pyrrho-2015
+  status: pending
+  title: 'Prologue. Scythian Philosophy: Pyrrho, the Persian Empire, and India'
+  authors: []
+  year: 2015
+  venue: Greek Buddha
+  doi: 10.1515/9781400866328-005
+  url: https://doi.org/10.1515/9781400866328-005
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9781400866328-005
+- suggested_id: a-2019
+  status: pending
+  title: Prospects for the Application of Paleogenetic Analysis Within the Bioarcheological Study of the
+    Population of Andronovo Culture
+  authors:
+  - Pilipenko A.
+  - Dmitri V. Papin
+  year: 2019
+  venue: Teoriya i praktika arkheologicheskikh issledovaniy
+  doi: 10.14258/tpai(2019)4(28).-08
+  url: https://doi.org/10.14258/tpai(2019)4(28).-08
+  source_type: journal-article
+  found_via:
+  - 'openalex: Andronovo culture'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.14258/tpai(2019)4(28).-08
+- suggested_id: lyonnet-2020
+  status: pending
+  title: Questioning the Oxus Civilization or Bactria-Margiana Archaeological Culture (BMAC)
+  authors:
+  - Lyonnet, Bertille
+  - Dubova, Nadezhda A.
+  year: 2020
+  venue: The World of the Oxus Civilization
+  doi: 10.4324/9781315193359-3
+  url: https://doi.org/10.4324/9781315193359-3
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Bactria Margiana Archaeological Complex'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4324/9781315193359-3
 - suggested_id: savinov-2018
   status: pending
   title: Reference site of the Andronovo culture in the Kemerovo oblast
@@ -968,6 +2559,107 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.31600/2310-6557-2018-19-70-79
+- suggested_id: khan-2024-2
+  status: pending
+  title: Rehabilitation of Ex-combatants in Swat
+  authors:
+  - Khan, Ilam
+  year: 2024
+  venue: Rehabilitation, Deradicalization, and Reintegration of Militants
+  doi: 10.1007/978-981-99-9514-1_5
+  url: https://doi.org/10.1007/978-981-99-9514-1_5
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1007/978-981-99-9514-1_5
+- suggested_id: de-jong-1998
+  status: pending
+  title: Richard N. Frye, The Heritage of Central Asia. From Antiquity to the Turkish Expansion
+  authors:
+  - De Jong, J.W.
+  year: 1998
+  venue: Indo-Iranian Journal
+  doi: 10.1023/a:1003079114006
+  url: https://doi.org/10.1023/a:1003079114006
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1023/a:1003079114006
+- suggested_id: jong-1998
+  status: pending
+  title: Richard N. Frye, The Heritage of Central Asia. From Antiquity to the Turkish Expansion
+  authors:
+  - de Jong
+  year: 1998
+  venue: Indo-Iranian Journal
+  doi: 10.1163/000000098124992501
+  url: https://doi.org/10.1163/000000098124992501
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/000000098124992501
+- suggested_id: sardar-2012
+  status: pending
+  title: Rock art in the Swat Valley, Pakistan
+  authors:
+  - Sardar, Badshah
+  year: 2012
+  venue: Ancient Asia
+  doi: 10.5334/aa.12306
+  url: https://doi.org/10.5334/aa.12306
+  source_type: journal-article
+  found_via:
+  - 'crossref: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5334/aa.12306
+- suggested_id: source-2026
+  status: pending
+  title: SCYTHIAN-SAKA HERITAGE IN THE YAKUT GENE POOL
+  authors:
+  - Дмитрий Тихонов
+  year: 2026
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  doi: 10.5281/zenodo.22142725
+  url: https://doi.org/10.5281/zenodo.22142725
+  source_type: preprint
+  found_via:
+  - 'openalex: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5281/zenodo.22142725
+- suggested_id: names-nd
+  status: pending
+  title: 'SEG 65-581. North Shore of the Black Sea. Onomastics: Scythian and Sarmatian names.'
+  authors: []
+  year: null
+  venue: Supplementum Epigraphicum Graecum
+  doi: 10.1163/1874-6772_seg_a65_581
+  url: https://doi.org/10.1163/1874-6772_seg_a65_581
+  source_type: dataset
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/1874-6772_seg_a65_581
 - suggested_id: sakshyam-patro-2026
   status: pending
   title: Sakshyam-Patro/aadr-explorer
@@ -985,6 +2677,22 @@
   summary: ''
   reviewer_note: ''
   key: title:sakshyam patro aadr explorer
+- suggested_id: empire-2015
+  status: pending
+  title: Satrapy Of Bakhtaran (Bactra) And Kushan Empire
+  authors: []
+  year: 2015
+  venue: Central Asian Cultures, Arts, and Architecture
+  doi: 10.5040/9781666988352.ch-005
+  url: https://doi.org/10.5040/9781666988352.ch-005
+  source_type: journal-article
+  found_via:
+  - 'crossref: Kushan empire'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5040/9781666988352.ch-005
 - suggested_id: gro-2021
   status: pending
   title: Saving Scythians from oblivion
@@ -1002,6 +2710,96 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1016/j.cub.2021.04.004
+- suggested_id: beckwith-2017
+  status: pending
+  title: Scythian Philosophy
+  authors:
+  - Beckwith, Christopher I.
+  year: 2017
+  venue: Greek Buddha
+  doi: 10.23943/princeton/9780691176321.003.0001
+  url: https://doi.org/10.23943/princeton/9780691176321.003.0001
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.23943/princeton/9780691176321.003.0001
+- suggested_id: taylor-2003
+  status: pending
+  title: Scythian and Sarmatian art
+  authors:
+  - Taylor, Timothy
+  year: 2003
+  venue: Oxford Art Online
+  doi: 10.1093/gao/9781884446054.article.t077242
+  url: https://doi.org/10.1093/gao/9781884446054.article.t077242
+  source_type: journal-article
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1093/gao/9781884446054.article.t077242
+- suggested_id: kisel-2021
+  status: pending
+  title: Scythian animal style and the social and political history of the ancient nomads
+  authors:
+  - Vladimir A. Kisel
+  year: 2021
+  venue: Институт археологии РАН eBooks
+  doi: 10.25681/iaras.2020.978-5-94375-332-9.59-70
+  url: https://doi.org/10.25681/iaras.2020.978-5-94375-332-9.59-70
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.25681/iaras.2020.978-5-94375-332-9.59-70
+- suggested_id: abaev-2025
+  status: pending
+  title: Scythians and Ossetians
+  authors:
+  - Abaev, Vasily I.
+  year: 2025
+  venue: Skytho-Alano-Ossetica
+  doi: 10.1163/9789004754478_004
+  url: https://doi.org/10.1163/9789004754478_004
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004754478_004
+- suggested_id: e-2026
+  status: pending
+  title: Selection-guided discovery in South Asians implicates the MAPT locus in insulin resistance
+  authors:
+  - Pennarun E
+  - Banfalvi B
+  - Li Y
+  - Hodgson S
+  - Bui V
+  - et al.
+  year: 2026
+  venue: medRxiv
+  doi: 10.64898/2026.03.12.26348237
+  url: https://doi.org/10.64898/2026.03.12.26348237
+  source_type: preprint
+  found_via:
+  - 'europepmc: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.64898/2026.03.12.26348237
 - suggested_id: kaisse-1981
   status: pending
   title: 'Separating phonology from syntax: a reanalysis of Pashto cliticization'
@@ -1035,6 +2833,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1017/9781009289245.003
+- suggested_id: waghmar-2021
+  status: pending
+  title: 'Settled rather than saddled Scythians: the easternmost Sakas'
+  authors:
+  - Burzine K. Waghmar
+  year: 2021
+  venue: Archaeopress Publishing Ltd eBooks
+  doi: 10.2307/j.ctv1fcf8hh.52
+  url: https://doi.org/10.2307/j.ctv1fcf8hh.52
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/j.ctv1fcf8hh.52
 - suggested_id: jarve-2019
   status: pending
   title: Shifts in the Genetic Landscape of the Western Eurasian Steppe Associated with the Beginning
@@ -1075,6 +2890,60 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.5281/zenodo.18751992
+- suggested_id: asatrian-2026
+  status: pending
+  title: Skytho-Alano-Ossetica
+  authors:
+  - Asatrian, Garnik S.
+  - Buyaner, David
+  - Chibirov, Alexey
+  year: 2026
+  venue: ''
+  doi: 10.1163/9789004754478
+  url: https://doi.org/10.1163/9789004754478
+  source_type: book
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004754478
+- suggested_id: yakubovich-2017
+  status: pending
+  title: Sogdian Epigraphy of Central Asia and Semirech’e, written by Vladimir A. Livshits
+  authors:
+  - Yakubovich, Ilya
+  year: 2017
+  venue: Indo-Iranian Journal
+  doi: 10.1163/15728536-06003005
+  url: https://doi.org/10.1163/15728536-06003005
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/15728536-06003005
+- suggested_id: kurbanov-2016
+  status: pending
+  title: Some information related to the art histrory of the hephthalite time (4th-6th centuries ad) in
+    Central Asia niegbouring countries
+  authors:
+  - Aydogdy Kurbanov
+  year: 2016
+  venue: ISIMU Revista sobre Oriente Próximo y Egipto en la antigüedad
+  doi: 10.15366/isimu2013.16.006
+  url: http://dx.doi.org/10.15366/isimu2013.16.006
+  source_type: journal-article
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.15366/isimu2013.16.006
 - suggested_id: antonova-2020
   status: pending
   title: Some thoughts on the imaginary representations in the Bactria-Margiana Archaeological Culture
@@ -1092,6 +2961,46 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.4324/9781315193359-9
+- suggested_id: toncheva-2022
+  status: pending
+  title: Spatio-temporal dynamics of pathogenic variants associated with monogenic disorders reconstructed
+    with ancient DNA
+  authors:
+  - Draga Ivanova Toncheva
+  - Maria Marinova
+  - Plаmеnkа Borovskа
+  - Dimitar Serbezov
+  year: 2022
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0269628
+  url: https://doi.org/10.1371/journal.pone.0269628
+  source_type: journal-article
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1371/journal.pone.0269628
+- suggested_id: papin-2020
+  status: pending
+  title: Structure of Paleodiets of Andronovo Culture Population in Altai By the Data of Isotopic Analysis
+    (preliminary results)
+  authors:
+  - Dmitri V. Papin
+  - Svetlana Vladimirovna Svyatko
+  year: 2020
+  venue: Teoriya i praktika arkheologicheskikh issledovaniy
+  doi: 10.14258/tpai(2020)2(30).-05
+  url: https://doi.org/10.14258/tpai(2020)2(30).-05
+  source_type: journal-article
+  found_via:
+  - 'openalex: Andronovo culture'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.14258/tpai(2020)2(30).-05
 - suggested_id: simswilliams-2014
   status: pending
   title: Studies in the Chronology of the Bactrian Documents from Northern Afghanistan
@@ -1110,6 +3019,42 @@
   summary: ''
   reviewer_note: ''
   key: title:studies in the chronology of the bactrian documents from northern afghanistan
+- suggested_id: simswilliams-2018
+  status: pending
+  title: 'Studies in the Chronology of the Bactrian Documents from Northern Afghanistan: with contributions
+    by Harry Falk and Dieter Weber'
+  authors:
+  - Nicholas Sims‐Williams
+  - François de Blois
+  year: 2018
+  venue: Verlag der österreichischen Akademie der Wissenschaften eBooks
+  doi: 10.2307/j.ctv1wxr4d
+  url: https://doi.org/10.2307/j.ctv1wxr4d
+  source_type: book
+  found_via:
+  - 'openalex: Bactrian language documents inscription'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/j.ctv1wxr4d
+- suggested_id: cheung-2002
+  status: pending
+  title: Studies in the Historical Development of the Ossetic Vocalism
+  authors:
+  - Johnny Cheung
+  year: 2002
+  venue: Jagiellonian University Repository (Jagiellonian University)
+  doi: null
+  url: https://ruj.uj.edu.pl/xmlui/handle/item/156852
+  source_type: journal-article
+  found_via:
+  - 'openalex: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:studies in the historical development of the ossetic vocalism
 - suggested_id: sheikh-2023
   status: pending
   title: Studies of Bactrian Legal Documents
@@ -1127,6 +3072,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/9789004519985
+- suggested_id: afzal-2022
+  status: pending
+  title: 'Sub-Nationalism and Nationalism: The Dilemma of Power and Ethnicity in Afghanistan'
+  authors:
+  - Osman Mohammed Afzal
+  year: 2022
+  venue: Beijing Law Review
+  doi: 10.4236/blr.2022.132026
+  url: https://doi.org/10.4236/blr.2022.132026
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.4236/blr.2022.132026
 - suggested_id: surkh-kotal-greek-words-in-a-bactrian-building-inscription-nd
   status: pending
   title: Surkh Kotal. Greek words in a Bactrian building inscription, before 100-150 A.D.?
@@ -1143,6 +3105,56 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/1874-6772_seg_a52_1526
+- suggested_id: kingdom-2025
+  status: pending
+  title: THE COINAGE OF THE INDO-SCYTHIAN KINGDOM
+  authors: []
+  year: 2025
+  venue: A Numismatic History of Barikot
+  doi: 10.2307/jj.30599548.34
+  url: https://doi.org/10.2307/jj.30599548.34
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/jj.30599548.34
+- suggested_id: kingdom-2025-2
+  status: pending
+  title: THE COINAGE OF THE INDO-SCYTHIAN KINGDOM
+  authors: []
+  year: 2025
+  venue: A Numismatic History of Barikot
+  doi: 10.2307/jj.30599548.14
+  url: https://doi.org/10.2307/jj.30599548.14
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/jj.30599548.14
+- suggested_id: s-dhammasami-2026
+  status: pending
+  title: 'THE RUKHUNA RELIQUARY CASKET: EPIGRAPHIC EVIDENCE OF INDO-SCYTHIAN RELIC VENERATION AND EARLY
+    INSTITUTIONAL CUSTODIANSHIP(HIRR-2026-0007)'
+  authors:
+  - Bhikkhu Indasoma Siridantamahapalaka S.Dhammasami
+  year: 2026
+  venue: PhilPapers (PhilPapers Foundation)
+  doi: 10.5281/zenodo.21036031
+  url: https://philpapers.org/rec/BHITRR
+  source_type: book
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5281/zenodo.21036031
 - suggested_id: marsadolov-2021
   status: pending
   title: TO THE COUNTING SYSTEM AMONG THE TRIBES OF THE ANDRONOVO CULTURE
@@ -1160,6 +3172,25 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.31600/978-5-907298-19-4.79-83
+- suggested_id: ullah-2024
+  status: pending
+  title: Taliban Rule and the Ethnic Factor in Afghanistan
+  authors:
+  - Azmat Ullah
+  - Arousa Aman
+  - Muhammad Javed Ashraf
+  year: 2024
+  venue: Kurdish Studies
+  doi: 10.53555/ks.v12i4.3656
+  url: https://doi.org/10.53555/ks.v12i4.3656
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.53555/ks.v12i4.3656
 - suggested_id: henning-1977
   status: pending
   title: The Bactrian Inscription
@@ -1211,6 +3242,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.2143/anes.45.0.2033166
+- suggested_id: gretzinger-2026
+  status: pending
+  title: 'The Dead don’t speak: Connecting language and ancient DNA'
+  authors:
+  - Joscha Gretzinger
+  year: 2026
+  venue: Reichert Verlag eBooks
+  doi: 10.29091/9783752003659/003
+  url: https://doi.org/10.29091/9783752003659/003
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.29091/9783752003659/003
 - suggested_id: wiesehofer-2022
   status: pending
   title: The End of the Kushan Empire
@@ -1229,6 +3277,45 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1007/978-3-658-36876-0_11
+- suggested_id: sumanthiran-2019
+  status: pending
+  title: The Future of Christianity in South and Central Asia
+  authors:
+  - Sumanthiran, Savithri
+  year: 2019
+  venue: Christianity in South and Central Asia
+  doi: 10.3366/edinburgh/9781474439824.003.0038
+  url: https://doi.org/10.3366/edinburgh/9781474439824.003.0038
+  source_type: book-chapter
+  found_via:
+  - 'crossref: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.3366/edinburgh/9781474439824.003.0038
+- suggested_id: aneli-2022
+  status: pending
+  title: The Genetic Origin of Daunians and the Pan-Mediterranean Southern Italian Iron Age Context
+  authors:
+  - Serena Aneli
+  - Tina Saupe
+  - Francesco Montinaro
+  - Anu Solnik
+  - Ludovica Molinaro
+  - et al.
+  year: 2022
+  venue: Molecular Biology and Evolution
+  doi: 10.1093/molbev/msac014
+  url: https://doi.org/10.1093/molbev/msac014
+  source_type: journal-article
+  found_via:
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1093/molbev/msac014
 - suggested_id: narasimhan-2018
   status: pending
   title: The Genomic Formation of South and Central Asia
@@ -1251,6 +3338,57 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1101/292581
+- suggested_id: kurbanov-2010
+  status: pending
+  title: The Hephthalites
+  authors:
+  - Aydogdy Kurbanov
+  year: 2010
+  venue: Universitätsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver
+  doi: 10.17169/refubium-12565
+  url: http://edocs.fu-berlin.de/diss/receive/FUDISS_thesis_000000016150
+  source_type: thesis
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.17169/refubium-12565
+- suggested_id: de-chiara-2014
+  status: pending
+  title: The Khotanese Sudhanavadana
+  authors:
+  - De Chiara, Matteo
+  year: 2014
+  venue: ''
+  doi: 10.2307/j.ctvbqs728
+  url: https://doi.org/10.2307/j.ctvbqs728
+  source_type: book
+  found_via:
+  - 'crossref: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/j.ctvbqs728
+- suggested_id: katayama-2014
+  status: pending
+  title: The Khotanese Summary of the Saddharmapundarikasutra and the Saddharmapundarikopadesa
+  authors:
+  - Yumi Katayama
+  year: 2014
+  venue: Acta Tibetica et Buddhica
+  doi: 10.15054/00001151
+  url: http://ci.nii.ac.jp/naid/40020768606
+  source_type: journal-article
+  found_via:
+  - 'openalex: Khotanese Saka language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.15054/00001151
 - suggested_id: liu-2020
   status: pending
   title: The Kushan Empire
@@ -1319,6 +3457,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.2139/ssrn.5445057
+- suggested_id: bracey-2012
+  status: pending
+  title: The Mint Cities of the Kushan Empire
+  authors:
+  - Robert Bracey
+  year: 2012
+  venue: ''
+  doi: null
+  url: https://www.academia.edu/2078818/The_Mint_Cities_of_the_Kushan_Empire
+  source_type: journal-article
+  found_via:
+  - 'openalex: Kushan empire'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:the mint cities of the kushan empire
 - suggested_id: hitch-2016
   status: pending
   title: The Old Khotanese Metanalysis
@@ -1336,6 +3491,23 @@
   summary: ''
   reviewer_note: ''
   key: title:the old khotanese metanalysis
+- suggested_id: kim-1999
+  status: pending
+  title: The Origin of the Pre-Ossetic Oblique Suffix and its Implications
+  authors:
+  - Ronald Kim
+  year: 1999
+  venue: Scholarly Commons (University of Pennsylvania)
+  doi: null
+  url: https://repository.upenn.edu/cgi/viewcontent.cgi?article=1425&context=pwpl
+  source_type: journal-article
+  found_via:
+  - 'openalex: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:the origin of the pre ossetic oblique suffix and its implications
 - suggested_id: khan-2023
   status: pending
   title: The Phonological Process in the Plurality of Pashto Nouns
@@ -1355,6 +3527,127 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.59075/pjll.v2i2.321
+- suggested_id: omari-2022
+  status: pending
+  title: The Position and Function of Phonological and Morphological Vowels of (i , e) In Pashto Grammar
+  authors:
+  - Puhanyar Najibullah Omari
+  - Puhanyar Nematullah Asadi
+  year: 2022
+  venue: International Journal for Research in Applied Sciences and Biotechnology
+  doi: 10.31033/ijrasb.9.3.5
+  url: https://doi.org/10.31033/ijrasb.9.3.5
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto historical phonology'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.31033/ijrasb.9.3.5
+- suggested_id: khatak-2024
+  status: pending
+  title: The Position of Khatak in Pashto Dialectology
+  authors:
+  - Munazza Saeed Khatak
+  year: 2024
+  venue: Transactions of the Philological Society
+  doi: 10.1111/1467-968x.12293
+  url: http://dx.doi.org/10.1111/1467-968x.12293
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1111/1467-968x.12293
+- suggested_id: bahir-2025
+  status: pending
+  title: The Role of Technology in the Development of Pashto Literature
+  authors:
+  - Fahim Bahir
+  year: 2025
+  venue: Alberoni University International Journal
+  doi: 10.67054/auij/.v1i2.69
+  url: https://doi.org/10.67054/auij/.v1i2.69
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pashto literature history earliest'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.67054/auij/.v1i2.69
+- suggested_id: chibirov-2025
+  status: pending
+  title: The Scythian World and the Nart Epic
+  authors:
+  - Chibirov, Ludwig
+  year: 2025
+  venue: Skytho-Alano-Ossetica
+  doi: 10.1163/9789004754478_009
+  url: https://doi.org/10.1163/9789004754478_009
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004754478_009
+- suggested_id: ivantchik-1999
+  status: pending
+  title: 'The Scythian ‘Rule Over Asia’: the Classical Tradition and the Historical Reality'
+  authors:
+  - Ivantchik, Askold
+  year: 1999
+  venue: Ancient Greeks West and East
+  doi: 10.1163/9789004351257_021
+  url: https://doi.org/10.1163/9789004351257_021
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004351257_021
+- suggested_id: asia-2023
+  status: pending
+  title: The Scythians in Media and Central Asia
+  authors: []
+  year: 2023
+  venue: The Scythian Empire
+  doi: 10.2307/j.ctv2sbm8dx.15
+  url: https://doi.org/10.2307/j.ctv2sbm8dx.15
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Scythian ancient genomes Central Asia Saka'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.2307/j.ctv2sbm8dx.15
+- suggested_id: candotti-2024
+  status: pending
+  title: The Seleucid Influence on the Gandhāran Administrative System. A Study on the Greek-Derived Political
+    Offices with Special Reference to the Indo-Scythian Kingdom of Apraca
+  authors:
+  - Maria Piera Candotti
+  - Alessandro Giudice
+  year: 2024
+  venue: De Gruyter eBooks
+  doi: 10.1515/9783111427614-012
+  url: https://doi.org/10.1515/9783111427614-012
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1515/9783111427614-012
 - suggested_id: muradov-2020
   status: pending
   title: The architecture of the Bactria-Margiana Archaeological Culture
@@ -1389,6 +3682,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.11588/ejvs.2003.1.785
+- suggested_id: kurbanov-2013
+  status: pending
+  title: The hephthalite numismatics
+  authors:
+  - Aydogdy Kurbanov
+  year: 2013
+  venue: 'DOAJ (DOAJ: Directory of Open Access Journals)'
+  doi: null
+  url: https://doaj.org/article/85899da7a92640b99e9ad99360514f75
+  source_type: journal-article
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:the hephthalite numismatics
 - suggested_id: lurie-2021
   status: pending
   title: The preliminary results of investigations of the Andronovo culture mound in the South of Minusinsk
@@ -1426,6 +3736,62 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.2143/anes.41.0.562927
+- suggested_id: source-2022
+  status: pending
+  title: Traces of Ossetic in Finno-Ugric languages of the Ural region
+  authors:
+  - Олег Алексеевич Мудрак
+  year: 2022
+  venue: Rodnoy Yazyk Linguistic journal
+  doi: 10.37892/2313-5816-2022-2-52-66
+  url: http://doi.org/10.37892/2313-5816-2022-2-52-66
+  source_type: journal-article
+  found_via:
+  - 'openalex: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.37892/2313-5816-2022-2-52-66
+- suggested_id: gagloity-2025
+  status: pending
+  title: Tri-functional Division in Ossetian Ethnic Culture
+  authors:
+  - Gagloity, Yuri
+  year: 2025
+  venue: Skytho-Alano-Ossetica
+  doi: 10.1163/9789004754478_005
+  url: https://doi.org/10.1163/9789004754478_005
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Ossetic Scythian Sarmatian language'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1163/9789004754478_005
+- suggested_id: larsen-2026
+  status: pending
+  title: Using sedimentary ancient DNA to identify past ecosystem engineering in rivers
+  authors:
+  - Annegret Larsen
+  - Kevin Nota
+  - Peter van der Sleen
+  - Tom Brouwers
+  - Brian Ramirez-Cortes
+  - et al.
+  year: 2026
+  venue: EGU General Assembly Conference Abstracts
+  doi: 10.5194/egusphere-egu26-15208
+  url: https://doi.org/10.5194/egusphere-egu26-15208
+  source_type: journal-article
+  found_via:
+  - 'openalex: Swat Valley ancient DNA'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.5194/egusphere-egu26-15208
 - suggested_id: beckwith-2020
   status: pending
   title: Vihāras in the Kushan Empire
@@ -1443,6 +3809,23 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.2307/j.ctv15vwk2q.9
+- suggested_id: pathan-2021
+  status: pending
+  title: 'WATER RESOURCES OF PAKISTAN : AN ANALYSIS OF SOURCES AND SITUATION.'
+  authors:
+  - Pathan, Mushtaque Ahmed
+  year: 2021
+  venue: Academia Letters
+  doi: 10.20935/al2726
+  url: https://doi.org/10.20935/al2726
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.20935/al2726
 - suggested_id: dragoni-2023
   status: pending
   title: 'Watañi lāntaṃ: Khotanese and Tumshuqese Loanwords in Tocharian'
@@ -1460,6 +3843,68 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.29091/9783752002430
+- suggested_id: ilyas-2015
+  status: pending
+  title: Whole genome sequencing of an ethnic Pathan (Pakhtun) from the north-west of Pakistan
+  authors:
+  - Muhammad Ilyas
+  - Jong-Soo Kim
+  - Jesse Cooper
+  - Youngah Shin
+  - Hak‐Min Kim
+  - et al.
+  year: 2015
+  venue: BMC Genomics
+  doi: 10.1186/s12864-015-1290-1
+  url: https://doi.org/10.1186/s12864-015-1290-1
+  source_type: journal-article
+  found_via:
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1186/s12864-015-1290-1
+- suggested_id: segurel-2020
+  status: pending
+  title: Why and when was lactase persistence selected for? Insights from Central Asian herders and ancient
+    DNA
+  authors:
+  - Laure Ségurel
+  - Perle Guarino‐Vignon
+  - Nina Marchi
+  - Sophie Lafosse
+  - Romain Laurent
+  - et al.
+  year: 2020
+  venue: PLoS Biology
+  doi: 10.1371/journal.pbio.3000742
+  url: https://doi.org/10.1371/journal.pbio.3000742
+  source_type: journal-article
+  found_via:
+  - 'openalex: ancient DNA Central Asia South Asia'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.1371/journal.pbio.3000742
+- suggested_id: antonetti-2024
+  status: pending
+  title: Wine, Women and Royalty in Gandhāra
+  authors:
+  - Claudia Antonetti
+  year: 2024
+  venue: ''
+  doi: 10.30687/978-88-6969-816-3/010
+  url: https://doi.org/10.30687/978-88-6969-816-3/010
+  source_type: book-chapter
+  found_via:
+  - 'openalex: Indo-Scythian coinage Gandhara'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: doi:10.30687/978-88-6969-816-3/010
 - suggested_id: achakzai-2012
   status: pending
   title: Y-chromosomal STR analysis in the Pashtun population of Southern Afghanistan
@@ -1584,3 +4029,20 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.4324/9781003138730-33
+- suggested_id: simswilliams-2025
+  status: pending
+  title: '“This Citadel ...” : Some Bactrian Ownership and Identification Inscriptions'
+  authors:
+  - Nicholas Sims‐Williams
+  year: 2025
+  venue: Institutional Repositories DataBase (IRDB)
+  doi: null
+  url: https://hdl.handle.net/11094/103910
+  source_type: journal-article
+  found_via:
+  - 'openalex: Bactrian language documents inscription'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: ''
+  key: title:this citadel some bactrian ownership and identification inscriptions
