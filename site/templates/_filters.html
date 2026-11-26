@@ -1,0 +1,39 @@
+{# The search and filter bar shared by Explore, Timeline and Map.
+   The options are filled in from the data; filters.js reads and applies them. #}
+<form class="filters" id="filters" role="search" onsubmit="return false">
+  <label class="grow">Search
+    <input type="search" name="q" placeholder="e.g. Paktyes, Bactrian, steppe…">
+  </label>
+  <label>Population
+    <select name="population">
+      <option value="">All</option>
+      {% for p in m.populations.values() %}<option value="{{ p.id }}">{{ p.name }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Period
+    <select name="period">
+      <option value="">All</option>
+      {% for p in m.periods.values() %}<option value="{{ p.id }}">{{ p.label }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Evidence
+    <select name="level">
+      <option value="">All</option>
+      {% for l in m.levels %}<option value="{{ l.id }}">{{ l.label }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Strength
+    <select name="strength">
+      <option value="">All</option>
+      {% for s in m.strengths %}<option value="{{ s }}">{{ s | capitalize }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Topic
+    <select name="category">
+      <option value="">All</option>
+      {% for k, v in m.categories.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}
+    </select>
+  </label>
+  <button type="reset" class="link-button">Clear</button>
+  <p class="filter-count" id="filter-count" aria-live="polite"></p>
+</form>

@@ -1,0 +1,57 @@
+# Runs on every pull request and every push to main.
+#
+#  check:  validate the data, run the tests, build the site.
+#          A pull request that breaks a data rule shows a red X and can't be merged
+#          (once branch protection is turned on in the repo settings).
+#  deploy: only on main: publish the built site to GitHub Pages.
+#
+# One-time setup on GitHub: Settings -> Pages -> Source: "GitHub Actions".
+name: Validate, test and deploy
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Validate data
+        run: python scripts/validate.py
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Build site
+        run: python scripts/build_site.py
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  deploy:
+    needs: check
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,15 @@
+id: patterson-2006
+title: Population Structure and Eigenanalysis
+authors: ["Patterson, Nick", "Price, Alkes L.", "Reich, David"]
+year: 2006
+source_type: journal-article
+peer_reviewed: true
+venue: PLoS Genetics
+volume: "2"
+pages: e190
+doi: 10.1371/journal.pgen.0020190
+open_access: true
+summary: >
+  Sets out PCA for genetic data and the EIGENSOFT/smartpca software used in most
+  ancient-DNA PCA plots.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections. Authors after the first need checking."}

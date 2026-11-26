@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% from "_macros.html" import evidence_badge, strength_badge, status_badge %}
+{% block title %}{{ c.title }} · {{ config.title }}{% endblock %}
+{% block content %}
+<p class="breadcrumb"><a href="{{ root }}index.html">Claims</a> › {{ m.categories[c.category] }}</p>
+
+<h1>{{ c.title }}</h1>
+
+{% if c.status != "verified" %}
+<div class="banner unverified" role="note">
+  <strong>UNVERIFIED — needs source check.</strong>
+  {{ c.verification_note | trim | replace("UNVERIFIED — needs source check:", "") | trim }}
+</div>
+{% endif %}
+
+<div class="badges claim-badges">
+  {{ status_badge(c.status) }}
+  {{ strength_badge(c.strength, m) }}
+  <span class="badge category" style="--badge-bg: {{ m.category_colors[c.category] }}">{{ m.categories[c.category] }}</span>
+</div>
+<p class="muted small">{{ m.strengths[c.strength] }}</p>
+
+<blockquote class="statement-full">{{ c.statement | trim }}</blockquote>
+
+<dl class="facts">
+  {% if c.get("period") %}
+  <dt>When</dt>
+  <dd>{{ c.period.label }}{% if c.period.get("approximate", true) %} <span class="muted">(approximate)</span>{% endif %}</dd>
+  {% endif %}
+  <dt>Populations</dt>
+  <dd>
+    {% for pid in c.populations %}{% set p = m.populations[pid] %}
+    <span class="chip" title="{{ p.description }}">{{ p.name }} <small>{{ p.kind | replace("-", " ") }}</small></span>
+    {% endfor %}
+  </dd>
+  {% if c.regions %}
+  <dt>Regions</dt>
+  <dd>{% for rid in c.regions %}<a class="chip" href="{{ root }}map.html?region={{ rid }}">{{ m.regions[rid].name }}</a> {% endfor %}</dd>
+  {% endif %}
+</dl>
+
+{% if c.discussion %}
+<section>
+  <h2>Discussion</h2>
+  <p>{{ c.discussion | trim }}</p>
+</section>
+{% endif %}
+
+<section>
+  <h2>Evidence</h2>
+  {% if not c.citations %}
+  <p class="banner empty-evidence">No sources have been added for this claim yet. That is why its strength is "{{ c.strength }}".</p>
+  {% endif %}
+  {% for relation, heading in [("supports", "Supporting"), ("contradicts", "Contradicting"), ("context", "Context only")] %}
+  {% set group = c.citations | selectattr("relation", "equalto", relation) | list %}
+  {% if group %}
+  <h3 class="relation-heading relation-{{ relation }}">{{ heading }}</h3>
+  <ul class="citations">
+    {% for cit in group %}{% set s = m.sources[cit.source] %}
+    <li class="citation">
+      {{ evidence_badge(m.levels_by_id[cit.evidence_level]) }}
+      <div>
+        <a href="{{ root }}sources.html#{{ s.id }}">{{ s.short_cite }}. <cite>{{ s.title }}</cite></a>
+        {% if cit.get("locator") %}<span class="locator">{{ cit.locator }}</span>{% endif %}
+        {% if s.verification.status != "verified" %}<span class="badge status-unverified small-badge">source unverified</span>{% endif %}
+        {% if cit.get("note") %}<p class="note">{{ cit.note }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% endfor %}
+</section>
+
+{% if c.competing %}
+<section>
+  <h2>Competing claims</h2>
+  <p class="muted">These claims offer a different account. Compare their evidence side by side.</p>
+  <div class="compare">
+    {% for side in [{"claim": c.id, "label": "This claim", "note": ""}] + c.competing %}
+    {% set o = m.claims[side.claim] %}
+    <article class="compare-col{% if loop.first %} current{% endif %}">
+      <p class="compare-label">{{ side.label }}</p>
+      <h3>{% if loop.first %}{{ o.title }}{% else %}<a href="{{ o.id }}.html">{{ o.title }}</a>{% endif %}</h3>
+      <div class="badges">{{ status_badge(o.status) }} {{ strength_badge(o.strength, m) }}</div>
+      <p>{{ o.statement | trim }}</p>
+      <div class="badges">
+        {% for lid in o.evidence_levels %}{{ evidence_badge(m.levels_by_id[lid]) }} {% endfor %}
+        {% if not o.evidence_levels %}<span class="muted">No sources yet</span>{% endif %}
+      </div>
+      {% if side.note %}<p class="note">{{ side.note }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if c.other_related %}
+<section>
+  <h2>Related claims</h2>
+  <ul class="related">
+    {% for r in c.other_related %}{% set o = m.claims[r.claim] %}
+    <li><span class="relation-label">{{ r.label }}</span>
+      <a href="{{ o.id }}.html">{{ o.title }}</a> {{ strength_badge(o.strength, m) }}
+      {% if r.note %}<span class="note">— {{ r.note }}</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<footer class="claim-footer muted small">
+  Claim ID: <code>{{ c.id }}</code>
+  {% if c.get("last_reviewed") %} · Last reviewed {{ c.last_reviewed }}{% endif %}
+  {% if config.repo_url %} · <a href="{{ config.repo_url }}/edit/{{ config.branch }}/data/claims/{{ c.id }}.yaml">Suggest an edit</a>{% endif %}
+</footer>
+{% endblock %}

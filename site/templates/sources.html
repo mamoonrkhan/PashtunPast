@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Sources · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>Sources</h1>
+<p>
+  Every source cited anywhere in the atlas. We store only bibliographic details,
+  links and short summaries in our own words, never copied text. A source is
+  <strong>verified</strong> once a person has opened it and confirmed its details.
+</p>
+
+<ol class="source-list">
+  {% for s in m.sources.values() %}
+  <li id="{{ s.id }}" class="source">
+    <p class="citation-text">
+      {{ s.authors | join("; ") }}
+      ({{ s.year | year if s.year < 0 else s.year }}).
+      <cite>{{ s.title }}</cite>.
+      {% if s.get("venue") %}{{ s.venue }}{% endif %}{% if s.get("volume") %} {{ s.volume }}{% endif %}{% if s.get("issue") %}({{ s.issue }}){% endif %}{% if s.get("pages") %}: {{ s.pages }}{% endif %}.
+    </p>
+    <div class="badges">
+      <span class="badge neutral">{{ s.source_type | replace("-", " ") }}</span>
+      {% if s.get("peer_reviewed") %}<span class="badge neutral">peer reviewed</span>{% endif %}
+      {% if s.verification.status == "verified" %}
+        <span class="badge status-verified">✓ Verified{% if s.verification.get("checked_by") %} by {{ s.verification.checked_by }}{% endif %}</span>
+      {% else %}
+        <span class="badge status-unverified">UNVERIFIED</span>
+      {% endif %}
+    </div>
+    {% if s.get("edition") %}<p class="small"><strong>Edition:</strong> {{ s.edition | trim }}</p>{% endif %}
+    {% if s.get("summary") %}<p>{{ s.summary | trim }}</p>{% endif %}
+    <p class="links small">
+      {% if s.get("doi") %}<a href="https://doi.org/{{ s.doi }}">doi:{{ s.doi }}</a>{% endif %}
+      {% if s.get("url") %}<a href="{{ s.url }}">Online</a>{% endif %}
+      {% if s.get("isbn") %}ISBN {{ s.isbn }}{% endif %}
+    </p>
+    {% if s.verification.get("notes") %}
+    <details><summary>Verification notes</summary><p class="small">{{ s.verification.notes | trim }}</p></details>
+    {% endif %}
+    <p class="small">Cited by:
+      {% for cid in s.cited_by %}<a href="claims/{{ cid }}.html">{{ m.claims[cid].title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+      {% if not s.cited_by %}<span class="muted">no claims</span>{% endif %}
+    </p>
+    {% if s.get("cited_in_docs") %}
+    <p class="small">Cited in documentation:
+      {% for d in s.cited_in_docs %}<a href="{{ d.url }}">{{ d.title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+    </p>
+    {% endif %}
+    {% if s.get("used_in_cognates") %}
+    <p class="small">Used in cognate sets:
+      {% for cid in s.used_in_cognates %}<a href="linguistics.html#set-{{ cid }}">{{ cid }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+    </p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endblock %}

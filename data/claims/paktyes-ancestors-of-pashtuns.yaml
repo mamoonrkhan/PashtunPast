@@ -1,0 +1,47 @@
+id: paktyes-ancestors-of-pashtuns
+title: The Paktyes of Herodotus were ancestors of the Pashtuns
+statement: >
+  The Paktyes named by Herodotus were an early form of the Pashtun people, and
+  their name is an early form of "Pakhtun" / "Pashtun".
+discussion: >
+  A popular and long-standing identification, based on the similar names and
+  the eastern location. Open questions: whether the sound changes from
+  "Paktu-" to "Pashtun/Pakhtun" fit known Pashto sound history; whether
+  Herodotus's Paktyes were one people or several (see the western Paktyike);
+  and the 2,000-year gap between Herodotus and the first Pashtun texts. Some
+  writers also link the Paktha tribe of the Rigveda to this name; no source for
+  that has been added yet. Readers searching Herodotus should note that the
+  same name is also used for an unrelated Lydian man (1.153–161) and a town on
+  the Gallipoli peninsula (6.36).
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find peer-reviewed linguistic discussion of
+  whether "Paktyes" can be derived from or linked to "Pashtun/Pakhtun", both for
+  and against.
+strength: contested
+category: origin-theory
+populations: [paktyes, pashtuns]
+regions: [gandhara, arachosia, sulaiman-mountains]
+period:
+  start: -480
+  end: 1600
+  approximate: true
+  label: 5th century BCE to the earliest Pashtun texts
+  periods: [achaemenid]
+citations:
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: context
+    locator: Histories 3.102; 7.67
+    note: Shows the name and the eastern location; cannot show continuity to Pashtuns.
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: context
+    locator: Histories 3.93
+    note: A second Paktyike near Armenia complicates the identification.
+related_claims:
+  - claim: herodotus-names-paktyes
+    relation: depends-on
+  - claim: herodotus-western-paktyike
+    relation: depends-on
+tags: [ethnonym, popular-theory]

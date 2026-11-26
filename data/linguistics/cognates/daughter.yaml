@@ -1,0 +1,22 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: daughter
+gloss: daughter
+semantic_field: kinship
+forms:
+- language: pashto
+  form: lūr
+  script: لور
+  source: morgenstierne-2003
+  locator: s.v. lūr (to be checked)
+  status: unverified
+- language: avestan
+  form: duγδar-
+  source: bartholomae-1904
+  locator: s.v. duγδar- (to be checked)
+  status: unverified
+notes: Pashto lūr has l where Avestan duγδar- has d. The same match appears in 'ten' (Pashto las, Avestan
+  dasa).
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian

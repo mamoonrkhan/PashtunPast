@@ -1,0 +1,34 @@
+id: pashtuns-steppe-ancestry
+title: Modern Pashtun samples carry substantial steppe-related ancestry
+statement: >
+  In published genetic studies, modern Pashtun ("Pathan") samples are modelled
+  as a mix of Iranian-farmer-related ancestry, Steppe_MLBA ancestry and South
+  Asian hunter-gatherer-related ancestry, with steppe ancestry among the higher
+  levels seen in South Asia.
+discussion: >
+  Small samples from a few places cannot represent all Pashtuns, and mixture
+  models describe ancestry sources, not ethnic or national identities.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find the Pathan samples in Narasimhan 2019's
+  supplementary tables; record the sample size, where the samples came from and
+  the estimated proportions. Downgrade this claim if the paper doesn't support it.
+strength: moderate
+category: genetics
+populations: [pashtuns, steppe-mlba]
+regions: [gandhara, sulaiman-mountains]
+period:
+  start: 1900
+  end: 2019
+  approximate: true
+  label: Modern samples
+  periods: [modern]
+citations:
+  - source: narasimhan-2019
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Supplementary materials (tables to be identified)
+related_claims:
+  - claim: steppe-ancestry-into-south-asia
+    relation: depends-on
+tags: [modern-dna]

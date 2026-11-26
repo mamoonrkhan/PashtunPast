@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "sogdiana",
+    "name": "Sogdiana",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The Zarafshan valley around Samarkand and Bukhara."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       63.8,
+       38.9
+      ],
+      [
+       68.9,
+       38.7
+      ],
+      [
+       70.6,
+       40.4
+      ],
+      [
+       68.4,
+       41.1
+      ],
+      [
+       64.0,
+       40.6
+      ],
+      [
+       63.8,
+       38.9
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+id: unterlander-2017
+title: Ancestry and demography and descendants of Iron Age nomads of the Eurasian Steppe
+authors:
+  - "Unterländer, Martina"
+  - "et al."
+year: 2017
+source_type: journal-article
+peer_reviewed: true
+venue: Nature Communications
+volume: "8"
+pages: "14615"
+doi: 10.1038/ncomms14615
+open_access: true
+summary: >
+  Ancient-DNA study of Iron Age nomads associated with Scythian-type
+  cultures across the steppe, looking at their ancestry and how it varied
+  from west to east.
+verification:
+  status: unverified
+  notes: >
+    Automated check 2026-11-25: DOI resolves on Crossref and title, first author,
+    venue and year match. Still needs a human to open the work and confirm it says
+    what our claims cite it for.

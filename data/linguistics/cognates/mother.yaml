@@ -1,0 +1,21 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: mother
+gloss: mother
+semantic_field: kinship
+forms:
+- language: pashto
+  form: mor
+  script: مور
+  source: morgenstierne-2003
+  locator: s.v. mor (to be checked)
+  status: unverified
+- language: avestan
+  form: mātar-
+  source: bartholomae-1904
+  locator: s.v. mātar- (to be checked)
+  status: unverified
+notes: Pashto mor corresponds to Avestan mātar-; the middle consonant has disappeared in Pashto.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian

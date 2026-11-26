@@ -1,0 +1,45 @@
+name: Report an error or disagreement
+description: A claim, source, date, word form or label looks wrong, overstated or one-sided.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Disagreement is welcome when it comes with evidence. Please read the [Code of Conduct](../blob/main/CODE_OF_CONDUCT.md) first: critique claims, not people.
+  - type: input
+    id: where
+    attributes:
+      label: Which entry?
+      description: Claim ID, source ID, page URL or file path.
+      placeholder: "paktyes-ancestors-of-pashtuns"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - The cited source doesn't say this
+        - Wrong bibliographic details (title, year, DOI…)
+        - Strength is too high or too low
+        - Wrong evidence level
+        - A competing view is missing or unfairly described
+        - Wrong word form or transliteration
+        - Wrong date, place or map shape
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What's wrong, and what should it say?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your sources
+      description: Full citations with page, section or figure numbers. If you don't have a source, say so; an unsourced report can still be useful for finding things to check.
+    validations:
+      required: false

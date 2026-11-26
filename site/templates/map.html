@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Map · {{ config.title }}{% endblock %}
+{% block head %}<link rel="stylesheet" href="static/vendor/leaflet/leaflet.css">{% endblock %}
+{% block content %}
+<h1>Map</h1>
+<p>
+  Regions mentioned by claims. Darker shading means more claims match your
+  filters; choose a population to see where the evidence about it comes from.
+  <strong>Shapes are rough sketches, not historical borders.</strong>
+</p>
+
+{% include "_filters.html" %}
+
+<div class="map-layout">
+  <div id="map" class="map" role="region" aria-label="Map of regions"></div>
+  <aside id="map-panel" class="map-panel" aria-live="polite">
+    <p class="muted">Click a region to see its claims.</p>
+  </aside>
+</div>
+
+<script type="application/json" id="atlas-data">{{ data_json | safe }}</script>
+<script type="application/json" id="geo-data">{{ geo_json | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="static/vendor/leaflet/leaflet.js"></script>
+<script src="static/js/filters.js"></script>
+<script src="static/js/map.js"></script>
+{% endblock %}

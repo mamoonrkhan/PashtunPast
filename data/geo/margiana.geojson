@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "margiana",
+    "name": "Margiana",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The Murghab delta around Merv."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       60.8,
+       36.9
+      ],
+      [
+       63.1,
+       36.9
+      ],
+      [
+       63.3,
+       38.4
+      ],
+      [
+       61.0,
+       38.4
+      ],
+      [
+       60.8,
+       36.9
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

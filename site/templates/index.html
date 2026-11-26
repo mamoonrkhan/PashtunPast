@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "_macros.html" import claim_card %}
+{% block content %}
+<section class="intro">
+  <h1>{{ config.title }}</h1>
+  <p class="lead">{{ config.tagline }}.</p>
+  <p>
+    Each card below is one <strong>claim</strong>. Every claim shows the
+    <strong>kind of evidence</strong> behind it (coloured badges), how
+    <strong>strong</strong> that evidence is for the claim as worded, and links to
+    <strong>competing claims</strong>. See <a href="methodology.html">how this works</a>.
+  </p>
+</section>
+
+{% include "_filters.html" %}
+
+<section class="claim-grid" id="claim-list" aria-label="Claims">
+  {% for c in m.claims.values() %}{{ claim_card(c, m, root) }}{% endfor %}
+</section>
+<p class="empty" id="empty" hidden>No claims match these filters.</p>
+
+<script type="application/json" id="atlas-data">{{ data_json | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="static/js/filters.js"></script>
+<script src="static/js/explore.js"></script>
+{% endblock %}

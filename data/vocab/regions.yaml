@@ -1,0 +1,52 @@
+# Geographic regions. `geo` names a GeoJSON file in data/geo/ (added in Step 3).
+# Historical regions had no fixed borders; every shape on the map is approximate.
+
+- id: bactria
+  name: Bactria
+  modern: [northern Afghanistan, southern Uzbekistan, southern Tajikistan]
+  geo: bactria.geojson
+
+- id: margiana
+  name: Margiana
+  modern: [south-eastern Turkmenistan]
+  geo: margiana.geojson
+
+- id: arachosia
+  name: Arachosia
+  modern: [southern Afghanistan (Kandahar region), western Pakistan]
+  geo: arachosia.geojson
+
+- id: gandhara
+  name: Gandhara
+  modern: [Peshawar valley, north-western Pakistan, eastern Afghanistan]
+  geo: gandhara.geojson
+
+- id: sulaiman-mountains
+  name: Sulaiman Mountains
+  modern: [Afghanistan–Pakistan borderlands]
+  geo: sulaiman.geojson
+
+- id: sogdiana
+  name: Sogdiana
+  modern: [Uzbekistan, Tajikistan (Samarkand, Bukhara)]
+  geo: sogdiana.geojson
+
+- id: khotan
+  name: Khotan
+  modern: [southern Tarim Basin, Xinjiang, China]
+  geo: khotan.geojson
+
+- id: pontic-caspian-steppe
+  name: Pontic–Caspian steppe
+  modern: [Ukraine, southern Russia, western Kazakhstan]
+  geo: pontic-caspian-steppe.geojson
+
+- id: central-steppe
+  name: Central Eurasian steppe
+  modern: [Kazakhstan, southern Siberia]
+  geo: central-steppe.geojson
+
+- id: levant
+  name: Levant
+  modern: [Israel, Palestine, Lebanon, Syria, Jordan]
+  geo: levant.geojson

@@ -1,0 +1,45 @@
+id: lost-tribes-descent
+title: The Pashtuns descend from the Lost Tribes of Israel
+statement: >
+  The Pashtuns are descended from Israelites exiled in the 8th century BCE
+  (the "Ten Lost Tribes").
+discussion: >
+  A long-standing tradition with deep cultural importance to many Pashtuns, and
+  a popular theory outside the community. The evidence for it is the written
+  genealogical tradition, plus later comparisons of customs and names. Evidence
+  that puts it under pressure: Pashto is an Eastern Iranian language, not a
+  Semitic one (though a language can be adopted, so this alone does not settle
+  ancestry); the first written form of the genealogy comes more than 2,000 years
+  after the events it describes; and the genetic studies cited here model
+  Pashtun ancestry from regional and steppe sources. No peer-reviewed study that
+  directly tests this hypothesis has been added yet.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: add peer-reviewed historical scholarship on
+  how the genealogy arose, and any peer-reviewed genetic study that directly
+  tests Israelite ancestry in Pashtuns, whatever its result.
+strength: contested
+category: origin-theory
+populations: [pashtuns, israelites]
+regions: [levant, sulaiman-mountains]
+period:
+  start: -722
+  end: 1620
+  approximate: true
+  label: Assyrian exile (722 BCE) to the written tradition (1610s)
+  periods: [iron-age, medieval-early-modern]
+citations:
+  - source: dorn-1829
+    evidence_level: oral-tradition
+    relation: supports
+    note: The genealogy itself, as written down in the 17th century.
+related_claims:
+  - claim: lost-tribes-tradition-makhzan
+    relation: depends-on
+  - claim: pashtuns-steppe-ancestry
+    relation: competes-with
+    note: Genetic models explain Pashtun ancestry with regional and steppe sources.
+  - claim: paktyes-ancestors-of-pashtuns
+    relation: competes-with
+    note: Implies a people in the region before the supposed migration.
+tags: [genealogy, popular-theory]

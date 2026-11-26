@@ -1,0 +1,54 @@
+name: Suggest a source
+description: Point us to a book, paper, inscription edition or dataset that should be in the atlas.
+title: "Source: "
+labels: [source-suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Please only suggest works you have seen yourself. Don't paste abstracts or copyrighted text; links and your own short description are perfect.
+  - type: input
+    id: citation
+    attributes:
+      label: Citation
+      description: Authors, year, title, journal or publisher.
+      placeholder: "Narasimhan, V. M. et al. (2019). The formation of human populations in South and Central Asia. Science 365."
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: DOI, URL or ISBN
+      placeholder: "10.1126/science.aat7487"
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: What kind of source is it?
+      options:
+        - Peer-reviewed genetics
+        - Linguistics reference / consensus
+        - Archaeology
+        - Primary historical text or inscription (edition or translation)
+        - Secondary scholarship
+        - Oral tradition / genealogy (recorded)
+        - Preprint or not yet peer reviewed
+        - Dataset or code
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: What does it say that's relevant?
+      description: In your own words. Which claims would it support, contradict or add context to? Page or section numbers help a lot.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have seen this work myself (not only a citation of it elsewhere, and not only an AI summary).
+          required: true

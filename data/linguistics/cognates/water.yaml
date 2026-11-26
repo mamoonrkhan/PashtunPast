@@ -1,0 +1,27 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: water
+gloss: water
+semantic_field: nature
+forms:
+- language: pashto
+  form: obə
+  script: اوبه
+  source: morgenstierne-2003
+  locator: s.v. obə (to be checked)
+  status: unverified
+  note: Grammatically plural in Pashto.
+- language: avestan
+  form: āp-
+  source: bartholomae-1904
+  locator: s.v. āp- (to be checked)
+  status: unverified
+- language: old-persian
+  form: āpi-
+  source: kent-1953
+  locator: s.v. āpi- (to be checked)
+  status: unverified
+notes: The same root for 'water' in all three languages.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian

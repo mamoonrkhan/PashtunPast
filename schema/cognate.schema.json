@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pashtun-origins.example/schema/cognate.schema.json",
+  "title": "Cognate set",
+  "description": "One meaning, with the related (cognate) word in each language. Every form must cite a source.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "gloss", "forms"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "gloss": { "description": "English meaning, e.g. 'name'.", "type": "string" },
+    "semantic_field": {
+      "enum": ["kinship", "numbers", "nature", "animals", "body", "society", "religion", "other"]
+    },
+    "proto": {
+      "description": "Optional reconstructed ancestor form. Reconstructions are hypotheses and need a source too.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "form", "source"],
+      "properties": {
+        "language": { "type": "string" },
+        "form": { "type": "string", "pattern": "^\\*" },
+        "source": { "type": "string" },
+        "locator": { "type": "string" }
+      }
+    },
+    "forms": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["language", "form", "source", "status"],
+        "properties": {
+          "language": { "description": "ID from data/vocab/languages.yaml.", "type": "string" },
+          "form": { "description": "Word in Latin transliteration.", "type": "string" },
+          "script": { "description": "Word in its own script, where it can be typed (Pashto, Bactrian).", "type": "string" },
+          "gloss": { "description": "Only if the meaning differs from the set's gloss.", "type": "string" },
+          "source": { "description": "ID of a file in data/sources/.", "type": "string" },
+          "locator": { "description": "Dictionary entry or page, e.g. 's.v. nāman-' or 'p. 123'.", "type": "string" },
+          "status": {
+            "description": "verified = someone looked up this exact form in this exact source.",
+            "enum": ["verified", "unverified"]
+          },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "notes": {
+      "description": "Plain-language explanation, e.g. of sound changes visible in the set.",
+      "type": "string"
+    },
+    "notes_sources": {
+      "description": "Sources for the claims made in `notes`. Without these, notes are shown as unsourced observations.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source"],
+        "properties": { "source": { "type": "string" }, "locator": { "type": "string" } }
+      }
+    },
+    "verification_note": { "type": "string" },
+    "claims": {
+      "description": "IDs of claims this set is evidence for.",
+      "type": "array", "items": { "type": "string" }
+    }
+  }
+}

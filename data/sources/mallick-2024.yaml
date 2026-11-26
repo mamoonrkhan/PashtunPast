@@ -1,0 +1,15 @@
+id: mallick-2024
+title: The Allen Ancient DNA Resource (AADR) a curated compendium of ancient human genomes
+authors: ["Mallick, Swapan", "et al."]
+year: 2024
+source_type: journal-article
+peer_reviewed: true
+venue: Scientific Data
+volume: "11"
+pages: "182"
+doi: 10.1038/s41597-024-03031-7
+open_access: true
+summary: >
+  Describes the AADR: how published ancient and present-day genotype data are
+  collected, harmonised to common SNP sets and annotated, and how to use it.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections."}

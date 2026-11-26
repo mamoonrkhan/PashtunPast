@@ -1,0 +1,43 @@
+id: lost-tribes-tradition-makhzan
+title: An early-17th-century history traces the Afghans to the Israelites
+statement: >
+  The Makhzan-i Afghani, a Persian history written at the Mughal court of
+  Jahangir in about 1609–1611, gives a genealogy tracing the Afghans (Pashtuns)
+  back to the ancient Israelites: through King Talut (the Qur'anic name usually
+  identified with the biblical Saul), his grandson Afghana, and on to Qais
+  Abdur Rashid, "known by the surname Pathan".
+discussion: >
+  This claim is only about what the text says. It is strong evidence that the
+  tradition existed and was written down by the 1600s. It is not evidence that
+  the genealogy is historically accurate; that is a separate claim
+  (lost-tribes-descent).
+  In the text, the Prophet is said to have given Kais the name Abd Ulrasheed and
+  called the Afghans the posterity of King Talut. The pedigree given for Kais
+  runs about 37 generations back to Talut, and on to Jacob and Abraham. Dorn's
+  preface notes another copy titled "Tareekh Khanjehan Lodi wa Makhzen Afghani".
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: a pre-check (2026-11-25, automated reading of
+  the OCR text of Dorn 1829, Part I, Internet Archive dli.csl.7425) found every
+  element: the date (preface: AH 1018–1020, AD 1609–11 "and upwards", at
+  Jahangir's court); chapter II "The Genealogy of the Afghans traced back to
+  Talut" (from p. 11); Afghana son of Ermia (c. pp. 23–26); the pedigree of
+  "Abd Ulrasheed Kais, who is known by the surname Pathan" through Afghana,
+  Irmia and Talut (c. pp. 36–38). Page numbers come from OCR running heads;
+  a person should confirm them against the scan.
+strength: strong
+category: history
+populations: [pashtuns, israelites]
+regions: [sulaiman-mountains]
+period:
+  start: 1609
+  end: 1611
+  approximate: true
+  label: c. 1609–1611 (AH 1018–1020), per Dorn's preface
+  periods: [medieval-early-modern]
+citations:
+  - source: dorn-1829
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Preface (date); ch. II from p. 11; c. pp. 23–26 (Afghana); c. pp. 36–38 (pedigree of Abd Ulrasheed Kais)
+tags: [genealogy, popular-theory]

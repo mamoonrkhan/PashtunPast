@@ -1,0 +1,18 @@
+id: anthony-2007
+title: "The Horse, the Wheel, and Language: How Bronze-Age Riders from the Eurasian Steppes Shaped the Modern World"
+authors:
+  - "Anthony, David W."
+year: 2007
+source_type: book
+peer_reviewed: true
+venue: Princeton University Press
+doi: 10.1515/9781400831104
+summary: >
+  Book-length argument for a steppe origin of the Indo-European languages,
+  including discussion of Sintashta and Andronovo and the early Indo-Iranians.
+verification:
+  status: unverified
+  notes: >
+    Automated check 2026-11-25: Crossref lists this DOI for the Princeton edition
+    (dated 2008, probably the e-book); print edition 2007. Needs a human to confirm
+    the cited chapters.

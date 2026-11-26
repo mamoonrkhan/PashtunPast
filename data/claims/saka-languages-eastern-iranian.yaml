@@ -1,0 +1,34 @@
+id: saka-languages-eastern-iranian
+title: The Saka languages were Eastern Iranian
+statement: >
+  Documents in Khotanese and Tumshuqese, written in the Tarim Basin during the
+  first millennium CE, show that these Saka languages were Eastern Iranian,
+  in the same broad branch as Pashto.
+discussion: >
+  Being in the same branch makes Saka and Pashto related languages. It does
+  not by itself show that Pashto descends from Saka (see
+  pashto-from-saka-dialect).
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find the Khotanese/Tumshuqese chapter in
+  Schmitt 1989, its author and pages, and the date range of the documents.
+strength: strong
+category: linguistics
+populations: [saka, eastern-iranian-speakers]
+regions: [khotan]
+period:
+  start: 300
+  end: 1000
+  approximate: true
+  label: c. 4th–10th centuries CE (main period of the documents)
+  periods: [early-islamic]
+citations:
+  - source: schmitt-1989
+    evidence_level: linguistic-consensus
+    relation: supports
+    locator: Khotanese and Tumshuqese chapter (pages to be added)
+related_claims:
+  - claim: pashto-eastern-iranian
+    relation: supports
+    note: Both languages belong to the same branch.
+tags: [language-classification, steppe]

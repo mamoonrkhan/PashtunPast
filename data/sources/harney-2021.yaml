@@ -1,0 +1,14 @@
+id: harney-2021
+title: "Assessing the performance of qpAdm: a statistical tool for studying population admixture"
+authors: ["Harney, Éadaoin", "et al."]
+year: 2021
+source_type: journal-article
+peer_reviewed: true
+venue: Genetics
+volume: "217"
+pages: iyaa045
+doi: 10.1093/genetics/iyaa045
+summary: >
+  Uses simulations to test when qpAdm gives reliable answers and when it can
+  mislead, with practical advice on choosing populations.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections."}

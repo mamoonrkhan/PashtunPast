@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block title %}Languages · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>Comparing Pashto with ancient Iranian languages</h1>
+
+<section class="intro">
+  <p>
+    <strong>Cognates</strong> are words in different languages that come from the
+    same ancestral word, like English <em>father</em> and German <em>Vater</em>.
+    Each row below is one meaning, shown in Pashto and four ancient Iranian
+    languages. Every form cites the dictionary it comes from.
+  </p>
+  <p class="banner unverified small">
+    <strong>Read with care.</strong> Shared words show that these languages are
+    <em>related</em>. On their own they don't show <em>which branch</em> Pashto belongs
+    to; that comes from shared <em>sound changes</em>, which the notes point out.
+    Forms marked <span class="unverified-mark">?</span> haven't yet been checked in the
+    cited dictionary.
+  </p>
+</section>
+
+<form class="filters" id="ling-filters" onsubmit="return false">
+  <label class="grow">Search
+    <input type="search" name="q" placeholder="meaning or word, e.g. father, plār, ναμο">
+  </label>
+  <label>Topic
+    <select name="field">
+      <option value="">All</option>
+      {% for f in m.cognates | map(attribute="semantic_field") | unique %}
+      <option value="{{ f }}">{{ f | capitalize }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <fieldset class="lang-toggles">
+    <legend>Languages</legend>
+    {% for l in m.languages %}
+    <label class="inline"><input type="checkbox" name="lang" value="{{ l.id }}" checked> {{ l.name }}</label>
+    {% endfor %}
+  </fieldset>
+  <label class="inline"><input type="checkbox" name="verified_only"> Only checked forms</label>
+  <p class="filter-count" id="ling-count" aria-live="polite"></p>
+</form>
+
+<div class="table-wrap">
+<table class="cognates" id="cognate-table">
+  <thead>
+    <tr>
+      <th scope="col">Meaning</th>
+      {% for l in m.languages %}
+      <th scope="col" data-lang="{{ l.id }}">{{ l.name }}<br><small class="muted">{{ l.branch }}</small></th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for cs in m.cognates %}
+    <tr data-field="{{ cs.semantic_field }}"
+        data-search="{{ ([cs.gloss] + cs.forms | map(attribute='form') | list + cs.forms | selectattr('script', 'defined') | map(attribute='script') | list) | join(' ') }}">
+      <th scope="row"><a href="#set-{{ cs.id }}">{{ cs.gloss }}</a><br><small class="muted">{{ cs.semantic_field }}</small></th>
+      {% for l in m.languages %}
+      <td data-lang="{{ l.id }}">
+        {% for f in cs.cells[l.id] %}
+        <div class="form" data-status="{{ f.status }}">
+          <i lang="{{ l.iso639 }}-Latn">{{ f.form }}</i>
+          {% if f.get("script") %}<span class="script" lang="{{ l.iso639 }}" dir="auto">{{ f.script }}</span>{% endif %}
+          <a class="cite" href="sources.html#{{ f.source }}"
+             title="{{ m.sources[f.source].short_cite }}{% if f.get('locator') %}, {{ f.locator }}{% endif %}">[{{ m.sources[f.source].short_cite.split(' (')[0] }}]</a>
+          {% if f.status != "verified" %}<span class="unverified-mark" title="Not yet checked in the cited source">?</span>{% endif %}
+          {% if f.get("gloss") %}<small class="muted">'{{ f.gloss }}'</small>{% endif %}
+        </div>
+        {% else %}
+        <span class="muted" title="No form added yet. This doesn't mean the language had no word.">—</span>
+        {% endfor %}
+      </td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+<p class="small muted">A dash (—) means no form has been added yet, not that the language lacked the word.
+  Many ancient languages are known only from a small number of texts.</p>
+
+<h2>Notes on each set</h2>
+{% for cs in m.cognates %}
+<section class="cognate-notes" id="set-{{ cs.id }}">
+  <h3>{{ cs.gloss | capitalize }}
+    {% if not cs.all_verified %}<span class="badge status-unverified small-badge">UNVERIFIED</span>{% endif %}</h3>
+  {% if cs.notes %}
+  <p>{{ cs.notes }}
+    {% if not cs.notes_sources %}<span class="badge neutral small-badge" title="No source cited for this explanation yet">unsourced observation</span>{% endif %}
+  </p>
+  {% endif %}
+  {% if cs.notes_sources %}
+  <p class="small">Sources for these notes:
+    {% for n in cs.notes_sources %}<a href="sources.html#{{ n.source }}">{{ m.sources[n.source].short_cite }}</a>{% if n.get("locator") %}, {{ n.locator }}{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  {% endif %}
+  <ul class="small form-list">
+    {% for f in cs.forms %}
+    <li>{{ m.languages_by_id[f.language].name }} <i>{{ f.form }}</i>{% if f.get("script") %} <span lang="{{ m.languages_by_id[f.language].iso639 }}" dir="auto">{{ f.script }}</span>{% endif %}
+      — <a href="sources.html#{{ f.source }}">{{ m.sources[f.source].short_cite }}</a>{% if f.get("locator") %}, {{ f.locator }}{% endif %}
+      {% if f.status != "verified" %}<span class="unverified-mark">?</span>{% endif %}
+      {% if f.get("note") %}<span class="muted">({{ f.note }})</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+  {% if cs.claims %}
+  <p class="small">Evidence for:
+    {% for cid in cs.claims %}<a href="claims/{{ cid }}.html">{{ m.claims[cid].title }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+  {% endif %}
+  {% if not cs.all_verified and cs.get("verification_note") %}<p class="small muted">{{ cs.verification_note }}</p>{% endif %}
+</section>
+{% endfor %}
+
+<h2>The languages</h2>
+<dl class="level-list">
+  {% for l in m.languages %}
+  <dt><strong>{{ l.name }}</strong></dt>
+  <dd>{{ l.branch }} · attested {{ l.get("attested", "?") }} · {{ l.get("script", "") }}
+    {% if l.get("note") %}<br><span class="small muted">{{ l.note }}</span>{% endif %}</dd>
+  {% endfor %}
+</dl>
+{% endblock %}
+{% block scripts %}
+<script src="static/js/linguistics.js"></script>
+{% endblock %}

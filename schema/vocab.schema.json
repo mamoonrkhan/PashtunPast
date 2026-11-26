@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pashtun-origins.example/schema/vocab.schema.json",
+  "title": "Controlled vocabularies",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "evidence-levels": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "label", "short", "color", "max_strength", "description"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "label": { "type": "string" },
+          "short": { "type": "string", "maxLength": 6 },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "max_strength": { "enum": ["strong", "moderate", "weak"] },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "populations": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "name", "kind", "description"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string" },
+          "kind": { "enum": ["ethnonym", "archaeological-culture", "genetic-cluster",
+                             "linguistic-group", "polity", "religious-community"] },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "regions": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string" },
+          "modern": { "type": "array", "items": { "type": "string" } },
+          "geo": { "type": "string" }
+        }
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "name", "branch"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "name": { "type": "string" },
+          "branch": { "type": "string" },
+          "iso639": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+          "attested": { "type": "string" },
+          "script": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "periods": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["id", "label", "start", "end"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id" },
+          "label": { "type": "string" },
+          "start": { "type": "integer" },
+          "end": { "type": "integer" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

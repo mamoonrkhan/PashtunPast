@@ -1,0 +1,54 @@
+# Named time periods, used for filtering and for the timeline.
+#
+# Dates: negative = BCE, positive = CE. There is no year 0 (1 BCE is followed by 1 CE).
+# These ranges are CONVENTIONAL and APPROXIMATE. Scholars date them differently,
+# and they vary by region. A claim stores its own dates; the period is a label
+# used for grouping.
+
+- id: bronze-age
+  label: Bronze Age (Central Asia)
+  start: -3000
+  end: -1200
+  note: Very broad; Central Asian chronologies differ by region.
+
+- id: iron-age
+  label: Iron Age (pre-Achaemenid)
+  start: -1200
+  end: -550
+
+- id: achaemenid
+  label: Achaemenid period
+  start: -550
+  end: -330
+
+- id: hellenistic
+  label: Hellenistic / Greco-Bactrian period
+  start: -330
+  end: -130
+
+- id: saka-parthian
+  label: Saka, Indo-Scythian and Indo-Parthian period
+  start: -150
+  end: 50
+  note: Overlaps with neighbouring periods; dates are rough.
+
+- id: kushan
+  label: Kushan period
+  start: 30
+  end: 375
+  note: The end date is debated; Kushan rule declined from the 3rd century CE.
+
+- id: early-islamic
+  label: Late antique and early Islamic period
+  start: 375
+  end: 1000
+
+- id: medieval-early-modern
+  label: Medieval and early modern period
+  start: 1000
+  end: 1800
+
+- id: modern
+  label: Modern period
+  start: 1800
+  end: 2100

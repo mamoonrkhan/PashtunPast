@@ -1,0 +1,23 @@
+id: narasimhan-2019
+title: The formation of human populations in South and Central Asia
+authors:
+  - "Narasimhan, Vagheesh M."
+  - "et al."
+year: 2019
+source_type: journal-article
+peer_reviewed: true
+venue: Science
+volume: "365"
+issue: "6457"
+pages: eaat7487
+doi: 10.1126/science.aat7487
+summary: >
+  Large ancient-DNA study (hundreds of ancient individuals) from Central Asia,
+  Iran and northern South Asia, modelling how Iranian-farmer-related, steppe
+  and South Asian hunter-gatherer-related ancestries combined over time.
+verification:
+  status: unverified
+  notes: >
+    Automated check 2026-11-25: DOI resolves on Crossref and title, first author,
+    venue and year match. Still needs a human to open the work and confirm it says
+    what our claims cite it for.

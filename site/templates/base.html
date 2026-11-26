@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{{ config.tagline }}">
+  <link rel="stylesheet" href="{{ root }}static/css/style.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ root }}index.html">{{ config.title }}</a>
+    <nav aria-label="Main">
+      {% set nav = [("index.html", "Explore"), ("timeline.html", "Timeline"), ("map.html", "Map"),
+                    ("linguistics.html", "Languages"), ("genetics/index.html", "Genetics"), ("sources.html", "Sources"), ("methodology.html", "Method")] %}
+      {% for href, label in nav %}
+      <a href="{{ root }}{{ href }}" class="{{ 'keep-filters' if href in ('index.html', 'timeline.html', 'map.html') }}"
+         {% if page == href or (href.startswith("genetics/") and page.startswith("genetics/")) %}aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main id="main" class="{% block main_class %}container{% endblock %}">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Every claim is labelled by evidence type and strength. Entries marked
+      <strong>UNVERIFIED</strong> have not yet been checked against their sources by a person.
+    </p>
+    <p>Code: MIT licence · Content: CC BY-SA 4.0 · Built {{ built }}
+      {% if config.repo_url %} · <a href="{{ config.repo_url }}">Source on GitHub</a>{% endif %}</p>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pashtun-origins.example/schema/source.schema.json",
+  "title": "Source",
+  "description": "Bibliographic metadata for one source. Metadata, links and a short ORIGINAL summary only: never paste copyrighted text.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "authors", "year", "source_type", "verification"],
+  "properties": {
+    "id": {
+      "description": "Convention: firstauthor-year[-word], e.g. narasimhan-2019. Must match the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string", "minLength": 2 },
+    "authors": {
+      "description": "'Family, Given' format. Use 'et al.' as the last item for long author lists.",
+      "type": "array", "minItems": 1, "items": { "type": "string" }
+    },
+    "year": {
+      "description": "Publication year. For ancient texts, the approximate year of composition (negative = BCE).",
+      "type": "integer"
+    },
+    "source_type": {
+      "enum": ["journal-article", "book", "book-chapter", "preprint", "dataset",
+               "primary-text", "translation", "encyclopedia", "thesis", "website"]
+    },
+    "peer_reviewed": { "type": "boolean" },
+    "venue": { "description": "Journal, publisher or website name.", "type": "string" },
+    "volume": { "type": "string" },
+    "issue": { "type": "string" },
+    "pages": { "type": "string" },
+    "edition": { "description": "For primary texts: which edition / translation, and translator.", "type": "string" },
+    "doi": { "type": "string", "pattern": "^10\\.\\d{4,9}/\\S+$" },
+    "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+    "isbn": { "type": "string" },
+    "open_access": { "type": "boolean" },
+    "summary": {
+      "description": "A short summary in YOUR OWN words (max 600 characters). No copied text.",
+      "type": "string", "maxLength": 600
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "description": "verified = a human opened this source and confirmed the metadata and its relevance.",
+          "enum": ["verified", "unverified"]
+        },
+        "checked_by": { "type": "string" },
+        "checked_on": { "type": "string", "format": "date" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

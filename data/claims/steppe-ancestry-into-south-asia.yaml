@@ -1,0 +1,32 @@
+id: steppe-ancestry-into-south-asia
+title: Steppe ancestry reached South Asia in the 2nd millennium BCE
+statement: >
+  Ancestry from Middle–Late Bronze Age steppe populations (Steppe_MLBA, related
+  to Andronovo-associated groups) spread south through Central Asia and into
+  northern South Asia in the first half of the 2nd millennium BCE.
+discussion: >
+  This shows people moving and mixing. It is often connected to the spread of
+  Indo-Iranian languages, but the DNA itself cannot say what language anyone spoke.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: confirm the timing and the sites in Narasimhan
+  2019 (e.g. Swat Valley samples).
+strength: strong
+category: genetics
+populations: [steppe-mlba, andronovo]
+regions: [central-steppe, bactria, gandhara]
+period:
+  start: -2000
+  end: -1500
+  approximate: true
+  label: c. 2000–1500 BCE
+  periods: [bronze-age]
+citations:
+  - source: narasimhan-2019
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+related_claims:
+  - claim: andronovo-indo-iranians
+    relation: supports
+    note: Fits the language link, but cannot prove it.
+tags: [ancient-dna, bronze-age, steppe]

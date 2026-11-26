@@ -1,0 +1,33 @@
+id: bmac-little-steppe-ancestry
+title: People of the BMAC had little or no steppe ancestry
+statement: >
+  Most individuals sampled from Bronze Age BMAC sites have ancestry related to
+  ancient Iranian and Anatolian farmers, with little or no steppe ancestry.
+  A few outlier individuals show steppe ancestry, suggesting contact with
+  steppe groups late in the Bronze Age.
+discussion: >
+  The BMAC is an archaeological culture, defined by its towns, crafts and
+  burials. What language its people spoke is unknown.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: confirm the BMAC results and the outliers in
+  Narasimhan 2019, and add chapter references from Lyonnet & Dubova 2020.
+strength: strong
+category: genetics
+populations: [bmac, steppe-mlba]
+regions: [bactria, margiana]
+period:
+  start: -2300
+  end: -1600
+  approximate: true
+  label: c. 2300–1600 BCE
+  periods: [bronze-age]
+citations:
+  - source: narasimhan-2019
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+  - source: lyonnet-dubova-2020
+    evidence_level: archaeology
+    relation: context
+    note: Archaeological background on the BMAC/Oxus Civilization and its dates.
+tags: [ancient-dna, bronze-age]

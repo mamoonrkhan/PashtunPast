@@ -1,0 +1,27 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: father
+gloss: father
+semantic_field: kinship
+forms:
+- language: pashto
+  form: plār
+  script: پلار
+  source: morgenstierne-2003
+  locator: s.v. plār (to be checked)
+  status: unverified
+- language: avestan
+  form: pitar-
+  source: bartholomae-1904
+  locator: s.v. pitar- (to be checked)
+  status: unverified
+- language: old-persian
+  form: pitar-
+  source: kent-1953
+  locator: s.v. pitar- (to be checked)
+  status: unverified
+notes: Pashto plār lines up with pitar- in Avestan and Old Persian, with an l in Pashto where the older
+  languages have t.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian

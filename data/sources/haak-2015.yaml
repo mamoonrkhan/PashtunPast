@@ -1,0 +1,14 @@
+id: haak-2015
+title: Massive migration from the steppe was a source for Indo-European languages in Europe
+authors: ["Haak, Wolfgang", "et al."]
+year: 2015
+source_type: journal-article
+peer_reviewed: true
+venue: Nature
+volume: "522"
+pages: 207–211
+doi: 10.1038/nature14317
+summary: >
+  Ancient-DNA study of steppe migration into Europe; its supplementary materials
+  introduced the qpAdm method.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections. Confirm which supplement describes qpAdm."}

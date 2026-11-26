@@ -1,0 +1,6 @@
+# Site settings. Fill in repo_url once the project is on GitHub; it turns on
+# the "Suggest an edit" links on claim pages.
+title: Pashtun Origins Project
+tagline: An open, evidence-first research atlas of Pashtun history, language and ancestry
+repo_url: ""          # e.g. https://github.com/<user>/pashtun-origins
+branch: main

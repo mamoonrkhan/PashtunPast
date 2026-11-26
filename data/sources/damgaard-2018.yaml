@@ -1,0 +1,23 @@
+id: damgaard-2018
+title: 137 ancient human genomes from across the Eurasian steppes
+authors:
+  - "Damgaard, Peter de Barros"
+  - "et al."
+year: 2018
+source_type: journal-article
+peer_reviewed: true
+venue: Nature
+volume: "557"
+issue: "7705"
+pages: 369–374
+doi: 10.1038/s41586-018-0094-2
+summary: >
+  Genomes from steppe populations spanning roughly four thousand years,
+  including Iron Age Saka/Scythian-related groups, used to trace population
+  turnovers on the steppe.
+verification:
+  status: unverified
+  notes: >
+    Automated check 2026-11-25: DOI resolves on Crossref and title, first author,
+    venue and year match. Still needs a human to open the work and confirm it says
+    what our claims cite it for.

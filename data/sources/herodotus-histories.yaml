@@ -1,0 +1,21 @@
+id: herodotus-histories
+title: The Histories
+authors: [Herodotus, "Godley, A. D. (trans.)"]
+year: -430
+source_type: primary-text
+peer_reviewed: false
+venue: Loeb Classical Library, Harvard University Press (Godley translation, 1920), online at Perseus
+edition: A. D. Godley's English translation (1920), public domain, as hosted by the Perseus Digital Library.
+url: http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126
+summary: >
+  Greek history written in the 5th century BCE, covering the Persian Empire
+  and its peoples. Composition date is approximate (c. 430 BCE).
+verification:
+  status: unverified
+  notes: >
+    2026-11-25: URL works; 7.67 read on Perseus. The perseus.tufts.edu site then began
+    returning empty pages to automated requests, so 3.93, 3.102, 4.44, 7.64, 7.68 and
+    7.85 were read in Perseus's open TEI edition of the Godley translation on GitHub
+    (PerseusDL/canonical-greekLit, tlg0016.tlg001.perseus-eng2, "Modernized by Perseus",
+    CC BY-SA). All say what our claims cite them for. A person should confirm them in
+    the standard Godley text and mark this source verified.

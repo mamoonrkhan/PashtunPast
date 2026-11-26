@@ -1,0 +1,40 @@
+id: iron-age-nomads-mixed-ancestry
+title: Iron Age Scythian-related nomads had mixed western and eastern ancestry
+statement: >
+  Ancient genomes from Iron Age nomads associated with Scythian-type cultures
+  are best described as a mix of ancestry related to the Bronze Age Yamnaya
+  steppe population and an East Asian-related component, in proportions that
+  differ between eastern and western groups.
+discussion: >
+  "Scythian" here means people buried with a particular material culture. It
+  does not mean one people who all spoke the same language. Genetics describes
+  their ancestry, not their language. Unterländer et al. (2017) based their
+  conclusion on genome data from eight individuals plus mitochondrial DNA from
+  96, and proposed independent origins for the eastern and western groups,
+  with continuing gene flow between them. Small samples like this are common
+  in ancient DNA and are a reason for caution.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: a pre-check (2026-11-25) of the open-access
+  text of Unterländer 2017 found the abstract states this conclusion and the
+  sample sizes. Damgaard 2018 was not available to check; a person needs to
+  confirm what it says about Iron Age Saka/Scythian groups and add figure numbers.
+strength: strong
+category: genetics
+populations: [scythians, saka, steppe-mlba]
+regions: [pontic-caspian-steppe, central-steppe]
+period:
+  start: -900
+  end: -200
+  approximate: true
+  label: c. 9th–3rd centuries BCE
+  periods: [iron-age, achaemenid, hellenistic]
+citations:
+  - source: unterlander-2017
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+  - source: damgaard-2018
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+tags: [ancient-dna, steppe]

@@ -1,0 +1,30 @@
+id: kushan-bactrian-language
+title: The Kushans used Bactrian, an Eastern Iranian language, for royal inscriptions
+statement: >
+  The Kushan emperor Kanishka's Rabatak inscription is written in Bactrian, and
+  it records a change in official language from Greek to "Aryan", which is
+  usually understood as Bactrian.
+discussion: >
+  Bactrian is an Eastern Iranian language, related to Pashto, so the Kushan
+  period gives written evidence of Eastern Iranian in the region. This is
+  about language use by the state, not the ancestry of the Kushans.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: confirm the wording about Greek and "Aryan" in
+  Sims-Williams & Cribb 1996, and the dates of Kanishka's reign (debated).
+strength: strong
+category: history
+populations: [kushans, bactrians, eastern-iranian-speakers]
+regions: [bactria, gandhara]
+period:
+  start: 100
+  end: 150
+  approximate: true
+  label: Reign of Kanishka (dates debated, c. early 2nd century CE)
+  periods: [kushan]
+citations:
+  - source: sims-williams-cribb-1996
+    evidence_level: primary-historical-text
+    relation: supports
+    note: Edition and translation of the Rabatak inscription.
+tags: [inscriptions, bactrian]

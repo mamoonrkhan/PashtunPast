@@ -1,0 +1,92 @@
+# Populations, cultures and groups that claims can refer to.
+#
+# `kind` matters for rigour. These words mean very different things:
+#   ethnonym               – a name for a people, used by themselves or others
+#   archaeological-culture – a cluster of material remains (pottery, burials);
+#                            archaeologists named it, we don't know what the
+#                            people called themselves or what language they spoke
+#   genetic-cluster        – a population defined by ancestry in DNA studies
+#   linguistic-group       – speakers of a language or language family
+#   polity                 – a state or empire
+#   religious-community    – a group defined by religion or tradition
+#
+# Mixing these up ("the BMAC people spoke X") is one of the most common errors
+# in popular origin theories, so every entry says which kind it is.
+
+- id: pashtuns
+  name: Pashtuns
+  kind: ethnonym
+  aliases: [Pakhtuns, Pathans, Afghans (historical usage)]
+  description: Pashto-speaking people of present-day Afghanistan and Pakistan.
+
+- id: paktyes
+  name: Paktyes
+  kind: ethnonym
+  aliases: [Pactyans, Paktues]
+  description: A people named by Herodotus (5th century BCE) in the Achaemenid Empire's eastern lands.
+
+- id: eastern-iranian-speakers
+  name: Eastern Iranian speakers
+  kind: linguistic-group
+  aliases: []
+  description: Speakers of the eastern branch of the Iranian languages (e.g. Avestan, Bactrian, Sogdian, Saka, Pashto).
+
+- id: saka
+  name: Saka
+  kind: ethnonym
+  aliases: [Sakas, Sacae]
+  description: Name used in Persian and Indian sources for Iranian-speaking nomadic groups of Central Asia.
+
+- id: scythians
+  name: Scythians
+  kind: ethnonym
+  aliases: [Skythai]
+  description: Greek name for Iranian-speaking nomads of the Pontic–Caspian steppe; often used broadly for related steppe groups.
+
+- id: indo-scythians
+  name: Indo-Scythians
+  kind: polity
+  aliases: []
+  description: Saka rulers who established kingdoms in north-western South Asia around the 2nd–1st centuries BCE.
+
+- id: bmac
+  name: Bactria–Margiana Archaeological Complex (BMAC)
+  kind: archaeological-culture
+  aliases: [Oxus Civilization]
+  description: Bronze Age urban culture of present-day Turkmenistan, Uzbekistan and northern Afghanistan.
+
+- id: andronovo
+  name: Andronovo culture
+  kind: archaeological-culture
+  aliases: [Andronovo horizon]
+  description: Bronze Age cultural horizon across the Eurasian steppe, often linked to early Indo-Iranian speakers.
+
+- id: steppe-mlba
+  name: Steppe Middle–Late Bronze Age ancestry
+  kind: genetic-cluster
+  aliases: [Steppe_MLBA]
+  description: An ancestry component defined in ancient-DNA studies, carried by Bronze Age steppe populations.
+
+- id: bactrians
+  name: Bactrians
+  kind: ethnonym
+  aliases: []
+  description: Inhabitants of Bactria; also used for speakers of the Bactrian language.
+
+- id: achaemenids
+  name: Achaemenid Empire
+  kind: polity
+  aliases: [First Persian Empire]
+  description: Persian empire, c. 550–330 BCE, that included much of present-day Afghanistan and Pakistan.
+
+- id: kushans
+  name: Kushan Empire
+  kind: polity
+  aliases: [Kushanas]
+  description: Empire of Central and South Asia in the early centuries CE; used Bactrian as an official language.
+
+- id: israelites
+  name: Israelites
+  kind: ethnonym
+  aliases: [Bani Israel]
+  description: The ancient people of the Hebrew Bible. Included here because of the "Lost Tribes" origin theory.

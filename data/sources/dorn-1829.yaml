@@ -1,0 +1,27 @@
+id: dorn-1829
+title: "History of the Afghans: Translated from the Persian of Neamet Ullah"
+authors:
+  - "Niʿmat Allāh al-Harawī"
+  - "Dorn, Bernhard (trans.)"
+year: 1829
+source_type: translation
+peer_reviewed: false
+venue: Oriental Translation Fund, London (reissued by Cambridge University Press, 2013)
+doi: 10.1017/cbo9781139507653
+url: https://archive.org/details/dli.csl.7425
+edition: >
+  Part I, London, 1829, printed for the Oriental Translation Committee (title page).
+  English translation of the Makhzan-i Afghani, composed AH 1018–1020 (AD 1609–11)
+  at Jahangir's court (Dorn's preface). The DOI is for the 2013 Cambridge reissue;
+  the URL is a public-domain scan of the 1829 Part I.
+summary: >
+  Translation of an early-17th-century Persian history of the Afghans whose
+  genealogy traces the Afghans to the Israelites. A key primary text for how
+  the Lost Tribes tradition was written down.
+verification:
+  status: unverified
+  notes: >
+    Reissue confirmed 2026-11-25 via OpenAlex. Title page of Part I (1829, London,
+    Oriental Translation Committee) and the preface's date of composition read from the
+    Internet Archive scan's OCR text the same day. Part II's year (1836, per catalogue
+    records) and the OCR-based page numbers need a human check against the scan.

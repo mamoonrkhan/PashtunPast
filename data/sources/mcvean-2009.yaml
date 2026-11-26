@@ -1,0 +1,15 @@
+id: mcvean-2009
+title: A Genealogical Interpretation of Principal Components Analysis
+authors: ["McVean, Gil"]
+year: 2009
+source_type: journal-article
+peer_reviewed: true
+venue: PLoS Genetics
+volume: "5"
+pages: e1000686
+doi: 10.1371/journal.pgen.1000686
+open_access: true
+summary: >
+  Explains what PCA positions mean in terms of shared ancestry, and why sample
+  sizes and sampling choices change the picture.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections."}

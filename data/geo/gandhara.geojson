@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "gandhara",
+    "name": "Gandhara",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. Peshawar valley, Swat and Taxila."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       70.6,
+       33.4
+      ],
+      [
+       73.2,
+       33.3
+      ],
+      [
+       73.3,
+       35.3
+      ],
+      [
+       71.6,
+       35.4
+      ],
+      [
+       70.5,
+       34.5
+      ],
+      [
+       70.6,
+       33.4
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

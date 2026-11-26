@@ -1,0 +1,33 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: horse
+gloss: horse
+semantic_field: animals
+forms:
+- language: pashto
+  form: ās
+  script: آس
+  source: morgenstierne-2003
+  locator: s.v. ās (to be checked)
+  status: unverified
+- language: avestan
+  form: aspa-
+  source: bartholomae-1904
+  locator: s.v. aspa- (to be checked)
+  status: unverified
+- language: old-persian
+  form: asa-
+  source: kent-1953
+  locator: s.v. asa- (to be checked)
+  status: unverified
+- language: khotanese
+  form: aśśa-
+  source: bailey-1979
+  locator: s.v. aśśa- (to be checked)
+  status: unverified
+notes: Avestan aspa- keeps a p that Old Persian asa- lacks. This sp / s difference is a classic way of
+  telling Persian apart from other Iranian languages.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian
+- saka-languages-eastern-iranian

@@ -1,0 +1,37 @@
+id: persians-called-scythians-saka
+title: '"Saka" was the Persian name for the peoples Greeks called Scythians'
+statement: >
+  Persian royal inscriptions list several Saka peoples among the subjects or
+  neighbours of the empire, and Herodotus states that the Persians called all
+  Scythians "Sacae". So "Saka" and "Scythian" largely come from the same set of
+  peoples, named from Persian and Greek points of view.
+discussion: >
+  The two names did not mean exactly the same thing: both covered many
+  different groups across a huge area, and modern writers use them loosely.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: a pre-check (2026-11-25) of the Godley
+  translation found 7.64 says the Sacae "were Amyrgian Scythians, but were called
+  Sacae; that is the Persian name for all Scythians". Still needed: a person to
+  confirm it, and the exact Old Persian inscription references (e.g. Behistun,
+  Naqsh-e Rostam) with Kent's page numbers.
+strength: strong
+category: history
+populations: [saka, scythians, achaemenids]
+regions: [central-steppe, pontic-caspian-steppe, sogdiana]
+period:
+  start: -520
+  end: -430
+  approximate: true
+  label: c. 520–430 BCE
+  periods: [achaemenid]
+citations:
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Histories 7.64
+  - source: kent-1953
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Darius inscriptions listing Saka peoples (references to be added)
+tags: [ethnonym, steppe]

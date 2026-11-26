@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Timeline · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>Timeline</h1>
+<p>
+  Each bar is a claim, placed at the time it is about. Colour shows the topic;
+  striped bars are <strong>contested</strong>. Dates are approximate. Claims
+  without a date (such as language classifications) are not shown here.
+</p>
+
+{% include "_filters.html" %}
+
+<div class="timeline-controls" role="group" aria-label="Zoom">
+  <span>Zoom:</span>
+  <button type="button" data-range="-3000,2050" class="active">Everything</button>
+  <button type="button" data-range="-3000,-1000">Bronze Age</button>
+  <button type="button" data-range="-1000,500">Iron Age to Kushans</button>
+  <button type="button" data-range="300,2050">Later periods</button>
+</div>
+
+<div class="timeline-legend" id="timeline-legend"></div>
+<div class="timeline" id="timeline" aria-label="Timeline of claims"></div>
+<p class="empty" id="empty" hidden>No dated claims match these filters.</p>
+
+<script type="application/json" id="atlas-data">{{ data_json | safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="static/js/filters.js"></script>
+<script src="static/js/timeline.js"></script>
+{% endblock %}

@@ -1,0 +1,15 @@
+id: maier-2023
+title: On the limits of fitting complex models of population history to f-statistics
+authors: ["Maier, Robert", "et al."]
+year: 2023
+source_type: journal-article
+peer_reviewed: true
+venue: eLife
+volume: "12"
+pages: e85492
+doi: 10.7554/eLife.85492
+open_access: true
+summary: >
+  Shows that many different population histories can fit the same f-statistics
+  equally well, and introduces ADMIXTOOLS 2.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections."}

@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "central-steppe",
+    "name": "Central Eurasian steppe",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. Kazakh steppe to the Altai."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       55.0,
+       46.0
+      ],
+      [
+       84.0,
+       46.8
+      ],
+      [
+       88.0,
+       51.8
+      ],
+      [
+       70.0,
+       55.0
+      ],
+      [
+       55.0,
+       52.0
+      ],
+      [
+       55.0,
+       46.0
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+# SOURCE TEMPLATE — copy to data/sources/<id>.yaml and fill in.
+# Only metadata, links and a summary in your own words. Never paste copyrighted text.
+# Never invent a source. If you can't find the real details, don't add it.
+
+id: familyname-2020                # first author's family name + year (+ word if needed)
+title: Exact title as published
+authors:
+  - Family, Given
+  - et al.                         # use for long author lists
+year: 2020
+source_type: journal-article       # journal-article | book | book-chapter | preprint | dataset |
+                                   # primary-text | translation | encyclopedia | thesis | website
+peer_reviewed: true
+venue: Journal or publisher name
+volume: "12"
+issue: "3"
+pages: "100–120"
+doi: 10.0000/example               # give a doi, url or isbn (primary texts may have none)
+url: https://example.org/paper
+open_access: false
+summary: >
+  Two or three sentences in your own words: what the source is and why it matters here.
+
+verification:
+  status: unverified               # set to verified only after YOU opened the source
+  checked_by: your-github-username
+  checked_on: 2026-01-01
+  notes: What you checked (DOI resolves, title and authors match, the cited pages say this).

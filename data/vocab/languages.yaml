@@ -1,0 +1,47 @@
+# Languages used in the cognate tables.
+#
+# `branch` is the usual classification. Avestan is often grouped with Eastern
+# Iranian, but its exact position is debated; the note says so.
+# `iso639` is the standard language code, used so browsers and screen readers
+# handle each script correctly.
+# `attested` is when written records of the language exist (approximate).
+
+- id: pashto
+  iso639: ps
+  name: Pashto
+  branch: Eastern Iranian
+  attested: c. 16th century CE – present (written); spoken today
+  script: Perso-Arabic (Pashto alphabet)
+  note: Forms are given in a common standard; dialects differ (e.g. Kandahar vs Peshawar).
+
+- id: avestan
+  iso639: ae
+  name: Avestan
+  branch: Iranian (often grouped as Eastern; debated)
+  attested: Texts composed c. 2nd–1st millennium BCE; manuscripts much later
+  script: Avestan script (shown here in transliteration)
+  note: Language of the Zoroastrian scriptures. Dates of composition are debated.
+
+- id: old-persian
+  iso639: peo
+  name: Old Persian
+  branch: Western Iranian
+  attested: c. 6th–4th centuries BCE
+  script: Old Persian cuneiform (shown here in transliteration)
+  note: Known mainly from Achaemenid royal inscriptions; a small vocabulary survives.
+
+- id: khotanese
+  iso639: kho
+  name: Khotanese Saka
+  branch: Eastern Iranian (Saka)
+  attested: c. 5th–10th centuries CE
+  script: Brahmi (shown here in transliteration)
+  note: Language of the Buddhist kingdom of Khotan in the Tarim Basin.
+
+- id: bactrian
+  iso639: xbc
+  name: Bactrian
+  branch: Eastern Iranian
+  attested: c. 2nd–9th centuries CE
+  script: Greek-based alphabet
+  note: Official language of the Kushan Empire; known from inscriptions, coins and documents.

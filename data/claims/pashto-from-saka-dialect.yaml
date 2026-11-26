@@ -1,0 +1,25 @@
+id: pashto-from-saka-dialect
+title: Pashto may descend from a Saka dialect
+statement: >
+  Some linguists have proposed that Pashto developed from a dialect related to
+  the Saka languages, rather than from another branch of Eastern Iranian.
+discussion: >
+  This proposal is often attributed to Georg Morgenstierne, but no exact source
+  has been located yet. Until it is, the claim has no citation and its strength
+  is "unknown". It would refine, not replace, the Eastern Iranian classification.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find who proposed this, in which work and on
+  which page, and whether later scholars accept or reject it. Do not cite
+  Morgenstierne for it until the passage is found.
+strength: unknown
+category: linguistics
+populations: [pashtuns, saka, eastern-iranian-speakers]
+regions: [arachosia, khotan]
+citations: []
+related_claims:
+  - claim: pashto-eastern-iranian
+    relation: refines
+  - claim: saka-languages-eastern-iranian
+    relation: depends-on
+tags: [language-classification]

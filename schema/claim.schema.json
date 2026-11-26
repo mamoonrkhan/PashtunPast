@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pashtun-origins.example/schema/claim.schema.json",
+  "title": "Claim",
+  "description": "One statement about history, language or ancestry, with its evidence.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "statement", "status", "strength", "category", "populations", "regions", "citations"],
+  "properties": {
+    "id": {
+      "description": "Unique, lowercase, hyphenated. Must match the file name.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": { "type": "string", "minLength": 5, "maxLength": 120 },
+    "statement": {
+      "description": "The claim itself, worded precisely. Strength is judged against THIS wording.",
+      "type": "string",
+      "minLength": 20
+    },
+    "discussion": {
+      "description": "Optional longer explanation: context, caveats, how scholars interpret it.",
+      "type": "string"
+    },
+    "status": {
+      "description": "verified = a human checked every cited source says what we claim. unverified = shown as 'UNVERIFIED — needs source check'.",
+      "enum": ["verified", "unverified"]
+    },
+    "verification_note": {
+      "description": "Required when status is unverified: what exactly needs checking.",
+      "type": "string"
+    },
+    "strength": {
+      "description": "Overall confidence in the statement as worded.",
+      "enum": ["strong", "moderate", "weak", "contested", "unknown"]
+    },
+    "category": {
+      "enum": ["linguistics", "genetics", "archaeology", "history", "origin-theory"]
+    },
+    "populations": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": { "type": "string" }
+    },
+    "regions": {
+      "type": "array", "uniqueItems": true,
+      "items": { "type": "string" }
+    },
+    "period": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": { "description": "Year; negative = BCE. No year 0.", "type": "integer" },
+        "end": { "type": "integer" },
+        "approximate": { "type": "boolean", "default": true },
+        "label": { "description": "Human-readable, e.g. 'c. 5th century BCE'.", "type": "string" },
+        "periods": {
+          "description": "IDs from data/vocab/periods.yaml, for filtering.",
+          "type": "array", "uniqueItems": true, "items": { "type": "string" }
+        }
+      }
+    },
+    "citations": {
+      "description": "Links to sources. May be empty only if status is unverified.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/citation" }
+    },
+    "related_claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/related" }
+    },
+    "tags": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "last_reviewed": { "type": "string", "format": "date" },
+    "contributors": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "evidence_level", "relation"],
+      "properties": {
+        "source": { "description": "ID of a file in data/sources/.", "type": "string" },
+        "evidence_level": { "description": "ID from data/vocab/evidence-levels.yaml.", "type": "string" },
+        "relation": {
+          "description": "supports / contradicts the claim, or only gives context.",
+          "enum": ["supports", "contradicts", "context"]
+        },
+        "locator": { "description": "Page, chapter, section, figure or verse, e.g. 'Histories 3.102'.", "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "related": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim", "relation"],
+      "properties": {
+        "claim": { "type": "string" },
+        "relation": {
+          "description": "Only one side needs to declare the link; the site shows it on both pages.",
+          "enum": ["competes-with", "contradicts", "supports", "refines", "depends-on"]
+        },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

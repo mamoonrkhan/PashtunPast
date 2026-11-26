@@ -1,0 +1,36 @@
+id: herodotus-western-paktyike
+title: Herodotus also lists a Paktyike next to the Armenians
+statement: >
+  In his list of Persian tax districts, Herodotus groups a "Paktyike" with the
+  Armenians, far to the west of the eastern Paktyike. So the name may refer to
+  more than one place, or the passage may contain an error.
+discussion: >
+  This matters for the Paktyes–Pashtun question, because it means "Paktyes" in
+  Herodotus may not always point to the same region or people.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: a pre-check (2026-11-25) of the Godley
+  translation (Perseus TEI edition) found 3.93 reads "The thirteenth, the Pactyic
+  country and Armenia and the lands adjoining as far as the Euxine sea". Still
+  needed: a person to confirm it, and a secondary source on how scholars
+  interpret this western Paktyike.
+strength: moderate
+category: history
+populations: [paktyes, achaemenids]
+regions: []
+period:
+  start: -450
+  end: -430
+  approximate: true
+  label: c. mid-5th century BCE
+  periods: [achaemenid]
+citations:
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Histories 3.93
+related_claims:
+  - claim: herodotus-names-paktyes
+    relation: refines
+    note: Complicates where the Paktyes lived.
+tags: [ethnonym, classical-sources]

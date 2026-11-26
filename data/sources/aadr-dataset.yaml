@@ -1,0 +1,19 @@
+id: aadr-dataset
+title: "The Allen Ancient DNA Resource (AADR): A curated compendium of ancient human genomes"
+authors: ["Mallick, Swapan", "Reich, David"]
+year: 2023
+source_type: dataset
+peer_reviewed: false
+venue: Harvard Dataverse
+doi: 10.7910/DVN/FFIDCW
+open_access: true
+summary: >
+  The downloadable AADR data files (genotypes, SNP lists, individual lists and an
+  annotation table). Updated in numbered releases; any analysis must record which
+  release it used.
+verification:
+  status: unverified
+  notes: >
+    2026-11-25: DOI resolves to Harvard Dataverse; DataCite lists this title, these creators,
+    publication year 2023, dataset version 14.0, open access. Release number and usage terms must
+    be recorded from the README at download time.

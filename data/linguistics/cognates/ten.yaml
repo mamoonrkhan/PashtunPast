@@ -1,0 +1,28 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: ten
+gloss: ten
+semantic_field: numbers
+forms:
+- language: pashto
+  form: las
+  script: لس
+  source: morgenstierne-2003
+  locator: s.v. las (to be checked)
+  status: unverified
+- language: avestan
+  form: dasa
+  source: bartholomae-1904
+  locator: s.v. dasa (to be checked)
+  status: unverified
+- language: khotanese
+  form: dasau
+  source: bailey-1979
+  locator: s.v. dasau (to be checked)
+  status: unverified
+notes: Pashto las has l where Avestan and Khotanese have d. Together with 'daughter', this shows a regular
+  pattern rather than a one-off.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- pashto-eastern-iranian
+- saka-languages-eastern-iranian

@@ -1,0 +1,30 @@
+# COGNATE SET TEMPLATE — copy to data/linguistics/cognates/<id>.yaml
+# One meaning, with the related word in each language. Every form needs a source.
+# Leave a language out if you can't cite a form: an empty cell is honest; a guess is not.
+
+id: father                          # must match the file name
+gloss: father                       # English meaning
+semantic_field: kinship             # kinship | numbers | nature | animals | body | society | religion | other
+
+forms:
+  - language: pashto                # id from data/vocab/languages.yaml
+    form: plār                      # Latin transliteration
+    script: پلار                    # native script, where it can be typed
+    source: morgenstierne-2003      # id of a file in data/sources/
+    locator: p. 00, s.v. plār       # page and headword in the dictionary
+    status: unverified              # verified only after you looked it up yourself
+    note: Optional note about this form.
+
+  - language: avestan
+    form: pitar-
+    source: bartholomae-1904
+    locator: col. 000, s.v. pitar-
+    status: unverified
+
+notes: >
+  Plain-language explanation of what the set shows, e.g. a sound change.
+notes_sources:                      # sources for the explanation in `notes`
+  - source: author-year
+    locator: p. 00
+
+claims: [pashto-eastern-iranian]    # claims this set is evidence for

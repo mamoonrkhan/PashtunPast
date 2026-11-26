@@ -1,0 +1,23 @@
+# Cognate set. Each form cites a dictionary; 'status: verified' only after looking it up.
+id: king
+gloss: king
+semantic_field: society
+forms:
+- language: old-persian
+  form: xšāyaθiya-
+  source: kent-1953
+  locator: s.v. xšāyaθiya- (to be checked)
+  status: unverified
+- language: bactrian
+  form: šao
+  script: ϸαο
+  source: sims-williams-2007
+  locator: s.v. šao (to be checked)
+  status: unverified
+  note: As in the Kushan royal title šaonano šao, 'king of kings'.
+notes: Bactrian šao is generally traced to the same source as Old Persian xšāyaθiya-. Pashto has no inherited
+  word here; it uses words borrowed from Persian.
+verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
+  exact entry or page as the locator, and set that form''s status to verified.'
+claims:
+- kushan-bactrian-language

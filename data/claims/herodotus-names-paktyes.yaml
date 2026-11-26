@@ -1,0 +1,50 @@
+id: herodotus-names-paktyes
+title: Herodotus names a people called the Paktyes
+statement: >
+  Herodotus (5th century BCE) names a people called the Paktyes (Pactyes) among
+  the contingents of Xerxes' army, and a land called Paktyike near the city of
+  Kaspatyros, on the eastern side of the Persian Empire.
+discussion: >
+  This claim is only about what the text says. Whether these Paktyes were the
+  ancestors of the Pashtuns is a separate, contested claim
+  (paktyes-ancestors-of-pashtuns).
+  Not to be confused with two unrelated uses of the same name in Herodotus: a
+  Lydian man called Pactyes (1.153–161) and a town called Pactye on the
+  Gallipoli peninsula (6.36).
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: a pre-check (2026-11-25, automated reading of
+  the Godley translation in the Perseus TEI edition) found all cited passages
+  saying what is cited: 3.102 and 4.44 (Caspatyrus and "the Pactyic country"),
+  7.67 (the Pactyes' equipment and commander), 7.68 and 7.85 (other contingents
+  compared with the Pactyes). A person should confirm these in a printed or
+  Perseus edition and then mark this claim verified.
+strength: strong
+category: history
+populations: [paktyes, achaemenids]
+regions: [gandhara, arachosia]
+period:
+  start: -480
+  end: -430
+  approximate: true
+  label: c. 480–430 BCE (Xerxes' campaign to Herodotus's writing)
+  periods: [achaemenid]
+citations:
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Histories 7.67
+    note: The Pactyes in Xerxes' army, wearing cloaks, with native bows and daggers.
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Histories 3.102; 4.44
+    note: >
+      "Other Indians dwell near the town of Caspatyrus and the Pactyic country"
+      (3.102); Scylax's voyage down the Indus starts from the same place (4.44).
+  - source: herodotus-histories
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Histories 7.68; 7.85
+    note: Other contingents are described as equipped like the Pactyes (7.68), or between Persian and Pactyan (7.85).
+tags: [ethnonym, classical-sources]

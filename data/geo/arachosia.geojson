@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "arachosia",
+    "name": "Arachosia",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. Around Kandahar and the Arghandab/Helmand valleys."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       64.0,
+       30.2
+      ],
+      [
+       67.4,
+       30.0
+      ],
+      [
+       68.4,
+       32.4
+      ],
+      [
+       66.6,
+       33.4
+      ],
+      [
+       64.2,
+       32.6
+      ],
+      [
+       64.0,
+       30.2
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{# Small reusable pieces of HTML used by several pages. #}
+
+{% macro evidence_badge(level) -%}
+<span class="badge evidence" style="--badge-bg: {{ level.color }}; --badge-fg: {{ level.text_color }}"
+      title="{{ level.description | trim }}">
+  <abbr>{{ level.short }}</abbr> {{ level.label }}
+</span>
+{%- endmacro %}
+
+{% macro strength_badge(strength, m) -%}
+<span class="badge strength strength-{{ strength }}" title="{{ m.strengths[strength] }}">
+  {{ strength | capitalize }}
+</span>
+{%- endmacro %}
+
+{% macro status_badge(status) -%}
+{% if status == "verified" %}
+<span class="badge status-verified" title="A person checked the cited sources.">✓ Verified</span>
+{% else %}
+<span class="badge status-unverified" title="Not yet checked against its sources by a person.">UNVERIFIED</span>
+{% endif %}
+{%- endmacro %}
+
+{% macro claim_card(c, m, root) -%}
+<article class="claim-card" data-id="{{ c.id }}">
+  <h3><a href="{{ root }}{{ c.url }}">{{ c.title }}</a></h3>
+  <div class="badges">
+    {{ status_badge(c.status) }}
+    {{ strength_badge(c.strength, m) }}
+    <span class="badge category" style="--badge-bg: {{ m.category_colors[c.category] }}">{{ m.categories[c.category] }}</span>
+  </div>
+  <p class="statement">{{ c.statement | trim }}</p>
+  <div class="badges evidence-row">
+    {% for lid in c.evidence_levels %}{{ evidence_badge(m.levels_by_id[lid]) }} {% endfor %}
+    {% if not c.evidence_levels %}<span class="muted">No sources yet</span>{% endif %}
+  </div>
+  {% if c.get("period") %}<p class="meta">{{ c.period.label }}</p>{% endif %}
+</article>
+{%- endmacro %}

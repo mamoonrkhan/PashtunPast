@@ -1,0 +1,22 @@
+id: lamberg-karlovsky-2002
+title: "Archaeology and Language: The Indo-Iranians"
+authors:
+  - "Lamberg-Karlovsky, C. C."
+year: 2002
+source_type: journal-article
+peer_reviewed: true
+venue: Current Anthropology
+volume: "43"
+issue: "1"
+pages: 63–88
+doi: 10.1086/324130
+summary: >
+  Critical review of attempts to identify the early Indo-Iranians with
+  particular archaeological cultures such as Andronovo and the BMAC.
+verification:
+  status: unverified
+  notes: >
+    Automated check 2026-11-25: DOI resolves on Crossref and title, first author,
+    venue and year match. Still needs a human to open the work and confirm it says
+    what our claims cite it for. Crossref lists the title only as "Archaeology and
+    Language"; confirm the subtitle.

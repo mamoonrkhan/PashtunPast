@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "pontic-caspian-steppe",
+    "name": "Pontic–Caspian steppe",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. Grasslands north of the Black and Caspian Seas."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       30.0,
+       45.5
+      ],
+      [
+       49.5,
+       44.8
+      ],
+      [
+       52.5,
+       48.8
+      ],
+      [
+       48.0,
+       52.2
+      ],
+      [
+       32.0,
+       50.2
+      ],
+      [
+       30.0,
+       45.5
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

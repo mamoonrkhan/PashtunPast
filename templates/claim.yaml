@@ -1,0 +1,43 @@
+# CLAIM TEMPLATE — copy to data/claims/<your-id>.yaml and fill in.
+# Lines starting with # are comments and are ignored.
+# Run `python scripts/validate.py` afterwards; it tells you exactly what's wrong.
+
+id: short-hyphenated-id            # must match the file name
+title: Short headline for the claim
+statement: >
+  The claim itself, worded as precisely as the evidence allows.
+  "Herodotus names a people called the Paktyes" is checkable;
+  "The Paktyes were the Pashtuns" is a much bigger claim.
+discussion: >
+  Optional. Context, caveats, and how different scholars read the evidence.
+
+status: unverified                 # verified | unverified
+verification_note: >
+  UNVERIFIED — needs source check: say what exactly needs confirming.
+strength: unknown                  # strong | moderate | weak | contested | unknown
+category: history                  # linguistics | genetics | archaeology | history | origin-theory
+
+populations: [pashtuns]            # ids from data/vocab/populations.yaml
+regions: [arachosia]               # ids from data/vocab/regions.yaml
+period:
+  start: -500                      # negative = BCE; no year 0
+  end: -400
+  approximate: true
+  label: c. 5th century BCE
+  periods: [achaemenid]            # ids from data/vocab/periods.yaml
+
+citations:
+  - source: author-year            # id of a file in data/sources/
+    evidence_level: secondary-scholarship   # id from data/vocab/evidence-levels.yaml
+    relation: supports             # supports | contradicts | context
+    locator: "pp. 12–15"           # page, chapter, verse, figure…
+    note: What this source says, in your own words.
+
+related_claims:                    # optional; declare on one side only
+  - claim: other-claim-id
+    relation: competes-with        # competes-with | contradicts | supports | refines | depends-on
+    note: Why they are related.
+
+tags: []
+last_reviewed: 2026-01-01
+contributors: [your-github-username]

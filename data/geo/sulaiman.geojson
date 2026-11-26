@@ -1,0 +1,49 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "sulaiman-mountains",
+    "name": "Sulaiman Mountains",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The Sulaiman range on the Afghanistan–Pakistan borderlands."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       68.3,
+       29.6
+      ],
+      [
+       70.3,
+       29.8
+      ],
+      [
+       70.7,
+       32.4
+      ],
+      [
+       69.9,
+       33.5
+      ],
+      [
+       69.0,
+       32.9
+      ],
+      [
+       68.2,
+       31.1
+      ],
+      [
+       68.3,
+       29.6
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

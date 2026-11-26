@@ -1,0 +1,64 @@
+# Searches run by scripts/discover_sources.py.
+#
+#   text:    what to search for
+#   require: a result is kept only if its TITLE contains at least one of these
+#            (case and accents ignored). Search engines return a lot of loosely
+#            related results; this keeps the review queue short and relevant.
+#   exclude: drop results whose title contains any of these (also per query).
+#   apis:    which services to ask. Default: crossref, openalex, arxiv, europepmc.
+#            GitHub (code and datasets) is only asked when listed here.
+
+# Applied to every query: medical and clinical studies often sample Pashtun
+# populations but say nothing about history or ancestry.
+exclude: [cancer, tumor, tumour, carcinoma, diabetes, covid, sars-cov, hepatitis,
+          tuberculosis, malaria, thalassemia, polymorphism, susceptibility, clinical,
+          patients, disease, syndrome, stopwords, sentiment, speech recognition]
+
+queries:
+  - text: Pashto historical phonology
+    require: [pashto, pashtu, pakhto, pushto]
+
+  - text: Pashto etymology Iranian
+    require: [pashto, pashtu, pakhto, pushto]
+
+  - text: Pashtun population genetics
+    require: [pashtun, pakhtun, pathan, pashto, afghan]
+
+  - text: ancient DNA Central Asia South Asia
+    require: [central asia, south asia, steppe, iran, afghan, pakistan, bactria, turan, indo-iranian]
+
+  - text: Scythian ancient genomes
+    require: [scythian, saka, steppe]
+
+  - text: Saka nomads Iron Age
+    require: [saka, scythian, sakas]
+
+  - text: Bactria Margiana Archaeological Complex
+    require: [bactria, margiana, bmac, oxus]
+
+  - text: Andronovo culture
+    require: [andronovo, sintashta]
+
+  - text: Bactrian language documents inscription
+    require: [bactrian]
+
+  - text: Khotanese Saka language
+    require: [khotan, saka]
+
+  - text: Kushan empire
+    require: [kushan]
+
+  - text: Herodotus Paktyes Pactyes
+    require: [pakty, pacty]
+
+  - text: ancient DNA admixture qpAdm
+    require: [admix, qpadm, ancient, aadr]
+    apis: [github]
+
+  - text: Allen Ancient DNA Resource
+    require: [aadr, ancient dna, allen]
+    apis: [github]
+
+  - text: Pashto corpus
+    require: [pashto, pashtu, pakhto]
+    apis: [github]

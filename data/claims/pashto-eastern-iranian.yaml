@@ -1,0 +1,31 @@
+id: pashto-eastern-iranian
+title: Pashto is an Eastern Iranian language
+statement: >
+  Pashto belongs to the Eastern branch of the Iranian languages, within the
+  Indo-Iranian branch of Indo-European. Its closest relatives are other Eastern
+  Iranian languages (such as the Pamir languages, Munji–Yidgha, and the extinct
+  Bactrian, Sogdian and Saka), not Western Iranian languages like Persian.
+discussion: >
+  This classification rests on regular sound correspondences and shared
+  features, worked out by the comparative method. It is a claim about the
+  language's history, not about the biological ancestry of its speakers:
+  people can change language over generations.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find the exact chapter and pages in Schmitt
+  1989 and the introduction of Morgenstierne 2003 that state the classification,
+  and confirm the list of closest relatives.
+strength: strong
+category: linguistics
+populations: [pashtuns, eastern-iranian-speakers]
+regions: [arachosia, gandhara, sulaiman-mountains]
+citations:
+  - source: schmitt-1989
+    evidence_level: linguistic-consensus
+    relation: supports
+    locator: Pashto chapter (pages to be added)
+  - source: morgenstierne-2003
+    evidence_level: linguistic-consensus
+    relation: supports
+    locator: Introduction (pages to be added)
+tags: [language-classification]

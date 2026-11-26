@@ -1,0 +1,16 @@
+id: patterson-2012
+title: Ancient Admixture in Human History
+authors: ["Patterson, Nick", "et al."]
+year: 2012
+source_type: journal-article
+peer_reviewed: true
+venue: Genetics
+volume: "192"
+issue: "3"
+pages: 1065–1093
+doi: 10.1534/genetics.112.145037
+open_access: true
+summary: >
+  Formal description of f-statistics (f3, f4, D) and the ADMIXTOOLS software for
+  testing whether populations are mixed.
+verification: {status: unverified, notes: "Automated check 2026-11-25: DOI resolves and title, first author, venue and year match. Still needs a human to read the relevant sections."}

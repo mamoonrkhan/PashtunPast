@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% from "_macros.html" import evidence_badge, strength_badge %}
+{% block title %}Method · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>How this atlas works</h1>
+
+<section>
+  <h2>Claims, not conclusions</h2>
+  <p>
+    The atlas is made of <strong>claims</strong>: single statements, worded as
+    precisely as the evidence allows. "Herodotus names a people called the
+    Paktyes" and "the Paktyes were ancestors of the Pashtuns" are kept as two
+    separate claims, because the first is about what a text says and the second
+    is a much larger historical argument. Rival accounts are linked to each other
+    and shown side by side.
+  </p>
+</section>
+
+<section>
+  <h2>Evidence types</h2>
+  <p>
+    Every citation is labelled with the <em>kind</em> of evidence it provides.
+    These are types, not a ranking: genetics tells us about ancestry but not
+    language; linguistics tells us about language history but not ancestry.
+  </p>
+  <dl class="level-list">
+    {% for l in m.levels %}
+    <dt>{{ evidence_badge(l) }}</dt>
+    <dd>{{ l.description | trim }}
+      {% if l.max_strength != "strong" %}<br><span class="small">Alone, this can support a claim rated at most <strong>{{ l.max_strength }}</strong>.</span>{% endif %}
+    </dd>
+    {% endfor %}
+  </dl>
+</section>
+
+<section>
+  <h2>Strength</h2>
+  <dl class="level-list">
+    {% for s, text in m.strengths.items() %}
+    <dt>{{ strength_badge(s, m) }}</dt><dd>{{ text }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+
+<section>
+  <h2>Verification</h2>
+  <p>
+    A claim marked <span class="badge status-unverified">UNVERIFIED</span> has not yet
+    been checked by a person against its sources. A claim can only become verified
+    once every source it cites has been opened and confirmed. These rules are
+    checked automatically before the site is built.
+  </p>
+</section>
+
+<section>
+  <h2>What kind of group is it?</h2>
+  <p>
+    Popular origin theories often blur different kinds of groups. Each population
+    in the atlas is labelled as one of: a name for a people (<em>ethnonym</em>), an
+    <em>archaeological culture</em> (defined by objects such as pottery and
+    burials; we usually don't know their language), a <em>genetic cluster</em>
+    (defined by DNA), a <em>linguistic group</em>, a <em>polity</em> (state or
+    empire), or a <em>religious community</em>.
+  </p>
+</section>
+
+<section>
+  <h2>What comes next</h2>
+  <p>
+    Version 2 is designed but not built: a PCA view of open ancient-genome data,
+    an etymological database with sound changes, a contributor workflow and a
+    citation graph. See the <a href="design/v2.html">Version 2 design</a> and the
+    <a href="genetics/v2-analysis-plan.html">genetics analysis plan</a>.
+  </p>
+</section>
+
+<section>
+  <h2>Maps and dates</h2>
+  <p>
+    Ancient regions and peoples did not have fixed borders. The shapes on the map
+    are rough sketches for orientation, not borders. Dates are approximate unless
+    stated; negative years are BCE.
+  </p>
+</section>
+{% endblock %}

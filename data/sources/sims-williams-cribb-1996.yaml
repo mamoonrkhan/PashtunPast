@@ -1,0 +1,20 @@
+id: sims-williams-cribb-1996
+title: A new Bactrian inscription of Kanishka the Great
+authors:
+  - "Sims-Williams, Nicholas"
+  - "Cribb, Joe"
+year: 1996
+source_type: journal-article
+peer_reviewed: true
+venue: Silk Road Art and Archaeology
+volume: "4"
+pages: 75–142
+summary: >
+  First publication of the Rabatak inscription, a Kushan royal inscription in
+  the Bactrian language from the reign of Kanishka, important for Kushan
+  chronology and language policy.
+verification:
+  status: unverified
+  notes: >
+    Title, authors and year confirmed 2026-11-25 via OpenAlex (SOAS Research Online).
+    Volume (4, dated 1995/96) and pages 75–142 still need a human check. Add the SOAS URL.

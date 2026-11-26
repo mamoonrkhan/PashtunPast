@@ -1,0 +1,49 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "levant",
+    "name": "Levant",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. Eastern Mediterranean coast and hinterland."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       34.2,
+       31.0
+      ],
+      [
+       36.6,
+       30.8
+      ],
+      [
+       37.4,
+       34.0
+      ],
+      [
+       36.6,
+       36.6
+      ],
+      [
+       35.7,
+       36.0
+      ],
+      [
+       34.9,
+       33.0
+      ],
+      [
+       34.2,
+       31.0
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

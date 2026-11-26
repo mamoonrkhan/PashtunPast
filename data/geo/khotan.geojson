@@ -1,0 +1,41 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "khotan",
+    "name": "Khotan",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The Khotan oasis and southern rim of the Tarim Basin."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       78.4,
+       36.4
+      ],
+      [
+       82.6,
+       36.3
+      ],
+      [
+       82.6,
+       38.0
+      ],
+      [
+       78.4,
+       38.1
+      ],
+      [
+       78.4,
+       36.4
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
