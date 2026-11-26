@@ -51,18 +51,34 @@
     history.replaceState(null, "", location.pathname + "?" + params.toString());
     regionLayer.setStyle(style);
     renderPanel();
+    // The button that was used has just been replaced, so move keyboard focus
+    // (and, on phones, the scroll position) to the panel's new heading.
+    panel.querySelector("h2").focus();
   }
 
   function renderPanel() {
     if (!selected || !regionsById[selected]) {
-      panel.replaceChildren(el("p", { class: "muted" }, "Click a region to see its claims."));
+      // A list of every region as buttons: the keyboard- and screen-reader-friendly
+      // way to choose a region, and a text summary of what the map shows.
+      const regions = Atlas.data.regions
+        .map((r) => ({ r, n: counts[r.id] || 0 }))
+        .sort((a, b) => b.n - a.n || a.r.name.localeCompare(b.r.name));
+      panel.replaceChildren(
+        el("h2", { tabindex: "-1" }, "Regions"),
+        el("p", { class: "small muted" }, "Click a shape on the map, or choose a region here."),
+        el("ul", { class: "region-list" }, regions.map(({ r, n }) => {
+          const btn = el("button", { type: "button", class: "link-button region-button" },
+            r.name, " ", el("span", { class: "muted" }, `(${n})`));
+          btn.addEventListener("click", () => select(r.id));
+          return el("li", {}, btn);
+        })));
       return;
     }
     const r = regionsById[selected];
     const feature = geo.features.find((f) => f.properties.id === selected);
     const claims = Atlas.matched.filter((c) => c.regions.includes(selected));
     panel.replaceChildren(
-      el("h2", {}, r.name),
+      el("h2", { tabindex: "-1" }, r.name),
       r.modern ? el("p", { class: "small" }, "Today: " + r.modern.join("; ")) : null,
       feature ? el("p", { class: "small muted" }, feature.properties.note) : null,
       el("h3", {}, `${claims.length} matching claim(s)`),
@@ -71,7 +87,7 @@
           el("a", { href: c.url }, c.title), " ",
           el("span", { class: `badge strength strength-${c.strength}` }, c.strength),
           c.status !== "verified" ? el("span", { class: "badge status-unverified small-badge" }, "UNVERIFIED") : null))),
-      el("button", { type: "button", class: "link-button" }, "Clear selection"));
+      el("button", { type: "button", class: "link-button" }, "← All regions"));
     panel.querySelector("button").addEventListener("click", () => select(null));
   }
 
