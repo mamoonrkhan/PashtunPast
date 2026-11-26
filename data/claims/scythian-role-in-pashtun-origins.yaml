@@ -16,7 +16,10 @@ discussion: >
   influenced the Iranian world in the 1st millennium BCE. About half or more
   of Pashtun men carry the Y-chromosome lineage R1a (two studies), and Saka men buried in
   Kyrgyzstan also carried an R1a sub-branch, although R1a is far too widespread
-  for this to prove a link on its own.
+  for this to prove a link on its own. In Kushan-era northern Bactria, people
+  carried more steppe-related ancestry than the Bronze Age townspeople before them,
+  a sign of movement from the northern steppe, though the study doesn't say which
+  group it came from.
 
   WHAT COMPLICATES IT. "Saka" and "Scythian" were names for many different
   groups, and we don't know that they spoke one language. Language and ancestry
@@ -96,6 +99,8 @@ related_claims:
     relation: depends-on
     note: What Saka ancestry looked like, which a genetic test would need to detect.
   - claim: pashtun-y-r1a-frequency
+    relation: depends-on
+  - claim: kushan-era-bactria-steppe-increase
     relation: depends-on
   - claim: lost-tribes-descent
     relation: competes-with

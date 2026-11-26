@@ -1,0 +1,44 @@
+id: kushan-era-bactria-steppe-increase
+title: Kushan-era people of northern Bactria had more steppe ancestry than the Bronze Age townspeople before them
+plain: >
+  DNA from graves in southern Uzbekistan, part of ancient Bactria, from around the
+  time of the Kushan Empire, shows that people there mostly descended from the
+  region's earlier inhabitants, but with extra ancestry from the northern steppe.
+  The study doesn't say which steppe group brought it.
+statement: >
+  Genome-wide data from 27 people buried at three sites in southern Uzbekistan
+  around the Kushan period (about 2,100 to 1,500 years ago) show that Bronze Age
+  ancestry continued, with no major population replacement, but with more
+  steppe-related ancestry than in the earlier BMAC populations, pointing to
+  movement of people from the northern steppe southwards.
+discussion: >
+  This is relevant to the Saka question because Saka and other nomadic groups
+  moved south into Bactria in the 2nd and 1st centuries BCE. The study shows that
+  steppe-related ancestry rose in this period, but it does not identify which
+  group or groups brought it. It is also about northern Bactria, not the Pashtun
+  homeland itself.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: only the abstract was read. A person should read
+  the results to see the modelled proportions and the sites' exact dates.
+strength: strong
+category: genetics
+populations: [bactrians, kushans, steppe-mlba, bmac]
+regions: [bactria]
+period:
+  start: -150
+  end: 450
+  approximate: true
+  label: c. 2,100–1,500 years ago (around the Kushan period)
+  periods: [saka-parthian, kushan, early-islamic]
+citations:
+  - source: kumar-2021
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: 27 individuals from three sites; Bronze Age ancestry persists; higher Steppe-related ancestry than BMAC.
+related_claims:
+  - claim: bmac-little-steppe-ancestry
+    relation: refines
+    note: Compares Kushan-era people with the earlier BMAC townspeople.
+tags: [ancient-dna, bactria, kushan]
