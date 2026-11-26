@@ -1,0 +1,58 @@
+id: greek-descent-theory
+title: Pashtuns descend partly from Alexander the Great's Greek soldiers
+plain: >
+  Some Pashtuns, like the Kalash and Burusho, have a tradition of descent from the
+  Greek soldiers of Alexander the Great. DNA studies disagree: one found a Greek-like
+  father's line in a couple of Pashtun men, another found no support. Any Greek
+  contribution would be small.
+statement: >
+  Greek and Macedonian soldiers who came with Alexander the Great in the 330s–320s
+  BCE made a genetic contribution to the Pashtuns (Pathans).
+discussion: >
+  WHAT POINTS TOWARDS IT. Alexander's army campaigned through what is now Afghanistan
+  and Pakistan, and Greek rulers held Bactria and parts of the north-west for about
+  two centuries afterwards. In one Y-chromosome study, the Pathans were the Pakistani
+  group genetically closest to Greeks, and two Pathan men carried a lineage that is
+  frequent in Greece, one with a haplotype matching Greek men.
+
+  WHAT COMPLICATES IT. That study itself concludes that any Greek contribution is
+  limited to "a small proportion" of Pathan Y chromosomes, resting on very few men,
+  and it notes that earlier studies excluded a substantial Greek input. A second study,
+  of 190 Afghan Pathan men, found no sign of the lineage most typical of the Balkans
+  and concluded its results do not support Greek ancestry. Both studies look only at
+  the father's line.
+
+  WHERE IT STANDS. A small Greek contribution to some Pathan families is possible;
+  a large one is not supported. Genome-wide studies would give a clearer answer.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: only the two studies' abstracts were read. A
+  person should read both papers, including how many Pathans were tested and where.
+strength: contested
+category: origin-theory
+populations: [pashtuns, greeks]
+regions: [gandhara, bactria, arachosia]
+period:
+  start: -330
+  end: -130
+  approximate: true
+  label: Alexander's campaign (330s–320s BCE) to the end of Greek rule in Bactria
+  periods: [hellenistic]
+citations:
+  - source: firasat-2007
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: Greek-like E3b1 lineages in two Pathan men; "a small proportion of the Pathan Y chromosomes" of European origin.
+  - source: lacau-2012
+    evidence_level: peer-reviewed-genetics
+    relation: contradicts
+    locator: Abstract
+    note: Absence of E1b1b1a2-V13 in 190 Afghan Pathans "does not support their professed Greek ancestry".
+related_claims:
+  - claim: lost-tribes-descent
+    relation: competes-with
+    note: Another descent tradition tested with Y-chromosome data.
+  - claim: pashtun-y-r1a-frequency
+    relation: depends-on
+tags: [popular-theory, y-chromosome]

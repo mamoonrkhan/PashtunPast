@@ -1,14 +1,17 @@
 id: pashtun-y-r1a-frequency
-title: About half of Pashtun men in one study carried the Y-chromosome lineage R1a
+title: About half or more of Pashtun men carry the Y-chromosome lineage R1a
 plain: >
-  The Y chromosome is passed from father to son. In one study, about half of the
-  Pashtun men tested carried a family of Y lineages called R1a. It's common across a
+  The Y chromosome is passed from father to son. Two separate studies found that
+  about half or more of Pashtun men carry a family of Y lineages called R1a. It's common across a
   huge area, from Eastern Europe to India, so on its own it can't tell us which
   ancient people Pashtuns descend from.
 statement: >
   In a Y-chromosome study of Afghanistan's ethnic groups, the lineage R1a1a-M17 was
   found in 51% of Pashtun men tested, compared with 30% of Tajiks, 18% of Uzbeks and
   7% of Hazaras. The East Asian-related lineage C3 was found in only 2% of Pashtuns.
+  A second, higher-resolution study of 190 Pathan men from Afghanistan found R1a
+  (R1a1a*-M198) in more than half of Pathans in both Afghanistan and Pakistan, with
+  the same most common haplotype in both countries.
 discussion: >
   A Y-chromosome traces only one line of ancestry: father's father's father. R1a is
   found from Eastern Europe through Central Asia to India, so it doesn't point to any
@@ -20,8 +23,8 @@ status: unverified
 verification_note: >
   UNVERIFIED — needs source check: percentages read in the Results section of the
   open-access text. Add the number of Pashtun men tested (from the supplementary
-  tables) and where they were sampled.
-strength: moderate
+  tables) and where they were sampled; Lacau 2012 was read only in its abstract.
+strength: strong
 category: genetics
 populations: [pashtuns, tajiks, uzbeks, hazaras]
 regions: [hindu-kush, arachosia]
@@ -37,6 +40,11 @@ citations:
     relation: supports
     locator: Results (haplogroup frequencies); Table S4
     note: R1a1a-M17 in 51.02% of Pashtuns, 30.36% of Tajiks, 17.65% of Uzbeks, 6.67% of Hazaras; C3-M217 in 2.04% of Pashtuns.
+  - source: lacau-2012
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: 190 Afghan Pathan men; R1a1a*-M198 predominant (>50%) in Pathans of Afghanistan and Pakistan, same modal haplotype.
   - source: rymbekova-2026
     evidence_level: peer-reviewed-genetics
     relation: context

@@ -50,8 +50,8 @@
     groups, mainly early farmers of the Iranian plateau and Bronze Age herders
     from the steppe, whose ancestry reached the region about 3,500 to 4,000 years
     ago. Afghanistan's peoples, Pashtuns included, share deep common roots, with
-    later migrations adding different layers to each group. About half of Pashtun
-    men in one study carry the father's-line lineage R1a. DNA tells us about
+    later migrations adding different layers to each group. In two studies, about
+    half or more of Pashtun men carry the father's-line lineage R1a. DNA tells us about
     ancestry, not about language or identity, and only a few studies include
     Pashtuns.
   where_it_stands: "The broad picture: well supported. Pashtun-specific results: thin so far."
@@ -80,3 +80,15 @@
     became the official language of the Kushan Empire, written in Greek letters.
   where_it_stands: "Well supported, though nobody knows what language BMAC people spoke."
   claims: [bmac-little-steppe-ancestry, kushan-bactrian-language, andronovo-indo-iranians]
+
+- id: greeks
+  question: Are Pashtuns descended from Alexander the Great's Greek soldiers?
+  answer: >
+    Alexander the Great marched through Afghanistan and Pakistan around 330 BCE,
+    and Greek kings ruled Bactria for about two centuries after him, so the idea
+    is not far-fetched. Two DNA studies of Pashtun men's father's line have
+    looked for it. One found a Greek-like lineage in a couple of men and
+    concluded there may be a small Greek contribution; the other found nothing
+    that supports Greek ancestry. Either way, any Greek share is small.
+  where_it_stands: "A small Greek contribution is possible; a large one is not supported."
+  claims: [greek-descent-theory, pashtun-y-r1a-frequency]

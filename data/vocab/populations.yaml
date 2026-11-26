@@ -120,3 +120,9 @@
   kind: ethnonym
   aliases: []
   description: Small community of Tajikistan speaking Yaghnobi, an Eastern Iranian language descended from a dialect related to Sogdian.
+
+- id: greeks
+  name: Greeks (Macedonians and Greco-Bactrians)
+  kind: ethnonym
+  aliases: [Macedonians, Yavanas]
+  description: Greek and Macedonian soldiers and settlers who came east with Alexander the Great (330s–320s BCE) and later ruled Bactria and parts of north-western South Asia.

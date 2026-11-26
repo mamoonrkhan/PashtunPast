@@ -1,0 +1,25 @@
+id: lacau-2012
+title: Afghanistan from a Y-chromosome perspective
+authors:
+  - "Lacau, Harlette"
+  - "et al."
+year: 2012
+source_type: journal-article
+peer_reviewed: true
+venue: European Journal of Human Genetics
+volume: "20"
+issue: "10"
+pages: 1063–1070
+doi: 10.1038/ejhg.2012.59
+summary: >
+  High-resolution Y-chromosome study of 190 Pathan (Pashtun) men from Afghanistan,
+  compared with Pathans of Pakistan and neighbouring populations.
+verification:
+  status: unverified
+  notes: >
+    Abstract read 2026-11-26 via Europe PMC (full text not available through the API).
+    Abstract: 190 Pathan males from Afghanistan; R1a1a*-M198 predominant (>50%) in Pathans
+    of both Afghanistan and Pakistan, sharing the same modal haplotype; northern and
+    southern Afghan Pathans differ (Hindu Kush); R1a1a-M198 and G2c-M377 "might represent
+    phylogenetic signals from Khazars"; absence of E1b1b1a2-V13 "does not support their
+    professed Greek ancestry". A person should read the full paper.

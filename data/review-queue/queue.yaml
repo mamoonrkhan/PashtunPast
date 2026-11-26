@@ -8,6 +8,44 @@
 #      files in data/sources/ (they start as unverified).
 # Rejected entries stay here so the script doesn't suggest them again.
 
+- suggested_id: kreidl-2026
+  status: pending
+  title: A Historical Grammar of Pashto
+  authors:
+  - Kreidl, Julian
+  year: 2026
+  venue: ''
+  doi: 10.1553/978oeaw85321
+  url: https://doi.org/10.1553/978oeaw85321
+  source_type: book
+  found_via:
+  - 'crossref: Pashto historical phonology'
+  - 'openalex: Pashto historical phonology'
+  score: 20
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: 'PRIORITY. Full text not openly available (only the table of contents). Key sections:
+    §1.6 Name of the Pashtuns (p. 19); §5.1.2 Loanwords from Bactrian (p. 340); §6.3 Pashto within the
+    Eastern Iranian Languages (p. 367); §6.6 Supposed Special Links between Saka and Pashto (p. 372).'
+  key: doi:10.1553/978oeaw85321
+- suggested_id: stanizai-2020
+  status: pending
+  title: Are Pashtuns the Lost Tribe of Israel?
+  authors:
+  - Zaman Stanizai
+  year: 2020
+  venue: ''
+  doi: 10.33774/coe-2020-vntk7-v9
+  url: http://dx.doi.org/10.33774/coe-2020-vntk7-v9
+  source_type: preprint
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 15
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Relevant to lost-tribes-descent. Preprint (not peer reviewed). Host (cambridge.org) blocks
+    some AI agents, so not read by the pre-check.
+  key: doi:10.33774/coe-2020-vntk7-v9
 - suggested_id: dobbins-1972
   title: 'Coinage and epigraphy of the Sakas and Pahlavas: a reconstruction of the political chronology'
   authors:
@@ -76,24 +114,6 @@
   first_seen: '2026-11-26'
   summary: ''
   reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
-- suggested_id: kreidl-2026
-  status: pending
-  title: A Historical Grammar of Pashto
-  authors:
-  - Kreidl, Julian
-  year: 2026
-  venue: ''
-  doi: 10.1553/978oeaw85321
-  url: https://doi.org/10.1553/978oeaw85321
-  source_type: book
-  found_via:
-  - 'crossref: Pashto historical phonology'
-  - 'openalex: Pashto historical phonology'
-  score: 4
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1553/978oeaw85321
 - suggested_id: kuzmina-2007-3
   status: pending
   title: Chapter One. History of research on the Andronovo culture
@@ -175,28 +195,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1101/2021.11.04.466891
-- suggested_id: guarino-vignon-2022
-  status: pending
-  title: Genetic continuity of Indo-Iranian speakers since the Iron Age in southern Central Asia
-  authors:
-  - Guarino-Vignon, Perle
-  - Marchi, Nina
-  - Bendezu-Sarmiento, Julio
-  - Heyer, Evelyne
-  - Bon, Céline
-  year: 2022
-  venue: Scientific Reports
-  doi: 10.1038/s41598-021-04144-4
-  url: https://doi.org/10.1038/s41598-021-04144-4
-  source_type: journal-article
-  found_via:
-  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
-  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
-  score: 4
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1038/s41598-021-04144-4
 - suggested_id: a-2025
   status: pending
   title: 'Genetic insights into Iron Age Saka culture: Ancient DNA analysis of the Boz-Barmak burial ground,
@@ -388,29 +386,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/9789004438200_003
-- suggested_id: firasat-2006
-  status: pending
-  title: Y-chromosomal evidence for a limited Greek contribution to the Pathan population of Pakistan
-  authors:
-  - Firasat, Sadaf
-  - Khaliq, Shagufta
-  - Mohyuddin, Aisha
-  - Papaioannou, Myrto
-  - Tyler-Smith, Chris
-  - et al.
-  year: 2006
-  venue: European Journal of Human Genetics
-  doi: 10.1038/sj.ejhg.5201726
-  url: https://doi.org/10.1038/sj.ejhg.5201726
-  source_type: journal-article
-  found_via:
-  - 'crossref: Pakistan population genetics Pathan'
-  - 'openalex: Pakistan population genetics Pathan'
-  score: 4
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1038/sj.ejhg.5201726
 - suggested_id: karrer-2012
   status: pending
   title: 1. The Pashtun Element in Afghan Society
@@ -564,28 +539,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.3366/edinburgh/9781474439824.003.0001
-- suggested_id: cristofaro-2013
-  status: pending
-  title: 'Afghan Hindu Kush: Where Eurasian Sub-Continent Gene Flows Converge'
-  authors:
-  - Julie Di Cristofaro
-  - Erwan Pennarun
-  - Stéphane Mazières
-  - Natalie M. Myres
-  - Alice A. Lin
-  - et al.
-  year: 2013
-  venue: PLoS ONE
-  doi: 10.1371/journal.pone.0076748
-  url: https://doi.org/10.1371/journal.pone.0076748
-  source_type: journal-article
-  found_via:
-  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1371/journal.pone.0076748
 - suggested_id: group-2003
   status: pending
   title: 'Afghanistan : the problem of Pashtun alienation / International Crisis Group.'
@@ -618,50 +571,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.29171/azu_acku_pamphlet_ds357_6_p32_s355_2010
-- suggested_id: lacau-2012
-  status: pending
-  title: Afghanistan from a Y-chromosome perspective
-  authors:
-  - Harlette Lacau
-  - Tenzin Gayden
-  - María Regueiro
-  - Shilpa Chennakrishnaiah
-  - Areej Bukhari
-  - et al.
-  year: 2012
-  venue: European Journal of Human Genetics
-  doi: 10.1038/ejhg.2012.59
-  url: https://doi.org/10.1038/ejhg.2012.59
-  source_type: journal-article
-  found_via:
-  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1038/ejhg.2012.59
-- suggested_id: haber-2012
-  status: pending
-  title: Afghanistan's Ethnic Groups Share a Y-Chromosomal Heritage Structured by Historical Events
-  authors:
-  - Marc Haber
-  - Daniel E. Platt
-  - Maziar Ashrafian Bonab
-  - Sonia C. Youhanna
-  - David F. Soria‐Hernanz
-  - et al.
-  year: 2012
-  venue: PLoS ONE
-  doi: 10.1371/journal.pone.0034288
-  url: https://doi.org/10.1371/journal.pone.0034288
-  source_type: journal-article
-  found_via:
-  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1371/journal.pone.0034288
 - suggested_id: omarkhel-2025
   status: pending
   title: An Analytical Study of the Structure and Manner of Blank Verse in Pashto Literature
@@ -814,28 +723,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1126/sciadv.aat4457
-- suggested_id: gnecchiruscone-2021
-  status: pending
-  title: Ancient genomic time transect from the Central Asian Steppe unravels the history of the Scythians
-  authors:
-  - Guido Alberto Gnecchi‐Ruscone
-  - Elmira Khussainova
-  - Nurzhibek Kahbatkyzy
-  - Lyazzat Musralina
-  - Maria A. Spyrou
-  - et al.
-  year: 2021
-  venue: Science Advances
-  doi: 10.1126/sciadv.abe4414
-  url: https://doi.org/10.1126/sciadv.abe4414
-  source_type: journal-article
-  found_via:
-  - 'openalex: Scythian ancient genomes'
-  score: 2
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1126/sciadv.abe4414
 - suggested_id: dwivedi-2025
   status: pending
   title: Ancient mitogenomes from Neolithic, megalithic and medieval burials suggest complex genetic history
@@ -929,23 +816,6 @@
   summary: ''
   reviewer_note: ''
   key: title:archaeological importance of swabi as integral part of the gandhara civilization
-- suggested_id: stanizai-2020
-  status: pending
-  title: Are Pashtuns the Lost Tribe of Israel?
-  authors:
-  - Zaman Stanizai
-  year: 2020
-  venue: ''
-  doi: 10.33774/coe-2020-vntk7-v9
-  url: http://dx.doi.org/10.33774/coe-2020-vntk7-v9
-  source_type: preprint
-  found_via:
-  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.33774/coe-2020-vntk7-v9
 - suggested_id: smith-1903
   status: pending
   title: Art. I.—The Kushān, or Indo-Scythian, Period of Indian History, b.c. 165 to a.d. 320
@@ -4046,3 +3916,136 @@
   summary: ''
   reviewer_note: ''
   key: title:this citadel some bactrian ownership and identification inscriptions
+- suggested_id: guarino-vignon-2022
+  status: promoted
+  title: Genetic continuity of Indo-Iranian speakers since the Iron Age in southern Central Asia
+  authors:
+  - Guarino-Vignon, Perle
+  - Marchi, Nina
+  - Bendezu-Sarmiento, Julio
+  - Heyer, Evelyne
+  - Bon, Céline
+  year: 2022
+  venue: Scientific Reports
+  doi: 10.1038/s41598-021-04144-4
+  url: https://doi.org/10.1038/s41598-021-04144-4
+  source_type: journal-article
+  found_via:
+  - 'crossref: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Already added as data/sources/guarino-vignon-2022.yaml (read by maintainer pre-check).
+  key: doi:10.1038/s41598-021-04144-4
+- suggested_id: firasat-2006
+  status: promoted
+  title: Y-chromosomal evidence for a limited Greek contribution to the Pathan population of Pakistan
+  authors:
+  - Firasat, Sadaf
+  - Khaliq, Shagufta
+  - Mohyuddin, Aisha
+  - Papaioannou, Myrto
+  - Tyler-Smith, Chris
+  - et al.
+  year: 2006
+  venue: European Journal of Human Genetics
+  doi: 10.1038/sj.ejhg.5201726
+  url: https://doi.org/10.1038/sj.ejhg.5201726
+  source_type: journal-article
+  found_via:
+  - 'crossref: Pakistan population genetics Pathan'
+  - 'openalex: Pakistan population genetics Pathan'
+  score: 4
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Already added as data/sources/firasat-2007.yaml (read by maintainer pre-check).
+  key: doi:10.1038/sj.ejhg.5201726
+- suggested_id: cristofaro-2013
+  status: promoted
+  title: 'Afghan Hindu Kush: Where Eurasian Sub-Continent Gene Flows Converge'
+  authors:
+  - Julie Di Cristofaro
+  - Erwan Pennarun
+  - Stéphane Mazières
+  - Natalie M. Myres
+  - Alice A. Lin
+  - et al.
+  year: 2013
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0076748
+  url: https://doi.org/10.1371/journal.pone.0076748
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Already added as data/sources/di-cristofaro-2013.yaml (read by maintainer pre-check).
+  key: doi:10.1371/journal.pone.0076748
+- suggested_id: lacau-2012
+  status: promoted
+  title: Afghanistan from a Y-chromosome perspective
+  authors:
+  - Harlette Lacau
+  - Tenzin Gayden
+  - María Regueiro
+  - Shilpa Chennakrishnaiah
+  - Areej Bukhari
+  - et al.
+  year: 2012
+  venue: European Journal of Human Genetics
+  doi: 10.1038/ejhg.2012.59
+  url: https://doi.org/10.1038/ejhg.2012.59
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Already added as data/sources/lacau-2012.yaml (read by maintainer pre-check).
+  key: doi:10.1038/ejhg.2012.59
+- suggested_id: haber-2012
+  status: promoted
+  title: Afghanistan's Ethnic Groups Share a Y-Chromosomal Heritage Structured by Historical Events
+  authors:
+  - Marc Haber
+  - Daniel E. Platt
+  - Maziar Ashrafian Bonab
+  - Sonia C. Youhanna
+  - David F. Soria‐Hernanz
+  - et al.
+  year: 2012
+  venue: PLoS ONE
+  doi: 10.1371/journal.pone.0034288
+  url: https://doi.org/10.1371/journal.pone.0034288
+  source_type: journal-article
+  found_via:
+  - 'openalex: Afghanistan ethnic groups Y-chromosome Pashtun'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Already added as data/sources/haber-2012.yaml (read by maintainer pre-check).
+  key: doi:10.1371/journal.pone.0034288
+- suggested_id: gnecchiruscone-2021
+  status: promoted
+  title: Ancient genomic time transect from the Central Asian Steppe unravels the history of the Scythians
+  authors:
+  - Guido Alberto Gnecchi‐Ruscone
+  - Elmira Khussainova
+  - Nurzhibek Kahbatkyzy
+  - Lyazzat Musralina
+  - Maria A. Spyrou
+  - et al.
+  year: 2021
+  venue: Science Advances
+  doi: 10.1126/sciadv.abe4414
+  url: https://doi.org/10.1126/sciadv.abe4414
+  source_type: journal-article
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: Already added as data/sources/gnecchi-ruscone-2021.yaml (read by maintainer pre-check).
+  key: doi:10.1126/sciadv.abe4414
