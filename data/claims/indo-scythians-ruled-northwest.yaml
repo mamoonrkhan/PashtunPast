@@ -1,0 +1,32 @@
+id: indo-scythians-ruled-northwest
+title: Saka (Indo-Scythian) kings ruled Gandhara and Arachosia in the 1st century BCE
+statement: >
+  In the 1st century BCE, Saka rulers known as Indo-Scythians, among them Maues
+  and Azes, took over Gandhara and neighbouring lands from the Indo-Greeks, and
+  Saka groups also held Arachosia for a time, before Indo-Parthian and then
+  Kushan rule.
+discussion: >
+  This is widely stated, mainly on the evidence of coins and inscriptions, but
+  the dates of individual kings differ between scholars by a decade or more.
+  No source has been added yet, so the strength is "unknown".
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: add a numismatic or epigraphic study (a
+  candidate, Dobbins 1972, is in the review queue) with page references for
+  Maues, Azes and Saka rule in Arachosia.
+strength: unknown
+category: history
+populations: [indo-scythians, saka]
+regions: [gandhara, arachosia]
+period:
+  start: -100
+  end: 20
+  approximate: true
+  label: c. 1st century BCE (dates debated)
+  periods: [saka-parthian]
+citations: []
+related_claims:
+  - claim: sakastan-land-of-the-sakas
+    relation: supports
+    note: Both concern Saka presence in what is now Afghanistan and Pakistan.
+tags: [saka, numismatics]

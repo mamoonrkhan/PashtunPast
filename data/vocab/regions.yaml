@@ -50,3 +50,8 @@
   name: Levant
   modern: [Israel, Palestine, Lebanon, Syria, Jordan]
   geo: levant.geojson
+
+- id: sistan
+  name: Sistan (Sakastan, ancient Drangiana)
+  modern: [south-western Afghanistan (Nimruz), eastern Iran]
+  geo: sistan.geojson

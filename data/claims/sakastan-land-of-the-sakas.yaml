@@ -1,0 +1,36 @@
+id: sakastan-land-of-the-sakas
+title: Sistan was named Sakastan, "land of the Sakas", next to Arachosia
+statement: >
+  The region of Sistan, in today's south-western Afghanistan and eastern Iran,
+  takes its name from Sakastana, "land of the Sakas". The name is first recorded
+  by Isidore of Charax around the turn of the era. Sakastan bordered Arachosia
+  (the Kandahar region), part of the later Pashtun heartland.
+discussion: >
+  When Sakas first settled here is debated. The usual view links it to Saka
+  migrations in the late 2nd century BCE; Thomas (1906) argued they were present
+  earlier. Thomas's study is more than a century old, so later scholarship should
+  be added before relying on his dating.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: Thomas 1906, pp. 188–191, was read in a
+  scan. Add modern scholarship on the date of Saka settlement in Sistan, and
+  ideally the passage in Isidore of Charax (Parthian Stations).
+strength: strong
+category: history
+populations: [saka]
+regions: [sistan, arachosia]
+period:
+  start: -150
+  end: 20
+  approximate: true
+  label: Saka settlement (debated) to Isidore of Charax (c. turn of the era)
+  periods: [saka-parthian]
+citations:
+  - source: thomas-1906
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: pp. 188–191
+    note: >
+      Sakas settled "in this region, afterwards known as Sakastana, now Sistan";
+      the name "is first recorded by Isidor of Charax in the time of Augustus".
+tags: [toponym, saka]
