@@ -33,5 +33,12 @@ citations:
   - source: kent-1953
     evidence_level: primary-historical-text
     relation: supports
-    locator: Darius inscriptions listing Saka peoples (references to be added)
+    locator: Darius inscriptions listing Saka peoples, e.g. DSe § 4 (p. 110); other references to be added
+  - source: balatti-2021
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: pp. 140–153 (inscription lists and epithets)
+    note: >
+      Achaemenid inscriptions distinguish Saka groups by epithets: haumavargā,
+      tigraxaudā ('pointed-hat') and 'beyond the sea' (e.g. DSe § 4, Kent 1953: 110).
 tags: [ethnonym, steppe]

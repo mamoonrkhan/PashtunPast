@@ -90,3 +90,9 @@
   kind: ethnonym
   aliases: [Bani Israel]
   description: The ancient people of the Hebrew Bible. Included here because of the "Lost Tribes" origin theory.
+
+- id: ossetians
+  name: Ossetians
+  kind: ethnonym
+  aliases: [Ossetes]
+  description: People of the central Caucasus whose language, Ossetian (Ossetic), descends from the Scytho-Sarmatian (Alanic) branch of Iranian.

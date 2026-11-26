@@ -1,0 +1,76 @@
+id: scythian-role-in-pashtun-origins
+title: Saka (Scythian) peoples were a major contributor to Pashtun origins
+statement: >
+  Saka, or Scythian, peoples were a major contributor to the formation of the
+  Pashtuns: to the Pashto language, to Pashtun ancestry, or to both.
+discussion: >
+  WHAT POINTS TOWARDS IT. Pashto belongs to the same Eastern Iranian branch as
+  the Saka languages. Some linguists have proposed that Pashto comes from a Saka
+  dialect, or was in close contact with one. Saka groups lived right next to the
+  Pashtun homeland, in Sakastan beside Arachosia, and Saka kings ruled Gandhara
+  and Arachosia in the 1st century BCE. More broadly, Scythians strongly
+  influenced the Iranian world in the 1st millennium BCE.
+
+  WHAT COMPLICATES IT. "Saka" and "Scythian" were names for many different
+  groups, and we don't know that they spoke one language. Language and ancestry
+  are separate questions: Pashto could descend from a Saka dialect even if most
+  Pashtun ancestry came from elsewhere, and the reverse is also possible. No
+  genetic study cited here measures Saka-related ancestry in Pashtuns
+  specifically. Most steppe-related ancestry in South Asia arrived in the 2nd
+  millennium BCE, more than a thousand years before the Saka period, so
+  steppe ancestry in Pashtuns today can't simply be credited to the Sakas.
+  Pashto's closest relatives within Eastern Iranian are also still debated.
+
+  WHAT WOULD TEST IT. Genetics: published ancient genomes of Iron Age Saka
+  groups could be used as a source in admixture models of Pashtun samples, and
+  the date of mixing estimated; a contribution dated to the 1st millennium BCE or
+  early centuries CE would support the idea. Linguistics: sound changes or words
+  shared only by Pashto and the Saka languages (or Ossetian), and not by other
+  Eastern Iranian languages, would point to a specifically Saka origin for Pashto.
+
+  It is rated "contested" because it is a live hypothesis with circumstantial
+  support but has not been directly tested, and it competes with other accounts.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find scholarship that directly argues for or
+  against a Saka origin of Pashto or of the Pashtuns (candidates such as Cheung
+  2015 are in the review queue), and any genetic study modelling Pashtun ancestry
+  with Iron Age Saka sources.
+strength: contested
+category: origin-theory
+populations: [pashtuns, saka, scythians, indo-scythians]
+regions: [sistan, arachosia, gandhara, central-steppe]
+period:
+  start: -700
+  end: 400
+  approximate: true
+  label: Saka period, c. 7th century BCE to the Kushan era
+  periods: [iron-age, achaemenid, hellenistic, saka-parthian, kushan]
+citations:
+  - source: lubotsky-2002
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: p. 189
+    note: Scythians dominated Media and parts of the Near East in the 7th century BCE; whether all Saka/Scythian peoples spoke one language is unknown.
+  - source: unterlander-2017
+    evidence_level: peer-reviewed-genetics
+    relation: context
+    locator: Abstract
+    note: Iron Age Scythian-related groups carried an East Asian-related component as well as Yamnaya-related ancestry, which a genetic test could look for.
+related_claims:
+  - claim: pashto-from-saka-dialect
+    relation: depends-on
+    note: The language side of the hypothesis.
+  - claim: saka-languages-eastern-iranian
+    relation: depends-on
+  - claim: sakastan-land-of-the-sakas
+    relation: depends-on
+  - claim: indo-scythians-ruled-northwest
+    relation: depends-on
+  - claim: steppe-ancestry-into-south-asia
+    relation: depends-on
+    note: Earlier steppe ancestry has to be separated from any later Saka contribution.
+  - claim: lost-tribes-descent
+    relation: competes-with
+    note: A different account of where the Pashtuns came from.
+tags: [popular-theory, saka, steppe]

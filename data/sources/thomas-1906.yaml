@@ -1,0 +1,25 @@
+id: thomas-1906
+title: Sakastana
+authors:
+  - "Thomas, F. W."
+year: 1906
+source_type: journal-article
+peer_reviewed: true
+venue: Journal of the Royal Asiatic Society of Great Britain and Ireland
+pages: 181–216
+doi: 10.1017/S0035869X00034080
+url: https://zenodo.org/records/1617504
+open_access: true
+summary: >
+  Classic study of where the Sakas named by Darius and Herodotus lived. Discusses
+  Sakastana (modern Sistan) and argues that Sakas were in south-eastern Iran and
+  Afghanistan earlier than the usually assumed late-2nd-century-BCE migration.
+verification:
+  status: unverified
+  notes: >
+    Read 2026-11-26 (Zenodo scan). pp. 188–189: Sakas' settlement in "this region,
+    afterwards known as Sakastana, now Sistan"; the name "is first recorded by Isidor
+    of Charax in the time of Augustus"; Thomas disputes that the settlement only dates
+    to the end of the 2nd century BCE. p. 190: Arachosia described as "the Helmund
+    valley and the district between that river and the Indus". Over a century old:
+    check how later scholarship treats Thomas's early-settlement argument.

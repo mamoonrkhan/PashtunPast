@@ -8,6 +8,74 @@
 #      files in data/sources/ (they start as unverified).
 # Rejected entries stay here so the script doesn't suggest them again.
 
+- suggested_id: dobbins-1972
+  title: 'Coinage and epigraphy of the Sakas and Pahlavas: a reconstruction of the political chronology'
+  authors:
+  - Dobbins, Keith Walton
+  year: 1972
+  venue: Australian National University (thesis)
+  doi: 10.25911/5d74e316cdeac
+  url: null
+  source_type: thesis
+  key: doi:10.25911/5d74e316cdeac
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 9
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
+- suggested_id: kullanda-2014
+  title: External relations of Scythian
+  authors:
+  - Kullanda, Sergey
+  year: 2014
+  venue: Journal of Language Relationship (Voprosy jazykovogo rodstva)
+  doi: 10.31826/jlr-2014-110110
+  url: null
+  source_type: journal-article
+  key: doi:10.31826/jlr-2014-110110
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 9
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
+- suggested_id: dzitstsoity-2026
+  title: On the dialectal division of Scythian
+  authors:
+  - Dzitstsoity, Yuri A.
+  year: 2026
+  venue: Indo-Iranian Languages
+  doi: 10.30842/30346800.2026.2.1.8
+  url: null
+  source_type: journal-article
+  key: doi:10.30842/30346800.2026.2.1.8
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 9
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
+- suggested_id: cheung-2015
+  title: The linguistic and geographic position of Pashto within the East Iranian language group
+  authors:
+  - Cheung, Johnny
+  year: 2015
+  venue: HAL (halshs-01444288)
+  doi: null
+  url: https://shs.hal.science/halshs-01444288
+  source_type: journal-article
+  key: title:the linguistic and geographic position of pashto within the east iranian language group
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 9
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
 - suggested_id: kreidl-2026
   status: pending
   title: A Historical Grammar of Pashto

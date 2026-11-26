@@ -1,0 +1,44 @@
+id: scythian-language-north-iranian
+title: The Scythians spoke an Iranian language whose only living descendant is Ossetian
+statement: >
+  The language of the Scythians is known mainly from personal and tribal names
+  recorded by Greek and Persian writers. Scholars treat it as Iranian, belonging
+  to a northern branch whose only living descendant is Ossetian, spoken today in
+  the Caucasus. Whether all the peoples called "Scythian" or "Saka" spoke one
+  single language is not known.
+discussion: >
+  Because so little Scythian survives, linguists work backwards from Ossetian
+  and check which of its sound changes already appear in ancient Scythian and
+  Sarmatian names. How the Scythian of the western steppe relates to the Saka
+  languages later written in Khotan, and to other Eastern Iranian languages such
+  as Pashto, is still debated.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: Lubotsky 2002, pp. 189–190, was read in the
+  author's repository copy. Confirm against the published volume, and add a
+  second source on how Scythian relates to the Saka languages (candidates are in
+  the review queue).
+strength: strong
+category: linguistics
+populations: [scythians, saka, ossetians]
+regions: [pontic-caspian-steppe, central-steppe]
+period:
+  start: -1000
+  end: -200
+  approximate: true
+  label: c. 10th–3rd centuries BCE (Old Iranian stage)
+  periods: [iron-age, achaemenid, hellenistic]
+citations:
+  - source: lubotsky-2002
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: pp. 189–190 and note 1
+    note: >
+      Steppe tribes "called Sakas by the Persians and Scythians by the Greek";
+      "We do not know whether these peoples spoke the same language" (p. 189);
+      Ossetic is "the modern representative of one of the Scythian dialects" (p. 190).
+related_claims:
+  - claim: saka-languages-eastern-iranian
+    relation: refines
+    note: Both concern the languages of peoples called Saka or Scythian.
+tags: [language-classification, steppe]

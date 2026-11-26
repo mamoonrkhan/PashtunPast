@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "sistan",
+    "name": "Sistan (Sakastan, ancient Drangiana)",
+    "approximate": true,
+    "note": "Rough sketch for orientation only, not a historical border. The lower Helmand basin around Zaranj and the Hamun lakes."
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       60.6,
+       30.3
+      ],
+      [
+       62.6,
+       30.1
+      ],
+      [
+       63.3,
+       31.3
+      ],
+      [
+       62.2,
+       32.0
+      ],
+      [
+       60.9,
+       31.6
+      ],
+      [
+       60.6,
+       30.3
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
