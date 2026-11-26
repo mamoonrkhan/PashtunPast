@@ -9,7 +9,7 @@
 {% if c.status != "verified" %}
 <div class="banner unverified" role="note">
   <strong>UNVERIFIED — needs source check.</strong>
-  {{ c.verification_note | trim | replace("UNVERIFIED — needs source check:", "") | trim }}
+  {% set note = c.verification_note | trim | replace("UNVERIFIED — needs source check:", "") | trim %}{{ note[:1] | upper }}{{ note[1:] }}
 </div>
 {% endif %}
 
