@@ -1,0 +1,40 @@
+id: babur-records-afghani-language
+title: In 1504, Bābur recorded "Afghani" among the languages of Kabul and placed Afghan tribes to its south
+plain: >
+  When Bābur took Kabul in 1504, he wrote in his memoirs that eleven or twelve
+  languages were spoken there, one of them "Afghani", the language we call Pashto,
+  and that the Afghan tribes lived to the south of Kabul.
+statement: >
+  Bābur's memoirs, describing Kabul in 1504–05, place "the Afghan tribes" to the
+  south of Kabul and list "Afghani" among the eleven or twelve languages spoken in
+  the Kabul country, alongside Arabic, Persian, Turki, Mughuli, Hindi, Pashai, Paraji,
+  Gibri, Birki and Lamghani.
+discussion: >
+  "Afghani" here is generally understood to mean Pashto. Bābur's memoirs are a
+  first-hand account, and later passages describe raids on named Afghan tribes such
+  as the Ghilji and the Mahmand (Mohmand).
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Beveridge's translation
+  (vol. I, p. 207, f. 131b). Confirm against the page image, and add a source that
+  explicitly identifies Bābur's "Afghani" with Pashto.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [hindu-kush, sulaiman-mountains]
+period:
+  start: 1504
+  end: 1505
+  approximate: false
+  label: 910 AH (1504–05 CE)
+  periods: [medieval-early-modern]
+citations:
+  - source: beveridge-1922
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: vol. I, p. 207 (f. 131b)
+    note: "\"Eleven or twelve tongues are spoken in Kabul,—'Arabi, Persian, Turki, Mughuli, Hindi, Afghani, Pashai…\""
+related_claims:
+  - claim: afghans-in-al-biruni
+    relation: supports
+tags: [ethnonym, pashto, early-modern-sources]

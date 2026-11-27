@@ -1,0 +1,40 @@
+id: afghans-in-ghaznavid-armies
+title: An early-11th-century history records Afghans among Mahmud of Ghazni's troops
+plain: >
+  A history of Mahmud of Ghazni, written in his own time, mentions Afghans as one of
+  the groups in his army and has a chapter about an episode involving the Afghans.
+  It shows Afghans (Pashtuns) as a known people of the region about 1,000 years ago.
+statement: >
+  Al-ʿUtbī's history of Sabuktigin and Mahmud of Ghazni, written in the early 11th
+  century CE, lists Afghans among the troops of Mahmud's army ("various tribes of
+  Turks, Khalajes, and Hindus and Afghans") and includes a chapter titled
+  "Account of the Affair of the Afghans".
+discussion: >
+  Until the Ḥudūd al-ʿĀlam (982 CE) was found, al-ʿUtbī was considered the oldest
+  author to mention the Afghans. The text is read here in a 19th-century English
+  translation of an early Persian version of the Arabic original.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Reynolds's translation
+  (p. 336; ch. LI, p. 467). Confirm against the scan, and ideally against a modern
+  edition of the Arabic.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains, hindu-kush]
+period:
+  start: 998
+  end: 1030
+  approximate: true
+  label: Reign of Mahmud of Ghazni (998–1030 CE)
+  periods: [early-islamic, medieval-early-modern]
+citations:
+  - source: reynolds-1858
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: p. 336; ch. LI, p. 467
+    note: Mahmud's army of "various tribes of Turks, Khalajes, and Hindus and Afghans".
+related_claims:
+  - claim: afghans-in-hudud-al-alam
+    relation: supports
+tags: [ethnonym, medieval-sources]
