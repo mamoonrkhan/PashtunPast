@@ -1,0 +1,42 @@
+id: early-pashto-prose-bayazid-darweza
+title: In the 16th century, Bāyazīd Ansārī and his opponent Akhund Darweza wrote some of the earliest known Pashto prose
+plain: >
+  In the late 1500s a religious leader called Bāyazīd Ansārī, known as Pīr Roshan,
+  wrote a book partly in Pashto, and a rival scholar, Akhund Darweza, wrote works to
+  argue against him. Their writings are among the earliest known Pashto prose.
+statement: >
+  Bāyazīd Ansārī (Pīr Roshan), founder of the Roshani movement in the reign of the
+  Mughal emperor Akbar, wrote the Khair-ul-Bayān in four languages including Pashto,
+  and his opponent Akhund Darweza wrote works, among them the Makhzan-ul-asrār, to
+  refute him.
+discussion: >
+  According to Raverty, most copies of Bāyazīd's works were burnt by his opponents,
+  so few survive. Raverty calls Darweza's book "Makhzan Afghani", which is a
+  different work from Niʿmat Allāh's Makhzan-i Afghani used elsewhere in the atlas.
+  This rests on one 19th-century account so far; a modern history of Pashto
+  literature and of the Roshani movement should be added.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Raverty's Grammar
+  (introduction, pp. 32–33). Add modern scholarship, with dates for Bāyazīd and
+  Darweza and the surviving manuscripts.
+strength: moderate
+category: history
+populations: [pashtuns]
+regions: [gandhara, sulaiman-mountains]
+period:
+  start: 1556
+  end: 1605
+  approximate: true
+  label: Reign of Akbar (1556–1605)
+  periods: [medieval-early-modern]
+citations:
+  - source: raverty-1867
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Introduction, pp. 32–33
+    note: Khair-ul-Bayan "written in four languages — Pushto or Afghani, Arabic, Persian, and Hindi"; Akhund Darwezah's Makhzan-ul-asrar written in refutation.
+related_claims:
+  - claim: classical-pashto-poetry
+    relation: supports
+tags: [pashto, literature, roshaniyya]

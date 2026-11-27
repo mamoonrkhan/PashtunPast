@@ -1,0 +1,47 @@
+id: shaykh-mali-yusufzai-history
+title: A Yusufzai chief, Shaykh Mali, is said to have written a history of the conquest of Swat in the early 1400s
+plain: >
+  A 19th-century scholar reported that the oldest Pashtun author he knew of was
+  Shaykh Mali, a Yusufzai chief who wrote about his tribe's conquest of Swat in the
+  1410s–20s. But the scholar never saw the book: no copy could be found.
+statement: >
+  Raverty reported that the most ancient author among the eastern Afghans known to
+  him was Shaykh Mali, a chief of the Yusufzais, who wrote a history of the Yusufzai
+  conquest of Swat and the lands north of the Kabul river between 1413 and 1424 CE,
+  but that the work was "not procurable".
+discussion: >
+  Because the book itself was not available even in Raverty's time, this is a
+  report about a lost or unfound work, so it is rated weakly supported. Raverty does
+  not say which language it was written in. It fits the wider picture of the
+  Yusufzai move into the Peshawar valley and Swat: Elphinstone, in 1815, wrote that
+  the Yusufzais had held these lands "for upwards of three hundred years". Shaykh
+  Mali is also credited with the Yusufzai custom of periodically redistributing land.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in Raverty's Grammar (introduction, p. 32).
+  Find modern scholarship on Shaykh Mali and on whether any copy of his work survives.
+strength: weak
+category: history
+populations: [pashtuns]
+regions: [gandhara]
+period:
+  start: 1413
+  end: 1424
+  approximate: true
+  label: 816–828 AH (1413–1424 CE)
+  periods: [medieval-early-modern]
+citations:
+  - source: raverty-1867
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Introduction, p. 32
+    note: Shaykh Mali "a chief of the Yusufzis", history of the conquest of Suwat "A.D. 1413 to 1424"; "not procurable".
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: c. p. 330
+    note: The Yusufzais "have possessed these countries for upwards of three hundred years" (written 1815).
+related_claims:
+  - claim: early-pashto-prose-bayazid-darweza
+    relation: supports
+tags: [pashto, literature, yusufzai]
