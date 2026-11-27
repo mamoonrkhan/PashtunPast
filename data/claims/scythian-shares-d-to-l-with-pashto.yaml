@@ -1,0 +1,40 @@
+id: scythian-shares-d-to-l-with-pashto
+title: Some Scythian shared Pashto's sound change of old "d" into "l"
+plain: >
+  Pashto turned the old sound "d" into "l" (Pashto "las" means ten, where ancient
+  Avestan has "dasa"). Scholars have found the same change in Scythian names, at
+  least in one Scythian dialect. Bactrian has it too, so it doesn't prove a Scythian
+  origin for Pashto, but it is the kind of shared detail linguists look for.
+statement: >
+  The change of Proto-Iranian *d into l, a distinctive feature of Pashto and
+  Bactrian, is also found in Scythian, at least in the dialect scholars call
+  "Skolot". Some scholars hold that the change belonged to Scythian as a whole;
+  others, that it marks only one of at least two Scythian dialects.
+discussion: >
+  Shared sound changes are the strongest kind of evidence for which languages are
+  closely related, so this is a real point of contact between Scythian and Pashto.
+  It has limits. The same change is found in Bactrian and other languages, so it
+  doesn't single out Scythian, and a change like this can also spread between
+  neighbouring languages or arise independently. A Scythian (or Saka) origin for
+  Pashto would need several such shared features, not one.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the English abstract (p. 168). A reader of
+  Russian should confirm the argument and examples in the article, and the view of
+  Kullanda 2014 (in the review queue) should be checked directly.
+strength: moderate
+category: linguistics
+populations: [scythians, pashtuns, eastern-iranian-speakers]
+regions: [pontic-caspian-steppe, arachosia]
+citations:
+  - source: dzitstsoity-2026
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: English abstract, p. 168
+    note: The Skolot dialect developed Proto-Iranian *d into l, "which is also attested in Bactrian, Pashto and other languages".
+related_claims:
+  - claim: scythian-language-north-iranian
+    relation: refines
+  - claim: pashto-eastern-iranian
+    relation: supports
+tags: [sound-change, scythians, pashto]
