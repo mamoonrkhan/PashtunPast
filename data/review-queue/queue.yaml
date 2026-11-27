@@ -291,7 +291,8 @@
   score: 4
   first_seen: '2026-11-25'
   summary: ''
-  reviewer_note: ''
+  reviewer_note: Would strengthen saka-languages-eastern-iranian. MDPI returned 403 to the pre-check;
+    needs a human reader.
   key: doi:10.3390/rel17030295
 - suggested_id: empire-2016
   status: pending
@@ -702,28 +703,6 @@
   key: title:ancient mitochondrial dna from pre historic southeastern europe the presence of east eurasian
     haplogroups provides evidence of interactions with south siberians across the central asian steppe
     belt
-- suggested_id: krzewinska-2018
-  status: pending
-  title: Ancient genomes suggest the eastern Pontic-Caspian steppe as the source of western Iron Age nomads
-  authors:
-  - Maja Krzewińska
-  - Gülşah Merve Kılınç
-  - Anna Juras
-  - Dilek Koptekin
-  - Maciej Chyleński
-  - et al.
-  year: 2018
-  venue: Science Advances
-  doi: 10.1126/sciadv.aat4457
-  url: https://doi.org/10.1126/sciadv.aat4457
-  source_type: journal-article
-  found_via:
-  - 'openalex: Scythian ancient genomes'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1126/sciadv.aat4457
 - suggested_id: dwivedi-2025
   status: pending
   title: Ancient mitogenomes from Neolithic, megalithic and medieval burials suggest complex genetic history
@@ -1217,28 +1196,6 @@
   summary: ''
   reviewer_note: ''
   key: title:development of pashto literature in swat
-- suggested_id: juras-2017
-  status: pending
-  title: Diverse origin of mitochondrial lineages in Iron Age Black Sea Scythians
-  authors:
-  - Anna Juras
-  - Maja Krzewińska
-  - Alexey G. Nikitin
-  - Edvard Ehler
-  - Maciej Chyleński
-  - et al.
-  year: 2017
-  venue: Scientific Reports
-  doi: 10.1038/srep43950
-  url: https://doi.org/10.1038/srep43950
-  source_type: journal-article
-  found_via:
-  - 'openalex: Scythian ancient genomes'
-  score: 2
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1038/srep43950
 - suggested_id: khan-2024
   status: pending
   title: Drivers of Extremism in Swat Valley
@@ -2698,29 +2655,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.2307/j.ctv1fcf8hh.52
-- suggested_id: jarve-2019
-  status: pending
-  title: Shifts in the Genetic Landscape of the Western Eurasian Steppe Associated with the Beginning
-    and End of the Scythian Dominance
-  authors:
-  - Mari Järve
-  - Lehti Saag
-  - Christiana L. Scheib
-  - Ajai Kumar Pathak
-  - Francesco Montinaro
-  - et al.
-  year: 2019
-  venue: Current Biology
-  doi: 10.1016/j.cub.2019.06.019
-  url: https://doi.org/10.1016/j.cub.2019.06.019
-  source_type: journal-article
-  found_via:
-  - 'openalex: Scythian ancient genomes'
-  score: 2
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1016/j.cub.2019.06.019
 - suggested_id: hussain-2026-2
   status: pending
   title: 'Similarities Between Pashtun and German Populations: A genetic Perspective'
@@ -3711,7 +3645,8 @@
   score: 2
   first_seen: '2026-11-26'
   summary: ''
-  reviewer_note: ''
+  reviewer_note: 'Abstract read: single Pathan genome (Y L1, mtDNA H2). A medical/genomic resource; one
+    person can''t describe a population, so not used for origin claims.'
   key: doi:10.1186/s12864-015-1290-1
 - suggested_id: segurel-2020
   status: pending
@@ -4005,6 +3940,28 @@
   summary: ''
   reviewer_note: Already added as data/sources/haber-2012.yaml (read by maintainer pre-check).
   key: doi:10.1371/journal.pone.0034288
+- suggested_id: krzewinska-2018
+  status: promoted
+  title: Ancient genomes suggest the eastern Pontic-Caspian steppe as the source of western Iron Age nomads
+  authors:
+  - Maja Krzewińska
+  - Gülşah Merve Kılınç
+  - Anna Juras
+  - Dilek Koptekin
+  - Maciej Chyleński
+  - et al.
+  year: 2018
+  venue: Science Advances
+  doi: 10.1126/sciadv.aat4457
+  url: https://doi.org/10.1126/sciadv.aat4457
+  source_type: journal-article
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Added as a source by the maintainer pre-check (2026-11-26).
+  key: doi:10.1126/sciadv.aat4457
 - suggested_id: gnecchiruscone-2021
   status: promoted
   title: Ancient genomic time transect from the Central Asian Steppe unravels the history of the Scythians
@@ -4027,6 +3984,28 @@
   summary: ''
   reviewer_note: Already added as data/sources/gnecchi-ruscone-2021.yaml (read by maintainer pre-check).
   key: doi:10.1126/sciadv.abe4414
+- suggested_id: juras-2017
+  status: promoted
+  title: Diverse origin of mitochondrial lineages in Iron Age Black Sea Scythians
+  authors:
+  - Anna Juras
+  - Maja Krzewińska
+  - Alexey G. Nikitin
+  - Edvard Ehler
+  - Maciej Chyleński
+  - et al.
+  year: 2017
+  venue: Scientific Reports
+  doi: 10.1038/srep43950
+  url: https://doi.org/10.1038/srep43950
+  source_type: journal-article
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: Added as a source by the maintainer pre-check (2026-11-26).
+  key: doi:10.1038/srep43950
 - suggested_id: kumar-2021
   status: promoted
   title: Genetic Continuity of Bronze Age Ancestry with Increased Steppe-Related Ancestry in Late Iron
@@ -4050,3 +4029,26 @@
   summary: ''
   reviewer_note: Added as a source by the maintainer pre-check (2026-11-26).
   key: doi:10.1093/molbev/msab216
+- suggested_id: jarve-2019
+  status: promoted
+  title: Shifts in the Genetic Landscape of the Western Eurasian Steppe Associated with the Beginning
+    and End of the Scythian Dominance
+  authors:
+  - Mari Järve
+  - Lehti Saag
+  - Christiana L. Scheib
+  - Ajai Kumar Pathak
+  - Francesco Montinaro
+  - et al.
+  year: 2019
+  venue: Current Biology
+  doi: 10.1016/j.cub.2019.06.019
+  url: https://doi.org/10.1016/j.cub.2019.06.019
+  source_type: journal-article
+  found_via:
+  - 'openalex: Scythian ancient genomes'
+  score: 2
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: Added as a source by the maintainer pre-check (2026-11-26).
+  key: doi:10.1016/j.cub.2019.06.019

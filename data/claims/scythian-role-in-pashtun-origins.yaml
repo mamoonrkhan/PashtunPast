@@ -19,7 +19,9 @@ discussion: >
   for this to prove a link on its own. In Kushan-era northern Bactria, people
   carried more steppe-related ancestry than the Bronze Age townspeople before them,
   a sign of movement from the northern steppe, though the study doesn't say which
-  group it came from.
+  group it came from. Ancient DNA from the steppe shows that
+  Scythian and Saka expansions moved people, not just culture, so a genetic
+  contribution further south is plausible in principle.
 
   WHAT COMPLICATES IT. "Saka" and "Scythian" were names for many different
   groups, and we don't know that they spoke one language. Language and ancestry
@@ -101,6 +103,8 @@ related_claims:
   - claim: pashtun-y-r1a-frequency
     relation: depends-on
   - claim: kushan-era-bactria-steppe-increase
+    relation: depends-on
+  - claim: scythian-expansion-moved-people
     relation: depends-on
   - claim: lost-tribes-descent
     relation: competes-with
