@@ -10,8 +10,12 @@ statement: >
   20th century, preserves Pashto poems composed as early as the 8th century CE.
 discussion: >
   This claim is important because it would push written Pashto back by roughly
-  700 years. Before rating it, the atlas needs scholarly sources on the manuscript's
-  history and on whether the language of the poems fits such early dates.
+  700 years. Afghan histories of Pashto literature, such as Hewādmal's school
+  textbook (2000), begin Pashto literature in the 8th century, with a first period
+  up to the 16th century "known through a few rare texts"; the summary consulted
+  does not say which texts. Before rating the claim, the atlas needs scholarly
+  sources on the manuscript's history and on whether the language of the poems fits
+  such early dates.
 status: unverified
 verification_note: >
   UNVERIFIED — needs source check: add the published edition and scholarly
@@ -20,7 +24,12 @@ strength: unknown
 category: history
 populations: [pashtuns]
 regions: [arachosia]
-citations: []
+citations:
+  - source: manalai-2002
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: Summary, §§ 1–4
+    note: "Hewādmal's history covers Pashto literature from the 8th century; \"La première période, du 8e au 16e s. est connue à travers quelques rares textes\" (the first period, 8th–16th century, is known through a few rare texts)."
 related_claims:
   - claim: classical-pashto-poetry
     relation: competes-with
