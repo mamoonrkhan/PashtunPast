@@ -8,9 +8,10 @@
       "type": "array",
       "items": {
         "type": "object", "additionalProperties": false,
-        "required": ["id", "question", "answer", "where_it_stands", "claims"],
+        "required": ["id", "section", "question", "answer", "where_it_stands", "claims"],
         "properties": {
           "id": { "$ref": "#/$defs/id" },
+          "section": { "enum": ["origins", "language", "history", "deep-past"] },
           "question": { "type": "string", "minLength": 10 },
           "answer": { "type": "string", "minLength": 50, "maxLength": 900 },
           "where_it_stands": { "type": "string", "maxLength": 140 },

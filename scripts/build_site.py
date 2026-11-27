@@ -65,6 +65,14 @@ CATEGORIES = {
     "history": "History", "origin-theory": "Origin theory",
 }
 
+# Headings for the "big questions" on the Start here page, in display order.
+QUESTION_SECTIONS = [
+    ("origins", "Origins: the main theories"),
+    ("language", "Language"),
+    ("history", "History"),
+    ("deep-past", "DNA and the deep past"),
+]
+
 # Everyday wording for the kinds of group in data/vocab/populations.yaml.
 KIND_LABELS = {
     "ethnonym": "name of a people", "archaeological-culture": "archaeological culture",
@@ -237,6 +245,10 @@ def build_model(ds) -> dict:
         "kind_labels": KIND_LABELS,
         "category_colors": CATEGORY_COLORS,
         "questions": [dict(q, claim_objs=[claims[cid] for cid in q["claims"]]) for q in ds.guides.get("questions", [])],
+        "question_sections": [
+            {"id": sid, "title": title, "questions": [dict(q, claim_objs=[claims[cid] for cid in q["claims"]])
+                                                      for q in ds.guides.get("questions", []) if q.get("section") == sid]}
+            for sid, title in QUESTION_SECTIONS],
         "glossary": sorted(ds.guides.get("glossary", []), key=lambda g: g["term"].lower()),
         "languages": languages,
         "languages_by_id": {l["id"]: l for l in languages},

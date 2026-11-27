@@ -41,10 +41,15 @@
 
 <section id="questions" aria-labelledby="questions-heading">
   <h2 id="questions-heading">The big questions</h2>
+  <nav class="section-jumps" aria-label="Question topics">
+    {% for sec in m.question_sections if sec.questions %}<a href="#{{ sec.id }}">{{ sec.title }}</a>{% endfor %}
+  </nav>
+  {% for sec in m.question_sections if sec.questions %}
+  <h3 class="question-section" id="{{ sec.id }}">{{ sec.title }}</h3>
   <div class="question-list">
-    {% for q in m.questions %}
+    {% for q in sec.questions %}
     <article class="question" id="q-{{ q.id }}">
-      <h3>{{ q.question }}</h3>
+      <h4>{{ q.question }}</h4>
       <p>{{ q.answer | trim }}</p>
       <p class="where-it-stands"><span class="where-label">Where it stands:</span> {{ q.where_it_stands }}</p>
       <details>
@@ -58,6 +63,7 @@
     </article>
     {% endfor %}
   </div>
+  {% endfor %}
 </section>
 
 <section class="get-involved">

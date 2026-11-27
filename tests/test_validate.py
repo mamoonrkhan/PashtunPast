@@ -233,7 +233,7 @@ def test_form_without_source_fails_schema(make_cognates):
 def test_g1_question_must_link_existing_claims(make, tmp_path):
     (tmp_path / "guides").mkdir()
     (tmp_path / "guides" / "questions.yaml").write_text(yaml.safe_dump([{
-        "id": "q", "question": "A test question?", "where_it_stands": "x",
+        "id": "q", "section": "origins", "question": "A test question?", "where_it_stands": "x",
         "answer": "A plain answer that is long enough to pass the schema check.",
         "claims": ["no-such-claim"]}]))
     errors, _ = make([], [])

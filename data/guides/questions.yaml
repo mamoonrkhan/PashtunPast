@@ -6,8 +6,10 @@
 #   - Write for someone with no background in history or linguistics.
 #   - `where_it_stands` is one short line on how certain the answer is.
 #   - The validator checks that every claim listed exists (rule G1).
+#   - `section` groups questions on the page: origins | language | history | deep-past.
 
 - id: pashto-language
+  section: language
   question: Where does the Pashto language come from?
   answer: >
     Pashto belongs to the Iranian family of languages, the same family as
@@ -19,6 +21,7 @@
   claims: [pashto-eastern-iranian, saka-languages-eastern-iranian, pashto-from-saka-dialect, kushan-bactrian-language]
 
 - id: scythians
+  section: origins
   question: Did the Scythians (Sakas) help form the Pashtuns?
   answer: >
     "Saka" was the Persian name for the nomads the Greeks called Scythians. They
@@ -33,6 +36,7 @@
   claims: [scythian-role-in-pashtun-origins, sakastan-land-of-the-sakas, indo-scythians-ruled-northwest, scythian-language-north-iranian, persians-called-scythians-saka, scythian-gene-pools-formed, scythian-expansion-moved-people, scythian-shares-d-to-l-with-pashto, pashtun-y-r1a-frequency, kushan-era-bactria-steppe-increase]
 
 - id: paktyes
+  section: origins
   question: Who were the Paktyes, and were they Pashtuns?
   answer: >
     About 2,500 years ago, the Greek historian Herodotus wrote about a people
@@ -44,6 +48,7 @@
   claims: [herodotus-names-paktyes, paktyes-ancestors-of-pashtuns, herodotus-western-paktyike]
 
 - id: first-records
+  section: history
   question: When do the Pashtuns first appear in written records?
   answer: >
     Herodotus mentioned a people called the Paktyes about 2,500 years ago, but
@@ -58,6 +63,7 @@
   claims: [afghans-in-hudud-al-alam, afghans-in-ghaznavid-armies, afghans-in-al-biruni, babur-records-afghani-language, pashtun-pakhtun-name, earlier-forms-of-afghan-name, herodotus-names-paktyes, paktyes-ancestors-of-pashtuns]
 
 - id: pashtun-states
+  section: history
   question: Did Pashtuns ever rule kingdoms or empires?
   answer: >
     Yes, several times. The Lodi family ruled the Delhi Sultanate in northern India
@@ -69,6 +75,7 @@
   claims: [pashtun-dynasties-of-delhi, afghans-take-isfahan-1722, durrani-monarchy-founded-1747]
 
 - id: pashto-written
+  section: language
   question: When was Pashto first written down?
   answer: >
     By 1504 the emperor Bābur listed "Afghani", that is Pashto, as one of the
@@ -81,6 +88,7 @@
   where_it_stands: "From the 16th century: well supported. Much earlier writing: claimed, not yet assessed."
   claims: [classical-pashto-poetry, early-pashto-prose-bayazid-darweza, shaykh-mali-yusufzai-history, babur-records-afghani-language, pata-khazana-early-poetry]
 - id: society
+  section: history
   question: How do Pashtuns organise their society?
   answer: >
     Traditionally, Pashtun tribes trace their descent from one ancestor, Qais Abdur
@@ -92,6 +100,7 @@
   where_it_stands: "Well recorded in older sources; modern scholarship still to be added."
   claims: [genealogy-three-sons-of-qais, jirga-recorded-1815, pashtunwali-recorded-1815]
 - id: dna
+  section: deep-past
   question: What does ancient DNA tell us?
   answer: >
     DNA studies show that people in this region descend from several ancient
@@ -106,6 +115,7 @@
   claims: [afghan-groups-shared-roots, steppe-ancestry-into-south-asia, pashtuns-steppe-ancestry, pashtun-y-r1a-frequency, central-asian-iranian-speakers-continuity, iron-age-nomads-mixed-ancestry, bmac-little-steppe-ancestry]
 
 - id: lost-tribes
+  section: origins
   question: What about the Lost Tribes of Israel story?
   answer: >
     A Persian history written around 1610, the Makhzan-i Afghani, traces the
@@ -120,6 +130,7 @@
   claims: [lost-tribes-tradition-makhzan, lost-tribes-descent, greek-descent-theory]
 
 - id: bactria
+  section: deep-past
   question: What were Bactria and the BMAC?
   answer: >
     Bactria was the land around the Amu Darya river, in today's northern
@@ -131,6 +142,7 @@
   claims: [bmac-little-steppe-ancestry, kushan-bactrian-language, andronovo-indo-iranians]
 
 - id: greeks
+  section: origins
   question: Are Pashtuns descended from Alexander the Great's Greek soldiers?
   answer: >
     Alexander the Great marched through Afghanistan and Pakistan around 330 BCE,

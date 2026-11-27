@@ -318,3 +318,9 @@ a.term:hover, a.term:focus-visible { color: var(--accent); }
 .reading-list li { margin-bottom: 14px; }
 .reading-list p { margin: 2px 0; }
 .reading-title { font-size: 1.02rem; }
+
+/* Start here: question sections */
+.section-jumps { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 8px; }
+.section-jumps a { padding: 6px 14px; border: 1px solid var(--border); border-radius: 999px; text-decoration: none; background: var(--surface); }
+.question-section { font-size: 1.35rem; margin: 28px 0 12px; padding-top: 8px; border-top: 1px solid var(--border); }
+.question h4 { font-size: 1.25rem; margin: 0 0 8px; }
