@@ -59,6 +59,17 @@
     checking.
   where_it_stands: "Clear mentions from the 10th century CE; earlier ones possible but unconfirmed."
   claims: [afghans-in-hudud-al-alam, afghans-in-al-biruni, afghans-in-ghaznavid-armies, babur-records-afghani-language, pashtun-dynasties-of-delhi, durrani-monarchy-founded-1747, pashtun-pakhtun-name, earlier-forms-of-afghan-name, herodotus-names-paktyes, paktyes-ancestors-of-pashtuns]
+- id: pashto-written
+  question: When was Pashto first written down?
+  answer: >
+    By 1504 the emperor Bābur listed "Afghani", that is Pashto, as one of the
+    languages of Kabul, and a rich written poetry followed. Khushal Khan Khattak,
+    born in 1613, was both a tribal chief and a poet, and Rahman Baba became one of
+    the best-loved Pashto poets. A collection called the Pata Khazana claims Pashto
+    poems from as early as the 8th century, which would make written Pashto far
+    older, but the atlas hasn't yet added scholarly assessments of it.
+  where_it_stands: "From the 16th century: well supported. Much earlier writing: claimed, not yet assessed."
+  claims: [classical-pashto-poetry, babur-records-afghani-language, pata-khazana-early-poetry]
 - id: dna
   question: What does ancient DNA tell us?
   answer: >

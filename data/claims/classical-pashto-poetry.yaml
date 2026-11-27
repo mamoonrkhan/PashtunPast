@@ -1,0 +1,42 @@
+id: classical-pashto-poetry
+title: Pashto had a rich written poetry by the 17th century, including Khushal Khan Khattak and Rahman Baba
+plain: >
+  By the 1600s Pashto had great written poets. Khushal Khan Khattak, born in 1613,
+  was both a tribal chief and a poet, and Rahman Baba, a Sufi poet from near
+  Peshawar, became one of the best-loved Pashto poets of all.
+statement: >
+  Classical Pashto poetry is well attested from the 16th century onwards. Khushal
+  Khan Khattak, chief of the Khattak tribe and "alike a warrior and a poet", was born
+  in 1613 (1022 AH), and 'Abd-ur-Rahman (Rahman Baba), a Sufi poet of the Mohmand
+  tribe near Peshawar, was described in 1862 as "one of the most popular, and probably
+  the best known, of all the Afghan poets".
+discussion: >
+  Raverty's anthology covers poetry "from the sixteenth to the nineteenth century".
+  Claims of much older written Pashto exist (see the Pata Khazana claim), but the
+  secure, continuous literary record runs from about the 16th century.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Raverty 1862 (notices of
+  Khushhal Khan and 'Abd-ur-Rahman). Add page numbers, and a modern history of Pashto
+  literature with Khushal Khan's death date and Rahman Baba's dates.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [gandhara]
+period:
+  start: 1500
+  end: 1720
+  approximate: true
+  label: 16th–early 18th centuries
+  periods: [medieval-early-modern]
+citations:
+  - source: raverty-1862
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Title; notices of Khushhal Khan, Khattak and of 'Abd-ur-Rahman
+    note: Khushal Khan "born in the year 1022 of the Hijrah (A.D. 1613)"; Rahman "one of the most popular, and probably the best known, of all the Afghan poets".
+related_claims:
+  - claim: babur-records-afghani-language
+    relation: supports
+    note: Pashto ("Afghani") was recognised as a distinct language by 1504.
+tags: [pashto, literature]
