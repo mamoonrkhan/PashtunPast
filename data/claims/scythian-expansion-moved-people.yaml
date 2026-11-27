@@ -1,0 +1,55 @@
+id: scythian-expansion-moved-people
+title: The spread of Scythian and Saka groups moved people, not just a way of life
+plain: >
+  When Scythian-type nomads spread across the steppe, people with different
+  ancestry actually moved and mixed; it wasn't only a fashion of horses, weapons and
+  art being copied. The Scythians were a mix of groups, not one people.
+statement: >
+  Ancient DNA shows that Iron Age Scythian-type nomads were genetically
+  heterogeneous, and that the rise of Scythian dominance on the western steppe was
+  accompanied by an influx of eastern-related ancestry, implying movement of people
+  rather than only the spread of a culture. Mother's-line DNA shows lineages shared
+  across Scythian, Saka and Pazyryk groups, with western lineages decreasing and
+  eastern lineages increasing from west to east.
+discussion: >
+  This matters for the Pashtun question in one specific way: because Scythian and
+  Saka expansions carried people and ancestry with them, a Saka genetic
+  contribution further south, in Bactria, Sistan or Gandhara, is plausible in
+  principle. Whether it actually happened, and how much, still needs a direct test.
+  These studies are about the western and central steppe, not Afghanistan.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: only the three abstracts were read. A person
+  should confirm the conclusions and sample sizes in the full papers.
+strength: strong
+category: genetics
+populations: [scythians, saka]
+regions: [pontic-caspian-steppe, central-steppe]
+period:
+  start: -900
+  end: -100
+  approximate: true
+  label: c. 9th–1st centuries BCE
+  periods: [iron-age, achaemenid, hellenistic]
+citations:
+  - source: jarve-2019
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: 31 genomes; eastern (Altaian) affinity increases at the start of Scythian dominance; "a demic component".
+  - source: krzewinska-2018
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: 35 genomes; "The nomadic populations were heterogeneous".
+  - source: juras-2017
+    evidence_level: peer-reviewed-genetics
+    relation: supports
+    locator: Abstract
+    note: 19 mitochondrial genomes; shared package with Saka and Pazyryk; opposite west-east clines.
+related_claims:
+  - claim: iron-age-nomads-mixed-ancestry
+    relation: supports
+  - claim: scythian-gene-pools-formed
+    relation: supports
+tags: [ancient-dna, steppe, scythians]
