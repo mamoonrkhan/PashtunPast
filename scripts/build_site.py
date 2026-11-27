@@ -288,6 +288,30 @@ def build_docs(ds, model: dict) -> list[dict]:
     return sorted(pages, key=lambda p: (p["section"], p["order"], p["title"]))
 
 
+def help_wanted(data_dir: Path, model: dict) -> dict:
+    """What the atlas most needs from people, for the Help wanted page.
+
+    - claims with no supporting source yet, or only weak support
+    - how much has been verified so far
+    - the priority reading list: review-queue entries scored 10 or more
+    """
+    claims = list(model["claims"].values())
+    queue_path = data_dir / "review-queue" / "queue.yaml"
+    queue = (yaml.safe_load(queue_path.read_text(encoding="utf-8")) or []) if queue_path.exists() else []
+    reading = sorted((e for e in queue if e.get("status") == "pending" and (e.get("score") or 0) >= 10),
+                     key=lambda e: -(e.get("score") or 0))
+    return {
+        "needs_sources": [c for c in claims if c["strength"] in ("unknown", "weak")
+                          or not any(x["relation"] == "supports" for x in c["citations"])],
+        "claims_total": len(claims),
+        "claims_verified": sum(1 for c in claims if c["status"] == "verified"),
+        "sources_total": len(model["sources"]),
+        "sources_verified": sum(1 for s in model["sources"].values() if s["verification"]["status"] == "verified"),
+        "queue_pending": sum(1 for e in queue if e.get("status") == "pending"),
+        "reading": reading,
+    }
+
+
 def browser_data(model: dict) -> dict:
     """The subset of the model the JavaScript needs (search, filters, timeline, map)."""
     keep = ("id", "title", "statement", "discussion", "status", "strength", "category",
@@ -355,6 +379,7 @@ def build(data_dir: Path = DATA_DIR, out: Path = DEFAULT_OUT) -> int:
     render("index.html", "index.html")
     render("claims_list.html", "claims.html", data_json=data_json)
     render("glossary.html", "glossary.html")
+    render("help.html", "help.html", help=help_wanted(data_dir, model))
     render("timeline.html", "timeline.html", data_json=data_json)
     render("map.html", "map.html", data_json=data_json,
            geo_json=json_for_html(load_geo(data_dir, model["regions"])))
@@ -370,7 +395,7 @@ def build(data_dir: Path = DATA_DIR, out: Path = DEFAULT_OUT) -> int:
     shutil.copytree(SITE_SRC / "static", out / "static")
     (out / ".nojekyll").write_text("")  # tell GitHub Pages to serve files as-is
 
-    print(f"Built {len(model['claims'])} claim pages, {len(docs)} doc pages + 8 other pages into {out}"
+    print(f"Built {len(model['claims'])} claim pages, {len(docs)} doc pages + 9 other pages into {out}"
           f" ({len(warnings)} validation warning(s)).")
     return 0
 
