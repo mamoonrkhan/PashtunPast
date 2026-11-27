@@ -49,16 +49,25 @@
     Herodotus mentioned a people called the Paktyes about 2,500 years ago, but
     whether they were Pashtuns is disputed. The first clear mentions come much later,
     under the name "Afghans", which older writers used for the Pashtuns. A Persian
-    geography written in 982 CE mentions Afghans living near Gardiz, and around 1030
-    CE the scholar al-Bīrūnī described Afghan tribes in the mountains on India's
-    western frontier; Mahmud of Ghazni had Afghans in his army. By 1504 Bābur
-    listed "Afghani", that is Pashto, among the languages of Kabul. Pashtun
-    dynasties, the Lodis and Sher Shah Suri, ruled from Delhi in the 15th and 16th
-    centuries, and in 1747 Ahmad Shah Durrani founded the kingdom at Kandahar. A 6th-century Indian text lists a people that its translator
-    called "Afghans", and a Bactrian form has been reported, but both still need
-    checking.
+    geography of 982 CE mentions Afghans living near Gardiz; soon after, Mahmud of
+    Ghazni had Afghans in his army, and around 1030 al-Bīrūnī described Afghan
+    tribes in the mountains on India's western frontier. By 1504 Bābur listed
+    "Afghani", that is Pashto, among the languages of Kabul. Older forms of the name
+    have been suggested in Sanskrit and Bactrian texts, but still need checking.
   where_it_stands: "Clear mentions from the 10th century CE; earlier ones possible but unconfirmed."
-  claims: [afghans-in-hudud-al-alam, afghans-in-al-biruni, afghans-in-ghaznavid-armies, babur-records-afghani-language, pashtun-dynasties-of-delhi, durrani-monarchy-founded-1747, pashtun-pakhtun-name, earlier-forms-of-afghan-name, herodotus-names-paktyes, paktyes-ancestors-of-pashtuns]
+  claims: [afghans-in-hudud-al-alam, afghans-in-ghaznavid-armies, afghans-in-al-biruni, babur-records-afghani-language, pashtun-pakhtun-name, earlier-forms-of-afghan-name, herodotus-names-paktyes, paktyes-ancestors-of-pashtuns]
+
+- id: pashtun-states
+  question: Did Pashtuns ever rule kingdoms or empires?
+  answer: >
+    Yes, several times. The Lodi family ruled the Delhi Sultanate in northern India
+    from 1451 to 1526, and Sher Shah Suri seized the throne of Delhi from the
+    Mughals in the 16th century. In 1722 Afghans from Kandahar, led by Mahmud, son
+    of Mir Wais, captured Isfahan and the Persian throne. And in 1747 Ahmad Shah
+    Durrani was crowned at Kandahar, founding the Durrani kingdom.
+  where_it_stands: "Well documented, though the sources used so far are old and need modern support."
+  claims: [pashtun-dynasties-of-delhi, afghans-take-isfahan-1722, durrani-monarchy-founded-1747]
+
 - id: pashto-written
   question: When was Pashto first written down?
   answer: >

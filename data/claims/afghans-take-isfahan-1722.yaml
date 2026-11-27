@@ -1,0 +1,43 @@
+id: afghans-take-isfahan-1722
+title: Afghans of Kandahar, led by Mir Wais's son Mahmud, took Isfahan and the Persian throne in 1722
+plain: >
+  In the early 1700s the Afghans of Kandahar rebelled against Persian rule under
+  their leader Mir Wais. In 1722 his son Mahmud marched on Isfahan, the Persian
+  capital, took it, and sat on the Persian throne, ending the Safavid dynasty's rule.
+statement: >
+  After a rebellion at Kandahar led by Mir Wais, his son Mahmud led an Afghan army
+  from Kandahar, ready by December 1721, against Kirman and then Isfahan. In October
+  1722 the Safavid king Shah Husayn was dethroned, and Mahmud entered Isfahan "with
+  all the Splendour of a Conqueror" and placed himself on the Persian throne.
+discussion: >
+  Historians call this the Hotak dynasty, after Mir Wais's clan; a modern source
+  should be added for that name and for the dates of Mir Wais's rebellion. Afghan
+  rule in Persia was short: it ended within the decade. Krusinski's account is based on
+  an eyewitness in Isfahan but was written from the Persian side and edited by
+  another hand.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of the 1733 English edition
+  (vol. I preface; vol. II on Mahmud's entry into Isfahan). Add page numbers, and a
+  modern history of the Hotak period.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [arachosia]
+period:
+  start: 1709
+  end: 1722
+  approximate: true
+  label: Rebellion at Kandahar to the fall of Isfahan (1722)
+  periods: [medieval-early-modern]
+citations:
+  - source: krusinski-1733
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Vol. I, editor's preface; vol. II, Mahmud's entry into Isfahan
+    note: "Shah Husayn \"dethroned\" in October 1722; \"Sultan Maghmud … made his Entry into the Capital with all the Splendour of a Conqueror … plac'd himself on the Throne\"."
+related_claims:
+  - claim: durrani-monarchy-founded-1747
+    relation: supports
+    note: Both are Pashtun states founded at Kandahar in the 18th century.
+tags: [hotak, state-formation, persia]
