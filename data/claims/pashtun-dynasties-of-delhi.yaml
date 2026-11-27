@@ -1,0 +1,50 @@
+id: pashtun-dynasties-of-delhi
+title: Two Afghan (Pashtun) dynasties ruled from Delhi, the Lodis and the Suris
+plain: >
+  Pashtuns ruled much of northern India twice: the Lodi family took the throne of
+  Delhi in 1451 and held it until 1526, and Sher Shah Suri seized it from the Mughals
+  in the middle of the 16th century.
+statement: >
+  An Afghan (Pashtun) dynasty, the Lodis, held the Delhi Sultanate under Bahlul Lodi
+  (1451–1488), Sikandar (1488–1517) and Ibrahim (1517–1526); and in the mid-16th
+  century Sher Shah Suri took the throne of Delhi, his dynasty contesting it with the
+  Mughals. The Makhzan-i Afghani says that before Bahlul Lodi's accession no Afghan
+  had become a sovereign.
+discussion: >
+  These are among the best-documented events of Pashtun history. The dates here come
+  from the preface of Dorn's 1829 translation; a modern history of the Delhi
+  Sultanate and of Sher Shah should be added. The Makhzan-i Afghani is an Afghan
+  history written at the Mughal court (one copy is titled "Tareekh Khanjehan Lodi
+  wa Makhzen Afghani", after the Mughal noble Khan Jahan Lodi), so its account of
+  these dynasties is not neutral.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Dorn's translation
+  (translator's preface, pp. v–vi; Makhzan introduction). Add a modern scholarly
+  history with exact dates for Sher Shah's reign.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [gandhara]
+period:
+  start: 1451
+  end: 1556
+  approximate: true
+  label: Lodi dynasty 1451–1526; Suri dynasty mid-16th century
+  periods: [medieval-early-modern]
+citations:
+  - source: dorn-1829
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Translator's preface, pp. v–vi
+    note: "\"another dynasty of Afghan sovereigns established their power in Dehli, under Behlol Lodi (1451 — 1488); Sultan Sekunder (1488 — 1517); and Sultan Ibrahim (1517 — 1526) … Sheer Shah raised himself to the throne of Dehli\"."
+  - source: dorn-1829
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: Introduction (before ch. I)
+    note: "Until Sultan Behlol Lodi's accession, \"no one amongst them having raised himself to sovereignty\"."
+related_claims:
+  - claim: lost-tribes-tradition-makhzan
+    relation: refines
+    note: Same source, the Makhzan-i Afghani.
+tags: [dynasties, india]
