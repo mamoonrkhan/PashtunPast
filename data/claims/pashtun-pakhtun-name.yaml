@@ -1,0 +1,41 @@
+id: pashtun-pakhtun-name
+title: Pashtuns call themselves Pashtun or Pakhtun, depending on dialect, and "Pathan" probably comes from this name
+plain: >
+  The people's own name for themselves is "Pashtun", which northern speakers say as
+  "Pakhtun". An observer in 1815 recorded both, and suggested that "Pathan", the name
+  used in India, comes from the northern form.
+statement: >
+  Elphinstone recorded in 1815 that the Afghans' own name for their nation is
+  "Pooshtoon" (Pashtun), that northern tribes pronounce it "Pookhtauneh" (Pakhtun),
+  and that the Indian name "Patan" (Pathan) "may probably be derived" from it.
+discussion: >
+  The two pronunciations reflect a well-known dialect difference within Pashto,
+  between softer southern (Kandahar) and harder northern (Peshawar) forms. The link
+  between "Pathan" and "Pakhtun" was offered as probable, not proven. Whether the
+  name goes back to the Paktyes of Herodotus is a separate, disputed question.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of the 1815 edition (p. 151).
+  Add modern linguistic scholarship on the name (e.g. Kreidl 2026, §1.6 "Name of the
+  Pashtuns", p. 19, in the review queue).
+strength: strong
+category: linguistics
+populations: [pashtuns]
+regions: [arachosia, gandhara]
+period:
+  start: 1808
+  end: 1815
+  approximate: true
+  label: Recorded 1808–1815
+  periods: [modern]
+citations:
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: p. 151
+    note: "\"Their own name for their nation is Pooshtoon … The Berdooraunees pronounce this word Pookhtauneh; whence the name of Patan … may probably be derived.\""
+related_claims:
+  - claim: paktyes-ancestors-of-pashtuns
+    relation: refines
+    note: The modern name, which the Paktyes theory tries to link to Herodotus.
+tags: [ethnonym, pashto]
