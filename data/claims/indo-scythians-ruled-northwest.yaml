@@ -10,14 +10,19 @@ statement: >
   Kushan rule.
 discussion: >
   This is widely stated, mainly on the evidence of coins and inscriptions, but
-  the dates of individual kings differ between scholars by a decade or more.
-  No source has been added yet, so the strength is "unknown".
+  the dates of individual kings differ between scholars by a decade or more. The
+  source added so far shows that King Azes's coins come from Gandhara and eastern
+  Afghanistan and that an era named after him began in 48/47 or 47/46 BCE (an
+  older view put it at 58/57 BCE). It does not itself say that Azes or Maues were
+  Sakas, or that Sakas held Arachosia, so the claim is rated only "weakly
+  supported" until a source for those parts is added.
 status: unverified
 verification_note: >
-  UNVERIFIED — needs source check: add a numismatic or epigraphic study (a
-  candidate, Dobbins 1972, is in the review queue) with page references for
-  Maues, Azes and Saka rule in Arachosia.
-strength: unknown
+  UNVERIFIED — needs source check: Falk & Bennett 2009 was read (abstract and
+  p. 198). Still needed: a source stating that Maues and Azes were Saka
+  (Indo-Scythian) kings, and one for Saka rule in Arachosia (candidates: Dobbins
+  1972; Encyclopaedia Iranica "Indo-Scythian dynasty"; both in the review queue).
+strength: weak
 category: history
 populations: [indo-scythians, saka]
 regions: [gandhara, arachosia]
@@ -27,7 +32,12 @@ period:
   approximate: true
   label: c. 1st century BCE (dates debated)
   periods: [saka-parthian]
-citations: []
+citations:
+  - source: falk-bennett-2009
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Abstract; p. 198
+    note: Azes's coins come from Gandhara and eastern Afghanistan; the Azes era began in 48/47 or 47/46 BCE.
 related_claims:
   - claim: sakastan-land-of-the-sakas
     relation: supports

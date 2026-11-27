@@ -46,6 +46,25 @@
   reviewer_note: Relevant to lost-tribes-descent. Preprint (not peer reviewed). Host (cambridge.org) blocks
     some AI agents, so not read by the pre-check.
   key: doi:10.33774/coe-2020-vntk7-v9
+- suggested_id: lubotsky-2020
+  status: pending
+  title: What Language Was Spoken by the People of the Bactria-Margiana Archaeological Complex?
+  authors:
+  - Lubotsky, Alexander
+  year: 2020
+  venue: '"At the Shores of the Sky"'
+  doi: 10.1163/9789004438200_003
+  url: https://doi.org/10.1163/9789004438200_003
+  source_type: book-chapter
+  found_via:
+  - 'crossref: Bactria Margiana Archaeological Complex'
+  - 'openalex: Bactria Margiana Archaeological Complex'
+  score: 15
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: Relevant to the BMAC claims and the 'what language did BMAC people speak?' question.
+    Brill returned 403 to the pre-check; needs a human reader.
+  key: doi:10.1163/9789004438200_003
 - suggested_id: dobbins-1972
   title: 'Coinage and epigraphy of the Sakas and Pahlavas: a reconstruction of the political chronology'
   authors:
@@ -368,24 +387,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.4324/9781315193359-28
-- suggested_id: lubotsky-2020
-  status: pending
-  title: What Language Was Spoken by the People of the Bactria-Margiana Archaeological Complex?
-  authors:
-  - Lubotsky, Alexander
-  year: 2020
-  venue: '"At the Shores of the Sky"'
-  doi: 10.1163/9789004438200_003
-  url: https://doi.org/10.1163/9789004438200_003
-  source_type: book-chapter
-  found_via:
-  - 'crossref: Bactria Margiana Archaeological Complex'
-  - 'openalex: Bactria Margiana Archaeological Complex'
-  score: 4
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1163/9789004438200_003
 - suggested_id: karrer-2012
   status: pending
   title: 1. The Pashtun Element in Afghan Society
@@ -1351,29 +1352,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.31600/978-5-907053-35-9-86-87
-- suggested_id: kumar-2021
-  status: pending
-  title: Genetic Continuity of Bronze Age Ancestry with Increased Steppe-Related Ancestry in Late Iron
-    Age Uzbekistan
-  authors:
-  - Vikas Kumar
-  - E. Andrew Bennett
-  - Dongyue Zhao
-  - Yun Liang
-  - Yunpeng Tang
-  - et al.
-  year: 2021
-  venue: Molecular Biology and Evolution
-  doi: 10.1093/molbev/msab216
-  url: https://doi.org/10.1093/molbev/msab216
-  source_type: journal-article
-  found_via:
-  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1093/molbev/msab216
 - suggested_id: ullah-2016
   status: pending
   title: Genetic Diversity of Endangered Sheep Breed of Valley Swat, Pakistan, Based on Microsatellite
@@ -4049,3 +4027,26 @@
   summary: ''
   reviewer_note: Already added as data/sources/gnecchi-ruscone-2021.yaml (read by maintainer pre-check).
   key: doi:10.1126/sciadv.abe4414
+- suggested_id: kumar-2021
+  status: promoted
+  title: Genetic Continuity of Bronze Age Ancestry with Increased Steppe-Related Ancestry in Late Iron
+    Age Uzbekistan
+  authors:
+  - Vikas Kumar
+  - E. Andrew Bennett
+  - Dongyue Zhao
+  - Yun Liang
+  - Yunpeng Tang
+  - et al.
+  year: 2021
+  venue: Molecular Biology and Evolution
+  doi: 10.1093/molbev/msab216
+  url: https://doi.org/10.1093/molbev/msab216
+  source_type: journal-article
+  found_via:
+  - 'openalex: Iron Age southern Central Asia genetic continuity Indo-Iranian'
+  score: 2
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Added as a source by the maintainer pre-check (2026-11-26).
+  key: doi:10.1093/molbev/msab216
