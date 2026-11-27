@@ -80,6 +80,17 @@
     older, but the atlas hasn't yet added scholarly assessments of it.
   where_it_stands: "From the 16th century: well supported. Much earlier writing: claimed, not yet assessed."
   claims: [classical-pashto-poetry, early-pashto-prose-bayazid-darweza, shaykh-mali-yusufzai-history, babur-records-afghani-language, pata-khazana-early-poetry]
+- id: society
+  question: How do Pashtuns organise their society?
+  answer: >
+    Traditionally, Pashtun tribes trace their descent from one ancestor, Qais Abdur
+    Rashid, and his three sons, Sarban, Batan and Ghurghusht, a family tree recorded
+    in a history from around 1610. In 1815 a British envoy described tribes run by
+    their chiefs (khans) and by councils of family heads called jirgas, and a code of
+    conduct, Pashtunwali, with strong duties of honour and hospitality. These are old
+    descriptions; modern studies still need adding.
+  where_it_stands: "Well recorded in older sources; modern scholarship still to be added."
+  claims: [genealogy-three-sons-of-qais, jirga-recorded-1815, pashtunwali-recorded-1815]
 - id: dna
   question: What does ancient DNA tell us?
   answer: >
