@@ -1,0 +1,36 @@
+id: hephthalite-abdali-link
+title: The Abdali (Durrani) Pashtuns descend from or are named after the Hephthalites
+plain: >
+  The Hephthalites, sometimes called the "White Huns", ruled Bactria and the lands
+  around it about 1,500 years ago. Some writers link them to the Abdali tribe, the
+  old name of the Durrani Pashtuns. We haven't yet added a source we could read
+  on this, so the idea isn't rated.
+statement: >
+  The Abdali Pashtuns, later called Durrani, descend from the Hephthalites, or take
+  their name from them.
+discussion: >
+  The Hephthalites ruled Bactria and neighbouring regions in the 5th–6th centuries
+  CE. Links between their name and "Abdali" are based mainly on similar-sounding
+  names, which on their own are weak evidence (compare the Paktyes question). The
+  atlas needs scholarship on the Hephthalites and on the origin of the Abdali name
+  before rating this.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find scholarship arguing for and against the
+  link (a candidate, "The Hephthalites", Freie Universität Berlin 2010, is in the
+  review queue; its host blocks AI agents).
+strength: unknown
+category: origin-theory
+populations: [pashtuns]
+regions: [bactria, gandhara]
+period:
+  start: 440
+  end: 560
+  approximate: true
+  label: Hephthalite period, c. mid-5th to mid-6th centuries CE (dates vary by author)
+  periods: [early-islamic]
+citations: []
+related_claims:
+  - claim: durrani-monarchy-founded-1747
+    relation: refines
+tags: [popular-theory, hephthalites]
