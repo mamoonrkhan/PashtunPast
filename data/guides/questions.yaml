@@ -72,13 +72,14 @@
   question: When was Pashto first written down?
   answer: >
     By 1504 the emperor Bābur listed "Afghani", that is Pashto, as one of the
-    languages of Kabul, and a rich written poetry followed. Khushal Khan Khattak,
+    languages of Kabul. In the later 1500s Bāyazīd Ansārī and his rival Akhund
+    Darweza wrote religious works in Pashto, and a rich poetry followed. Khushal Khan Khattak,
     born in 1613, was both a tribal chief and a poet, and Rahman Baba became one of
     the best-loved Pashto poets. A collection called the Pata Khazana claims Pashto
     poems from as early as the 8th century, which would make written Pashto far
     older, but the atlas hasn't yet added scholarly assessments of it.
   where_it_stands: "From the 16th century: well supported. Much earlier writing: claimed, not yet assessed."
-  claims: [classical-pashto-poetry, babur-records-afghani-language, pata-khazana-early-poetry]
+  claims: [classical-pashto-poetry, early-pashto-prose-bayazid-darweza, shaykh-mali-yusufzai-history, babur-records-afghani-language, pata-khazana-early-poetry]
 - id: dna
   question: What does ancient DNA tell us?
   answer: >
