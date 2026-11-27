@@ -1,27 +1,44 @@
 id: earlier-forms-of-afghan-name
 title: Earlier forms of the name "Afghan" may appear in Sanskrit and Bactrian texts
 plain: >
-  Some scholars think the name "Afghan" appears even earlier than the 10th century:
-  as "Avagāṇa" in a 6th-century Indian text, and as "Abgān" in Bactrian documents.
-  We haven't yet added a source we could read for these, so the idea isn't rated.
+  The name "Afghan" may appear even earlier than the 10th century. A 6th-century
+  Indian astrology book lists a people that its 19th-century translator called
+  "Afghans", and a form "Abgān" has been reported in Bactrian documents. Both still
+  need checking, so the idea is only weakly supported.
 statement: >
-  Forms of the name "Afghan" have been identified in sources older than the 10th
-  century, including "Avagāṇa" in the 6th-century Sanskrit Bṛhat Saṃhitā of
-  Varāhamihira and "Abgān" in Bactrian documents from northern Afghanistan.
+  Forms of the name "Afghan" may occur in sources older than the 10th century. The
+  6th-century Sanskrit Bṛhat Saṃhitā of Varāhamihira lists, among peoples assigned
+  to the planet Ketu, one that Kern's 19th-century English translation renders as
+  "Afghans" (the Sanskrit form is usually given as Avagāṇa). A form "Abgān" has
+  also been reported in Bactrian documents from northern Afghanistan.
 discussion: >
-  These identifications are widely repeated, but each needs checking in a reliable
-  edition or study before it can be relied on. Similar-sounding names can be
-  coincidences, as the Paktyes question shows.
+  The Sanskrit list is real, but "Afghans" is the translator's identification of a
+  Sanskrit name, and the translation page doesn't show the Sanskrit word. Kern also
+  renders other names in the same chapter as "Scythians" and "Greeks". The Bactrian
+  form has no source here yet. Similar-sounding names can be coincidences, as the
+  Paktyes question shows, so both need checking in reliable editions.
 status: unverified
 verification_note: >
-  UNVERIFIED — needs source check: find the Bṛhat Saṃhitā passage in a translation
-  (e.g. Kern's English translation in the Journal of the Royal Asiatic Society, 1870s)
-  and the Bactrian document(s) in Sims-Williams's editions, with references.
-strength: unknown
+  UNVERIFIED — needs source check: Kern's translation was read (ch. XVI, vv. 38–39,
+  p. 235). Still needed: the Sanskrit word in the original (Kern's 1865 edition or a
+  modern one), a modern study of the identification, and the Bactrian document(s)
+  with "Abgān" in Sims-Williams's editions.
+strength: weak
 category: history
 populations: [pashtuns]
 regions: [bactria]
-citations: []
+citations:
+  - source: kern-1871
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: ch. XVI, vv. 38–39, p. 235
+    note: "Domain of Ketu: \"…the Pahlavas, Çvetas, Huns, Colas, Afghans, the Desert, Chinese…\" (translator's rendering)."
+period:
+  start: 500
+  end: 600
+  approximate: true
+  label: 6th century CE (Varāhamihira)
+  periods: [early-islamic]
 related_claims:
   - claim: afghans-in-hudud-al-alam
     relation: refines
