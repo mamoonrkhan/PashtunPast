@@ -1,0 +1,28 @@
+id: earlier-forms-of-afghan-name
+title: Earlier forms of the name "Afghan" may appear in Sanskrit and Bactrian texts
+plain: >
+  Some scholars think the name "Afghan" appears even earlier than the 10th century:
+  as "Avagāṇa" in a 6th-century Indian text, and as "Abgān" in Bactrian documents.
+  We haven't yet added a source we could read for these, so the idea isn't rated.
+statement: >
+  Forms of the name "Afghan" have been identified in sources older than the 10th
+  century, including "Avagāṇa" in the 6th-century Sanskrit Bṛhat Saṃhitā of
+  Varāhamihira and "Abgān" in Bactrian documents from northern Afghanistan.
+discussion: >
+  These identifications are widely repeated, but each needs checking in a reliable
+  edition or study before it can be relied on. Similar-sounding names can be
+  coincidences, as the Paktyes question shows.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: find the Bṛhat Saṃhitā passage in a translation
+  (e.g. Kern's English translation in the Journal of the Royal Asiatic Society, 1870s)
+  and the Bactrian document(s) in Sims-Williams's editions, with references.
+strength: unknown
+category: history
+populations: [pashtuns]
+regions: [bactria]
+citations: []
+related_claims:
+  - claim: afghans-in-hudud-al-alam
+    relation: refines
+tags: [ethnonym]
