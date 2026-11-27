@@ -21,6 +21,9 @@ forms:
   status: unverified
 notes: Pashto las has l where Avestan and Khotanese have d. Together with 'daughter', this shows a regular
   pattern rather than a one-off.
+notes_sources:
+- source: dzitstsoity-2026
+  locator: English abstract, p. 168 (Proto-Iranian *d > l attested in Pashto and Bactrian)
 verification_note: 'UNVERIFIED — needs source check: look up each form in the cited dictionary, add the
   exact entry or page as the locator, and set that form''s status to verified.'
 claims:

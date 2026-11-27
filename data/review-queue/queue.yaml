@@ -99,23 +99,6 @@
   first_seen: '2026-11-26'
   summary: ''
   reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
-- suggested_id: dzitstsoity-2026
-  title: On the dialectal division of Scythian
-  authors:
-  - Dzitstsoity, Yuri A.
-  year: 2026
-  venue: Indo-Iranian Languages
-  doi: 10.30842/30346800.2026.2.1.8
-  url: null
-  source_type: journal-article
-  key: doi:10.30842/30346800.2026.2.1.8
-  status: pending
-  found_via:
-  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
-  score: 9
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
 - suggested_id: cheung-2015
   title: The linguistic and geographic position of Pashto within the East Iranian language group
   authors:
@@ -3829,6 +3812,23 @@
   summary: ''
   reviewer_note: ''
   key: title:this citadel some bactrian ownership and identification inscriptions
+- suggested_id: dzitstsoity-2026
+  title: On the dialectal division of Scythian
+  authors:
+  - Dzitstsoity, Yuri A.
+  year: 2026
+  venue: Indo-Iranian Languages
+  doi: 10.30842/30346800.2026.2.1.8
+  url: null
+  source_type: journal-article
+  key: doi:10.30842/30346800.2026.2.1.8
+  status: promoted
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 9
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Added as a source by the maintainer pre-check (English abstract read; body in Russian).
 - suggested_id: guarino-vignon-2022
   status: promoted
   title: Genetic continuity of Indo-Iranian speakers since the Iron Age in southern Central Asia
