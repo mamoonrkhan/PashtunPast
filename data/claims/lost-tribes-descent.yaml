@@ -16,7 +16,9 @@ discussion: >
   ancestry); the first written form of the genealogy comes more than 2,000 years
   after the events it describes; and the genetic studies cited here model
   Pashtun ancestry from regional and steppe sources. No peer-reviewed study that
-  directly tests this hypothesis has been added yet.
+  directly tests this hypothesis has been added yet. The debate is old: Sir
+  William Jones was inclined to accept the tradition, while Elphinstone in 1815
+  argued that it rested on a vague and inconsistent tradition.
 status: unverified
 verification_note: >
   UNVERIFIED — needs source check: add peer-reviewed historical scholarship on
@@ -46,6 +48,15 @@ citations:
       signals from Khazars, a common link between Pathans and Ashkenazi groups". This
       is a passing suggestion, not a test of Israelite descent (the Khazars were a
       Turkic people whose rulers adopted Judaism).
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: contradicts
+    locator: c. pp. 155–156
+    note: >
+      Elphinstone (1815) found the theory "plausible, and may be true" but judged it to
+      "rest on a vague tradition alone", clouded with inconsistencies; the genealogy allows
+      "only thirty-seven generations for a period of sixteen hundred years". He notes that
+      Sir William Jones was inclined to believe it.
 related_claims:
   - claim: lost-tribes-tradition-makhzan
     relation: depends-on

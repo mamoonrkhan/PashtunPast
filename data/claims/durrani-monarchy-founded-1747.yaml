@@ -1,0 +1,35 @@
+id: durrani-monarchy-founded-1747
+title: Ahmad Shah Durrani was crowned at Kandahar in 1747, founding the Durrani monarchy
+plain: >
+  In 1747, after the Persian ruler Nadir Shah was murdered, the young Pashtun chief
+  Ahmad Shah was crowned king at Kandahar. The kingdom he founded is usually seen as
+  the start of the modern state of Afghanistan.
+statement: >
+  After the murder of Nadir Shah in June 1747, Ahmad Shah, head of the Sadozai
+  section of the Durrani (Abdali) Pashtuns, was crowned at Kandahar in October 1747,
+  founding the Durrani monarchy.
+discussion: >
+  The source here is Elphinstone's history, written about 70 years later from
+  Persian histories and interviews. The idea that this monarchy marks the start of
+  modern Afghanistan is a common interpretation and would need its own source.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Elphinstone's Appendix A
+  (c. p. 541). Add a modern history of the Durrani state.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [arachosia]
+period:
+  start: 1747
+  end: 1747
+  approximate: false
+  label: October 1747
+  periods: [medieval-early-modern]
+citations:
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: Appendix A, c. p. 541
+    note: "\"In October 1747 he was crowned at Candahar\"; a contemporary historian gives his age as twenty-three."
+tags: [durrani, state-formation]
