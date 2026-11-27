@@ -156,6 +156,24 @@
   summary: ''
   reviewer_note: Holds that the *d > l change belonged to all of Scythian (see dzitstsoity-2026). De Gruyter
     blocks AI agents; needs a human reader.
+- suggested_id: kurbanov-2010
+  status: pending
+  title: The Hephthalites
+  authors:
+  - Aydogdy Kurbanov
+  year: 2010
+  venue: Universitätsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver
+  doi: 10.17169/refubium-12565
+  url: http://edocs.fu-berlin.de/diss/receive/FUDISS_thesis_000000016150
+  source_type: thesis
+  found_via:
+  - 'openalex: Hephthalites Afghanistan history'
+  score: 11
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: For hephthalite-abdali-link. Host (refubium.fu-berlin.de) uses Anubis to block AI scrapers;
+    needs a human reader.
+  key: doi:10.17169/refubium-12565
 - suggested_id: kuzmina-2007-3
   status: pending
   title: Chapter One. History of research on the Andronovo culture
@@ -3108,23 +3126,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1101/292581
-- suggested_id: kurbanov-2010
-  status: pending
-  title: The Hephthalites
-  authors:
-  - Aydogdy Kurbanov
-  year: 2010
-  venue: Universitätsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver
-  doi: 10.17169/refubium-12565
-  url: http://edocs.fu-berlin.de/diss/receive/FUDISS_thesis_000000016150
-  source_type: thesis
-  found_via:
-  - 'openalex: Hephthalites Afghanistan history'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.17169/refubium-12565
 - suggested_id: de-chiara-2014
   status: pending
   title: The Khotanese Sudhanavadana
