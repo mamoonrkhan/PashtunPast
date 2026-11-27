@@ -1,0 +1,43 @@
+id: genealogy-three-sons-of-qais
+title: Pashtun genealogical tradition traces the tribes to the three sons of Qais Abdur Rashid
+plain: >
+  Pashtun family trees traditionally trace all the tribes back to one ancestor,
+  Qais Abdur Rashid, and his three sons, Sarban, Batan and Ghurghusht. A history
+  written around 1610 records this system. It's a map of how tribes see their
+  relationships, not a record that can be checked with DNA.
+statement: >
+  The Makhzan-i Afghani (c. 1609–1611) records that Abd Ulrasheed (Qais Abdur
+  Rashid) had three sons, Sarbunni (Sarban), Batani (Batan) and Ghurghusht, "from
+  each of whom again descended sons and tribes", and organises its account of the
+  Afghan tribes by descent from these three.
+discussion: >
+  Genealogies like this describe how tribes understand their relationships to one
+  another and are central to Pashtun identity. They are not evidence of biological
+  descent in the genetic sense; that is a separate question. This claim is only
+  about what the text records.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Dorn's translation
+  (p. 38; table of contents, "Conclusion"). Confirm against the scan, and add
+  modern scholarship on Pashtun genealogies and how they vary.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains]
+period:
+  start: 1609
+  end: 1611
+  approximate: true
+  label: Recorded c. 1609–1611
+  periods: [medieval-early-modern]
+citations:
+  - source: dorn-1829
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: p. 38; contents ("Conclusion")
+    note: "\"God blessed Abd Ulrasheed Pathan with three sons; of whom he called the eldest, Sarbunni; the second, Batani; and the third, Ghurghusht\"."
+related_claims:
+  - claim: lost-tribes-tradition-makhzan
+    relation: refines
+    note: The same genealogy, continued below Qais.
+tags: [genealogy, tribes]

@@ -1,0 +1,43 @@
+id: pashtunwali-recorded-1815
+title: In 1815, Elphinstone recorded the Pashtun customary code, Pashtunwali, including its laws of hospitality
+plain: >
+  The same British envoy described the Pashtuns' own code of conduct, which he
+  called "Pooshtoonwullee" (Pashtunwali). It included the right to answer wrongs
+  oneself and very strong duties of hospitality: even a man's worst enemy was safe
+  under his roof.
+statement: >
+  Elphinstone recorded that the Pashtuns' own code, applied in their internal
+  criminal justice, was the "Pooshtoonwullee or usage of the Afghauns", a system
+  of customary law in which a man had a right to avenge his own injuries, and that
+  under the laws of hospitality "a man's bitterest enemy is safe, while he is under
+  his roof", with a duty to protect even a fugitive.
+discussion: >
+  Elphinstone called it "a rude system of customary law", which reflects a
+  colonial-era viewpoint rather than a neutral description. His account is an
+  outsider's summary; modern studies of Pashtunwali, and Pashtun descriptions of it,
+  should be added.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of the 1815 edition (code:
+  c. p. 165; hospitality: the section on the laws of hospitality, page not
+  recoverable from the OCR). Add modern scholarship on Pashtunwali.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains, gandhara, arachosia]
+period:
+  start: 1808
+  end: 1815
+  approximate: true
+  label: Recorded 1808–1815
+  periods: [modern]
+citations:
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: c. p. 165; section on the laws of hospitality
+    note: "\"their peculiar code … is the Pooshtoonwullee or usage of the Afghauns\"; \"A man's bitterest enemy is safe, while he is under his roof\"."
+related_claims:
+  - claim: jirga-recorded-1815
+    relation: supports
+tags: [society, pashtunwali]

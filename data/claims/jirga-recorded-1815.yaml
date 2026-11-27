@@ -1,0 +1,35 @@
+id: jirga-recorded-1815
+title: In 1815, Elphinstone described Pashtun tribes governed by khans and councils called jirgas
+plain: >
+  A British envoy who visited in 1808–09 described how each Pashtun tribe ran its
+  own affairs through its chiefs (khans) and councils of family heads, called
+  jirgas.
+statement: >
+  Elphinstone recorded that the internal government of each Pashtun tribe was
+  "carried on by the Khauns, and by assemblies of the heads of divisions. These
+  assemblies are called Jeergas", with the khan presiding over the principal jirga.
+discussion: >
+  This is an outsider's description from the early 19th century, based on a short
+  embassy and on informants, so it reflects his viewpoint and the tribes he heard
+  most about. Modern sources on how jirgas work today should be added.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of the 1815 edition
+  (c. pp. 159–160). Add a modern anthropological source on the jirga.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains, gandhara, arachosia]
+period:
+  start: 1808
+  end: 1815
+  approximate: true
+  label: Recorded 1808–1815
+  periods: [modern]
+citations:
+  - source: elphinstone-1815
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: c. pp. 159–160
+    note: "\"The internal government of the Oolooss is carried on by the Khauns, and by assemblies of the heads of divisions. These assemblies are called Jeergas.\""
+tags: [society, jirga]

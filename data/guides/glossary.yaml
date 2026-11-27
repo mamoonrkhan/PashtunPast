@@ -233,3 +233,17 @@
   definition: >
     A Persian-speaking scholar from Khwarazm (973–after 1050 CE) who worked at the
     court of Mahmud of Ghazni and wrote a detailed book about India around 1030.
+
+- term: Jirga
+  id: jirga
+  match: ["jirgas", "jirga"]
+  definition: >
+    A council of elders or heads of families that settles disputes and makes
+    decisions for a Pashtun community or tribe.
+
+- term: Pashtunwali
+  id: pashtunwali
+  match: ["Pashtunwali"]
+  definition: >
+    The Pashtuns' traditional code of conduct and customary law, including duties of
+    honour, hospitality and protecting guests.
