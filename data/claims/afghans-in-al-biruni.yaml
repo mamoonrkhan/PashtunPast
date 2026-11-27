@@ -1,0 +1,40 @@
+id: afghans-in-al-biruni
+title: Around 1030 CE, al-Bīrūnī placed Afghan tribes in the mountains on India's western frontier
+plain: >
+  The great scholar al-Bīrūnī, writing about India around 1030 CE, said that
+  different Afghan tribes lived in the mountains along India's western edge,
+  reaching down towards the Indus valley. This roughly matches where Pashtuns
+  live today.
+statement: >
+  Al-Bīrūnī, writing about India around 1030 CE at the Ghaznavid court, states
+  that "in the western frontier mountains of India there live various tribes of the
+  Afghans, and extend up to the neighbourhood of the Sindh Valley".
+discussion: >
+  "Sindh Valley" here means the valley of the Indus. Al-Bīrūnī lived in Ghazni and
+  knew the region at first hand, which makes this a valuable early description of
+  where Afghan (Pashtun) tribes lived.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Sachau's translation
+  (vol. i, p. 208). Confirm the wording against the page image.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains, gandhara]
+period:
+  start: 1025
+  end: 1035
+  approximate: true
+  label: c. 1030 CE
+  periods: [medieval-early-modern]
+citations:
+  - source: sachau-1910
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: vol. i, p. 208
+    note: "\"In the western frontier mountains of India there live various tribes of the Afghans\"."
+related_claims:
+  - claim: afghans-in-hudud-al-alam
+    relation: supports
+    note: Both are early medieval mentions of the Afghans in the same region.
+tags: [ethnonym, medieval-sources]

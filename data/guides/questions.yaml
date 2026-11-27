@@ -43,6 +43,18 @@
   where_it_stands: "Herodotus's mention: well supported. That they were Pashtuns: disputed."
   claims: [herodotus-names-paktyes, paktyes-ancestors-of-pashtuns, herodotus-western-paktyike]
 
+- id: first-records
+  question: When do the Pashtuns first appear in written records?
+  answer: >
+    Herodotus mentioned a people called the Paktyes about 2,500 years ago, but
+    whether they were Pashtuns is disputed. The first clear mentions come much later,
+    under the name "Afghans", which older writers used for the Pashtuns. A Persian
+    geography written in 982 CE mentions Afghans living near Gardiz, and around 1030
+    CE the scholar al-Bīrūnī described Afghan tribes in the mountains on India's
+    western frontier. Even earlier forms of the name may exist in Sanskrit and
+    Bactrian texts, but these still need checking.
+  where_it_stands: "Clear mentions from the 10th century CE; earlier ones possible but unconfirmed."
+  claims: [afghans-in-hudud-al-alam, afghans-in-al-biruni, earlier-forms-of-afghan-name, herodotus-names-paktyes, paktyes-ancestors-of-pashtuns]
 - id: dna
   question: What does ancient DNA tell us?
   answer: >

@@ -1,0 +1,42 @@
+id: afghans-in-hudud-al-alam
+title: A Persian geography of 982 CE mentions Afghans living near Gardiz
+plain: >
+  A Persian book about the world, written in 982 CE in what is now northern
+  Afghanistan, mentions a mountain village near Gardiz where "Afghans" live. It is
+  one of the earliest surviving written mentions of the Afghans (Pashtuns) as a people.
+statement: >
+  The Ḥudūd al-ʿĀlam, an anonymous Persian geography written in 982–983 CE,
+  describes Saul as "a pleasant village on a mountain. In it live Afghans", listing
+  it right after Gardiz, "a frontier town between Ghaznin and Hindustan".
+discussion: >
+  In older sources, "Afghan" usually means the people now called Pashtuns. Before
+  this manuscript was found, the historian al-ʿUtbī (early 11th century) was
+  thought to be the oldest author to name the Afghans. Earlier forms of the name
+  have been proposed in Sanskrit and Bactrian texts, but they are less certain (see
+  the related claim).
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: read in the OCR text of Minorsky's translation
+  (§ 10.48, p. 91). Confirm the wording and page against the scan.
+strength: strong
+category: history
+populations: [pashtuns]
+regions: [sulaiman-mountains]
+period:
+  start: 982
+  end: 983
+  approximate: false
+  label: 982–983 CE
+  periods: [early-islamic]
+citations:
+  - source: minorsky-1937
+    evidence_level: primary-historical-text
+    relation: supports
+    locator: § 10.48 (fol. 16a), p. 91
+    note: "\"SAUL, a pleasant village on a mountain. In it live Afghans.\""
+  - source: minorsky-1937
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: Barthold's preface, p. 30
+    note: The Afghans are "mentioned as a people"; 'Utbi was previously thought the oldest author to mention them.
+tags: [ethnonym, medieval-sources]

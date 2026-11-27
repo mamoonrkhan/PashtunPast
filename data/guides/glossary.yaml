@@ -219,3 +219,17 @@
   definition: >
     A Turkic people who ruled a large state north of the Caucasus from about the
     7th to the 10th century CE. Some of their rulers converted to Judaism.
+
+- term: Afghan (historical name)
+  id: afghan
+  match: ["Afghans"]
+  definition: >
+    In older writings, "Afghan" usually meant the Pashtuns. Today "Afghan" also
+    means any citizen of Afghanistan, whatever their ethnic group.
+
+- term: al-Bīrūnī
+  id: al-biruni
+  match: ["al-Bīrūnī"]
+  definition: >
+    A Persian-speaking scholar from Khwarazm (973–after 1050 CE) who worked at the
+    court of Mahmud of Ghazni and wrote a detailed book about India around 1030.
