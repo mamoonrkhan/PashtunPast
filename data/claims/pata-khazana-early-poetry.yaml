@@ -1,0 +1,28 @@
+id: pata-khazana-early-poetry
+title: The Pata Khazana preserves Pashto poetry from as early as the 8th century
+plain: >
+  A collection called the Pata Khazana ("Hidden Treasure"), published in the 20th
+  century, presents Pashto poems said to date back as far as the 8th century. If
+  genuine, it would make written Pashto centuries older. We haven't yet added
+  scholarly assessments of it, so the idea isn't rated.
+statement: >
+  The Pata Khazana, a collection of poets' biographies and verses published in the
+  20th century, preserves Pashto poems composed as early as the 8th century CE.
+discussion: >
+  This claim is important because it would push written Pashto back by roughly
+  700 years. Before rating it, the atlas needs scholarly sources on the manuscript's
+  history and on whether the language of the poems fits such early dates.
+status: unverified
+verification_note: >
+  UNVERIFIED — needs source check: add the published edition and scholarly
+  assessments of its authenticity and dating, for and against.
+strength: unknown
+category: history
+populations: [pashtuns]
+regions: [arachosia]
+citations: []
+related_claims:
+  - claim: classical-pashto-poetry
+    relation: competes-with
+    note: Whether the written Pashto record begins in the 8th or the 16th century.
+tags: [pashto, literature, manuscripts]
