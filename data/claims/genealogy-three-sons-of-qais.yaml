@@ -13,8 +13,10 @@ statement: >
 discussion: >
   Genealogies like this describe how tribes understand their relationships to one
   another and are central to Pashtun identity. They are not evidence of biological
-  descent in the genetic sense; that is a separate question. This claim is only
-  about what the text records.
+  descent in the genetic sense; that is a separate question. Anthropologists note
+  that tribes in Iran and Afghanistan tended to ascribe common descent to everyone
+  who had acquired rights in their territory, however they came to be there. This
+  claim is only about what the text records.
 status: unverified
 verification_note: >
   UNVERIFIED — needs source check: read in the OCR text of Dorn's translation
@@ -36,6 +38,11 @@ citations:
     relation: supports
     locator: p. 38; contents ("Conclusion")
     note: "\"God blessed Abd Ulrasheed Pathan with three sons; of whom he called the eldest, Sarbunni; the second, Batani; and the third, Ghurghusht\"."
+  - source: tapper-2009
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: p. 37
+    note: Tribal groups in Iran and Afghanistan "tended to ascribe common descent to all those who, by whatever means, had acquired rights in their territory".
 related_claims:
   - claim: lost-tribes-tradition-makhzan
     relation: refines

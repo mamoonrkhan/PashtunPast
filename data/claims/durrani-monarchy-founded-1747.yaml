@@ -2,20 +2,22 @@ id: durrani-monarchy-founded-1747
 title: Ahmad Shah Durrani was crowned at Kandahar in 1747, founding the Durrani monarchy
 plain: >
   In 1747, after the Persian ruler Nadir Shah was murdered, the young Pashtun chief
-  Ahmad Shah was crowned king at Kandahar. The kingdom he founded is usually seen as
-  the start of the modern state of Afghanistan.
+  Ahmad Shah was crowned king at Kandahar. Rulers from the Durrani Pashtuns then
+  governed Afghanistan until the 1970s.
 statement: >
   After the murder of Nadir Shah in June 1747, Ahmad Shah, head of the Sadozai
   section of the Durrani (Abdali) Pashtuns, was crowned at Kandahar in October 1747,
   founding the Durrani monarchy.
 discussion: >
-  The source here is Elphinstone's history, written about 70 years later from
-  Persian histories and interviews. The idea that this monarchy marks the start of
-  modern Afghanistan is a common interpretation and would need its own source.
+  Elphinstone's history was written about 70 years later from Persian histories and
+  interviews; a modern anthropologist confirms that Durrani Pashtun rulers governed
+  Afghanistan from 1747 until the 1970s. Whether this monarchy should be called the
+  start of modern Afghanistan is an interpretation that would need its own source.
 status: unverified
 verification_note: >
   UNVERIFIED — needs source check: read in the OCR text of Elphinstone's Appendix A
-  (c. p. 541). Add a modern history of the Durrani state.
+  (c. p. 541) and in Tapper 2009 (p. 42). A modern history with the exact date of the
+  coronation would strengthen it.
 strength: strong
 category: history
 populations: [pashtuns]
@@ -27,6 +29,11 @@ period:
   label: October 1747
   periods: [medieval-early-modern]
 citations:
+  - source: tapper-2009
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: p. 42
+    note: "\"From 1747 until the 1970s, Afghanistan was ruled by Amirs and Shahs from the Durrani Pashtuns\"."
   - source: elphinstone-1815
     evidence_level: secondary-scholarship
     relation: supports
