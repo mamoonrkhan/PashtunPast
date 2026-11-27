@@ -65,40 +65,24 @@
   reviewer_note: Relevant to the BMAC claims and the 'what language did BMAC people speak?' question.
     Brill returned 403 to the pre-check; needs a human reader.
   key: doi:10.1163/9789004438200_003
-- suggested_id: dobbins-1972
-  title: 'Coinage and epigraphy of the Sakas and Pahlavas: a reconstruction of the political chronology'
-  authors:
-  - Dobbins, Keith Walton
-  year: 1972
-  venue: Australian National University (thesis)
-  doi: 10.25911/5d74e316cdeac
-  url: null
-  source_type: thesis
-  key: doi:10.25911/5d74e316cdeac
+- suggested_id: dynasty-nd
   status: pending
+  title: Indo-Scythian dynasty (Encyclopaedia Iranica entry)
+  authors:
+  - Encyclopaedia Iranica
+  year: 2020
+  venue: Encyclopaedia Iranica Online
+  doi: 10.1163/2330-4804_eiro_com_1394
+  url: https://doi.org/10.1163/2330-4804_eiro_com_1394
+  source_type: dataset
   found_via:
-  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
-  score: 9
+  - 'crossref: Indo-Scythian coinage Gandhara'
+  score: 14
   first_seen: '2026-11-26'
   summary: ''
-  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
-- suggested_id: kullanda-2014
-  title: External relations of Scythian
-  authors:
-  - Kullanda, Sergey
-  year: 2014
-  venue: Journal of Language Relationship (Voprosy jazykovogo rodstva)
-  doi: 10.31826/jlr-2014-110110
-  url: null
-  source_type: journal-article
-  key: doi:10.31826/jlr-2014-110110
-  status: pending
-  found_via:
-  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
-  score: 9
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
+  reviewer_note: Would give indo-scythians-ruled-northwest a source for Maues and Azes being Saka kings.
+    Encyclopaedia Iranica entry; iranicaonline.org showed a bot check (Cloudflare) to the pre-check.
+  key: doi:10.1163/2330-4804_eiro_com_1394
 - suggested_id: cheung-2015
   title: The linguistic and geographic position of Pashto within the East Iranian language group
   authors:
@@ -112,10 +96,66 @@
   status: pending
   found_via:
   - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
-  score: 9
+  score: 13
   first_seen: '2026-11-26'
   summary: ''
-  reviewer_note: Relevant to the Saka/Scythian claims; read before citing.
+  reviewer_note: Where Pashto sits within Eastern Iranian, including possible Saka links. Only copy is
+    on HAL, which blocks AI agents; needs a human reader.
+- suggested_id: fellner-2026
+  status: pending
+  title: Khotanese as a Language of the Tarim Borderlands
+  authors:
+  - Fellner, Hannes A.
+  year: 2026
+  venue: Religions
+  doi: 10.3390/rel17030295
+  url: https://doi.org/10.3390/rel17030295
+  source_type: journal-article
+  found_via:
+  - 'crossref: Khotanese Saka language'
+  - 'openalex: Khotanese Saka language'
+  score: 12
+  first_seen: '2026-11-25'
+  summary: ''
+  reviewer_note: Would strengthen saka-languages-eastern-iranian. MDPI returned 403 to the pre-check;
+    needs a human reader.
+  key: doi:10.3390/rel17030295
+- suggested_id: dobbins-1972
+  title: 'Coinage and epigraphy of the Sakas and Pahlavas: a reconstruction of the political chronology'
+  authors:
+  - Dobbins, Keith Walton
+  year: 1972
+  venue: Australian National University (thesis)
+  doi: 10.25911/5d74e316cdeac
+  url: null
+  source_type: thesis
+  key: doi:10.25911/5d74e316cdeac
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 11
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Numismatic chronology of the Saka and Pahlava kings; would help source indo-scythians-ruled-northwest.
+    ANU repository file did not download for the pre-check.
+- suggested_id: kullanda-2014
+  title: External relations of Scythian
+  authors:
+  - Kullanda, Sergey
+  year: 2014
+  venue: Journal of Language Relationship (Voprosy jazykovogo rodstva)
+  doi: 10.31826/jlr-2014-110110
+  url: null
+  source_type: journal-article
+  key: doi:10.31826/jlr-2014-110110
+  status: pending
+  found_via:
+  - 'manual: Scythian/Saka research 2026-11-26 (could not be read: host blocks AI agents or file unavailable)'
+  score: 11
+  first_seen: '2026-11-26'
+  summary: ''
+  reviewer_note: Holds that the *d > l change belonged to all of Scythian (see dzitstsoity-2026). De Gruyter
+    blocks AI agents; needs a human reader.
 - suggested_id: kuzmina-2007-3
   status: pending
   title: Chapter One. History of research on the Andronovo culture
@@ -258,25 +298,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1017/chol9780521246934.023
-- suggested_id: fellner-2026
-  status: pending
-  title: Khotanese as a Language of the Tarim Borderlands
-  authors:
-  - Fellner, Hannes A.
-  year: 2026
-  venue: Religions
-  doi: 10.3390/rel17030295
-  url: https://doi.org/10.3390/rel17030295
-  source_type: journal-article
-  found_via:
-  - 'crossref: Khotanese Saka language'
-  - 'openalex: Khotanese Saka language'
-  score: 4
-  first_seen: '2026-11-25'
-  summary: ''
-  reviewer_note: Would strengthen saka-languages-eastern-iranian. MDPI returned 403 to the pre-check;
-    needs a human reader.
-  key: doi:10.3390/rel17030295
 - suggested_id: empire-2016
   status: pending
   title: Kushan Empire
@@ -1511,22 +1532,6 @@
   summary: ''
   reviewer_note: ''
   key: doi:10.1163/000000083790081491
-- suggested_id: dynasty-nd
-  status: pending
-  title: INDO-SCYTHIAN DYNASTY
-  authors: []
-  year: null
-  venue: Encyclopaedia Iranica Online
-  doi: 10.1163/2330-4804_eiro_com_1394
-  url: https://doi.org/10.1163/2330-4804_eiro_com_1394
-  source_type: dataset
-  found_via:
-  - 'crossref: Indo-Scythian coinage Gandhara'
-  score: 2
-  first_seen: '2026-11-26'
-  summary: ''
-  reviewer_note: ''
-  key: doi:10.1163/2330-4804_eiro_com_1394
 - suggested_id: asmussen-1962
   status: pending
   title: Indo-Scythian Studies being Khotanese Texts, Volume IV. Translated and edited by H. W. Bailey.

@@ -17,7 +17,7 @@ def test_real_site_builds(tmp_path):
     claims = list((ROOT / "data" / "claims").glob("*.yaml"))
     assert len(list((out / "claims").glob("*.html"))) == len(claims)
     for page in ("index.html", "claims.html", "glossary.html", "timeline.html", "map.html",
-                 "sources.html", "methodology.html", "linguistics.html"):
+                 "sources.html", "methodology.html", "linguistics.html", "help.html"):
         assert (out / page).is_file()
     assert (out / "static" / "vendor" / "leaflet" / "leaflet.js").is_file()
 
@@ -170,3 +170,11 @@ def test_glossary_terms_marked_once_and_escaped():
     assert html.count('class="term"') == 1                  # first appearance only
     assert "&lt;b&gt;" in html and "<b>" not in html        # contributor text stays escaped
     assert 'title="Persian name &lt;for&gt; nomads."' in html
+
+
+def test_help_page_lists_priority_reading_and_gaps(tmp_path):
+    out = tmp_path / "site"
+    build(out=out)
+    page = (out / "help.html").read_text()
+    assert "A Historical Grammar of Pashto" in page          # top of the reading list
+    assert "claims/indo-scythians-ruled-northwest.html" in page  # weakly supported claim

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% from "_macros.html" import strength_badge %}
+{% block title %}Help wanted · {{ config.title }}{% endblock %}
+{% block content %}
+<h1>Help wanted</h1>
+<p class="lead">
+  This atlas is only as good as its checking. Here is what it needs most right now.
+  You don't need to be an expert: careful reading is the main skill.
+</p>
+
+<section>
+  <h2>Where things stand</h2>
+  <div class="key-grid">
+    <div class="key"><p class="key-title">{{ help.claims_verified }} of {{ help.claims_total }} claims checked</p>
+      <p>A claim counts as checked once a person has confirmed every source it cites.</p></div>
+    <div class="key"><p class="key-title">{{ help.sources_verified }} of {{ help.sources_total }} sources checked</p>
+      <p>Each source's notes say what has been confirmed so far and what's left.</p></div>
+    <div class="key"><p class="key-title">{{ help.queue_pending }} candidate sources to review</p>
+      <p>Found automatically; each needs a person to judge whether it's useful.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>The priority reading list</h2>
+  <p>
+    These works would settle open questions, but the automated pre-check couldn't read
+    them: they're print-only, behind a paywall, or on sites that block automated access.
+    If you can get hold of one (a university library helps), it's the single most useful
+    contribution you can make.
+  </p>
+  <ol class="reading-list">
+    {% for e in help.reading %}
+    <li>
+      <p class="reading-title"><strong>{{ e.title }}</strong>
+        <span class="muted">({{ (e.authors or ["Unknown author"])[0].split(",")[0] }}{% if (e.authors or []) | length > 1 %} et al.{% endif %}{% if e.get("year") %}, {{ e.year }}{% endif %})</span></p>
+      {% if e.get("reviewer_note") %}<p class="small">{{ e.reviewer_note }}</p>{% endif %}
+      <p class="small links">
+        {% if e.get("doi") %}<a href="https://doi.org/{{ e.doi }}">doi:{{ e.doi }}</a>{% endif %}
+        {% if e.get("url") %}<a href="{{ e.url }}">Link</a>{% endif %}
+      </p>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section>
+  <h2>Claims that need a source</h2>
+  <p>These have no supporting source yet, or only weak support. Finding one, with a page number, moves them forward.</p>
+  <ul class="question-claims">
+    {% for c in help.needs_sources %}
+    <li><a href="claims/{{ c.id }}.html">{{ c.title }}</a> {{ strength_badge(c.strength, m) }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>How to help</h2>
+  <ol>
+    <li><strong>Check a claim:</strong> open it, read the note in the yellow box, and confirm the cited passage.</li>
+    <li><strong>Read a priority work</strong> from the list above and report what it says, with page numbers.</li>
+    <li><strong>Review candidate sources</strong> in the review queue.</li>
+  </ol>
+  <p>
+    Start with the <a href="{{ config.repo_url }}/blob/{{ config.branch }}/CONTRIBUTING.md">contributing guide</a>,
+    or <a href="{{ config.repo_url }}/issues">pick an open task</a>.
+  </p>
+</section>
+{% endblock %}
