@@ -16,9 +16,10 @@ discussion: >
   people can change language over generations.
 status: unverified
 verification_note: >
-  UNVERIFIED — needs source check: find the exact chapter and pages in Schmitt
-  1989 and the introduction of Morgenstierne 2003 that state the classification,
-  and confirm the list of closest relatives.
+  UNVERIFIED — needs source check: the Pashto chapter in Schmitt 1989 is
+  Skjærvø, "Pashto", pp. 384–410 (identified via Septfonds 2005). Read it, and the
+  foreword of Morgenstierne 2003 (pp. V–VIII), to confirm the classification and the
+  list of closest relatives.
 strength: strong
 category: linguistics
 populations: [pashtuns, eastern-iranian-speakers]
@@ -27,9 +28,14 @@ citations:
   - source: schmitt-1989
     evidence_level: linguistic-consensus
     relation: supports
-    locator: Pashto chapter (pages to be added)
+    locator: "Skjærvø, \"Pashto\", pp. 384–410"
   - source: morgenstierne-2003
     evidence_level: linguistic-consensus
     relation: supports
-    locator: Introduction (pages to be added)
+    locator: Foreword, pp. V–VIII (to be checked)
+  - source: septfonds-2005
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: § 3
+    note: Identifies the Pashto chapter of Schmitt 1989 as Skjærvø, "Pashto", pp. 384–410, and gives the structure of Morgenstierne 2003.
 tags: [language-classification]
