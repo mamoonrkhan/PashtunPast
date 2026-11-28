@@ -13,7 +13,10 @@ statement: >
 discussion: >
   Because so little Scythian survives, linguists work backwards from Ossetian
   and check which of its sound changes already appear in ancient Scythian and
-  Sarmatian names. How the Scythian of the western steppe relates to the Saka
+  Sarmatian names. The chain runs Scythian, then Sarmatian and Alanic (its
+  "Middle Iranian" stage), then Ossetian: about thirty notes written in Alanic by a
+  13th-century priest have cognates in modern Ossetic dialects, confirming that
+  Ossetian continues Alanic. How the Scythian of the western steppe relates to the Saka
   languages later written in Khotan, and to other Eastern Iranian languages such
   as Pashto, is still debated.
 status: unverified
@@ -41,6 +44,11 @@ citations:
       Steppe tribes "called Sakas by the Persians and Scythians by the Greek";
       "We do not know whether these peoples spoke the same language" (p. 189);
       Ossetic is "the modern representative of one of the Scythian dialects" (p. 190).
+  - source: perret-2018
+    evidence_level: secondary-scholarship
+    relation: supports
+    locator: §§ 1, 3
+    note: 13th-century Alanic glosses; "most of the Alanic words analysed have a cognate in modern Ossetic dialects, which proves once more the direct filiation between both of these languages".
 related_claims:
   - claim: saka-languages-eastern-iranian
     relation: refines
