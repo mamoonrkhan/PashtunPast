@@ -38,6 +38,13 @@ discussion: >
   hard to detect. Pashto's closest relatives within Eastern Iranian are also still
   debated.
 
+  ANOTHER WAY TO SEE IT. In the archaeologist Kuz'mina's model, the Eastern Iranian
+  language community split from the 13th century BCE between steppe nomads, the
+  ancestors of the Scythians, and groups who moved south and imposed their language
+  on settled peoples. If so, the Eastern Iranian ancestors of Pashto would be cousins
+  of the Scythians from a shared steppe past, rather than descendants of the later
+  Saka arrivals. This is one scholar's model, not a consensus.
+
   WHAT WOULD TEST IT. Genetics: published ancient genomes of Iron Age Saka
   groups could be used as a source in admixture models of Pashtun samples, and
   the date of mixing estimated; a contribution dated to the 1st millennium BCE or
@@ -76,6 +83,11 @@ citations:
     relation: context
     locator: Fig. 3 caption; section "Dating ancient admixture"
     note: Saka and Scythian gene pools mixed steppe, southern Central Asian (BMAC-related) and eastern ancestry; Tian Shan Sakas gained more BMAC-related ancestry over time.
+  - source: grenet-2010
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: § 1 (Part 4 of Kuz'mina's book)
+    note: Kuz'mina's model of an east-Iranian split between steppe nomads ("ancestors of the Scythians") and southward migrants, 13th–8th centuries BCE.
   - source: haber-2012
     evidence_level: peer-reviewed-genetics
     relation: context

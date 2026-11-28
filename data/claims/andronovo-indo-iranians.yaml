@@ -13,6 +13,9 @@ discussion: >
   This is a widely held view, but it connects material culture to language,
   which is always an inference rather than a direct observation. Critics argue
   the archaeological evidence cannot settle which cultures spoke Indo-Iranian.
+  In Kuz'mina's model, Indo-Iranian unity broke up around 1700–1400 BCE, from an
+  undifferentiated stage seen at Sintashta in the southern Urals; she also rejects
+  claims that the BMAC itself was Indo-Iranian.
 status: unverified
 verification_note: >
   UNVERIFIED — needs source check: add chapter references for Kuzmina 2007 and
@@ -31,6 +34,12 @@ citations:
   - source: kuzmina-2007
     evidence_level: archaeology
     relation: supports
+    locator: Parts 1–4 (outline from Grenet 2010; chapter pages to be added)
+  - source: grenet-2010
+    evidence_level: secondary-scholarship
+    relation: context
+    locator: §§ 1–2
+    note: Summary of Kuz'mina's model; notes her critique of Sarianidi's claim that the BMAC was Indo-Iranian.
   - source: anthony-2007
     evidence_level: secondary-scholarship
     relation: supports
